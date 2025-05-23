@@ -1,0 +1,28 @@
+{
+  "name": "loldle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "prebuild": "ts-node ./src/scripts/copy-assets.ts",
+    "build": "tsc --build",
+    "start": "node ./dist/app.js",
+    "dev": "nodemon ./src/app.ts",
+    "prod": "node ./dist/app.js"
+  },
+  "author": "Marko Kornajcik",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "shelljs": "^0.10.0",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "@types/shelljs": "^0.8.16",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
