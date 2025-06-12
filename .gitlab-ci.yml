@@ -1,16 +1,14 @@
 stages:
-  - lint          # type-check / basic checks
-  - build_assets  # build CSS or other assets
-  - deploy        # deploy to Railway
+  - lint
+  - build_assets
+  - deploy
 
 type_check:
   image: node:22-alpine
   stage: lint
   script:
-    - echo "Installing dependencies..."
     - npm ci
-    - echo "Running TypeScript build (type-check + compile) without emitting files"
-    - npm run build   
+    - npm run build
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
@@ -19,29 +17,28 @@ type_check:
 build_css:
   image: node:22-alpine
   stage: build_assets
+  needs:
+    - type_check
   script:
-    - echo "Installing dependencies..."
     - npm ci
-    - echo "Building CSS with PostCSS/Tailwind..."
     - npm run build:css
     - '[ -f dist/public/styles/styles.css ] && echo "CSS built OK" || (echo "CSS build failed" && exit 1)'
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-  needs:
-    - type_check
-
+      
 railway_deploy:
   image: ghcr.io/railwayapp/cli:latest
   stage: deploy
   rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
       when: always
     - when: never
   variables:
     SVC_ID: "$RAILWAY_SERVICE_ID"
 
   script:
-    - echo "Deploying to Railway service ID: $SVC_ID"
-    - railway up --service="$SVC_ID" --yes
+    # Wrap commands in single quotes to avoid YAML misparsing of colons, quotes, etc.
+    - 'echo "Deploying to Railway service ID: $SVC_ID"'
+    - 'railway up --service="$SVC_ID" --yes'
