@@ -1,7 +1,45 @@
 import { Router } from "express";
 
+import {
+  getPage,
+  getClassic,
+  postClassic,
+  getEmoji,
+  getAbility,
+  getQuote,
+  getSplash,
+  postQuote,
+  postAbility,
+  postKey,
+  postAbilityName,
+  postSplash,
+  postSplashName,
+  postEmoji,
+  getPrivacy,
+} from "../controllers/championsController.js";
+
 const router = Router();
 
-router.use("/");
+router.get("/privacy", getPrivacy);
+
+router.get("/classic", getClassic);
+router.post("/classic", postClassic);
+
+router.get("/emoji", getEmoji);
+router.post("/emoji", postEmoji);
+
+router.get("/ability", getAbility);
+router.post("/ability", postAbility);
+router.post("/ability/key", postKey);
+router.post("/ability/name", postAbilityName);
+
+router.get("/quote", getQuote);
+router.post("/quote", postQuote);
+
+router.get("/splash", getSplash);
+router.post("/splash", postSplash);
+router.post("/splash/name", postSplashName);
+
+router.get("/", getPage);
 
 export default router;

@@ -1,0 +1,196 @@
+<%
+  if (guesses && guesses.length > 0) {
+    const last = guesses[guesses.length - 1];
+    isSplashComplete = last.correct;
+    // Start at 420, reduce by 30, min 100
+    zoomLevel = Math.max(100, 420 - guesses.length * 30);
+  }
+%>
+
+<%- include("navBar.ejs", {
+  isClassicComplete: flags.isClassicComplete,
+  isQuoteComplete:   flags.isQuoteComplete,
+  isAbilityComplete: flags.isAbilityComplete,
+  isSplashComplete:  flags.isSplashComplete,
+  isEmojiComplete:   flags.isEmojiComplete
+}) %>
+
+<section id="splash">
+  <div class="max-w-lg mx-auto px-4 py-2 backdrop-blur-4xl bg-gradient-to-br from-[#191222]/70 to-[#1e1e2e]/70 rounded-2xl border border-[#45475a]/30 shadow-2xl">
+    <div class="flex flex-col gap-3 px-6">
+      <h2 class="text-[#abcde3] text-2xl text-center font-bold text-shadow-2xl mb-1 tracking-wide">
+        Guess the champion by splash art!
+      </h2>
+      <div class="title-underline w-40 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
+
+      <%
+        let isCorrect = false;
+        if (guesses && guesses.length > 0) {
+          const last = guesses[guesses.length - 1];
+          isCorrect = last.correct;
+        }
+      %>
+
+      <% if (!isCorrect) { %>
+      <div id="image-container" class="splash-display-container text-center text-[#f5f5f7] bg-gradient-to-br from-[#1e1e2e] to-[#2a2a3e] rounded-xl p-4 border border-[#45475a] mb-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#191222]/80 to-[#1e1e2e]/80 opacity-50"></div>
+        <div class="relative z-10">
+          <div class="flex justify-center">
+            <div id="initial-splash-container" class="splash-image-container relative w-64 h-64 overflow-hidden rounded-xl border-2 border-[#4b6bac] shadow-2xl hover:shadow-[0_0_25px_rgba(75,107,172,0.4)] transition-all duration-300">
+              <!-- FULL-RES SPLASH ART-->
+              <img loading="lazy" draggable="false" id="splash-image" src="<%= splashImage %>" alt="Champion splash art" class="pointer-events-none absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out opacity-0" style="transform: scale(4); transform-origin: <%= originX %>% <%= originY %>%;" data-origin-x="<%= originX %>" data-origin-y="<%= originY %>" />
+
+              <!-- DIM GRADIENT OVERLAY -->
+              <div class="absolute inset-0 bg-gradient-to-t from-[#191222]/20 to-transparent pointer-events-none"></div>
+
+              <!-- LOADER OVERLAY-->
+              <div id="splash-loader" class="absolute inset-0 flex items-center justify-center transparent transition-opacity duration-300">
+                <div class="loader-content flex flex-col items-center">
+                  <img src="/images/favicon.webp" alt="Loading placeholder" class="w-16 h-16 animate-pulse mb-2" />
+                  <span class="text-sm text-[#abcde3] opacity-75">Loading...</span>
+                </div>
+              </div>
+
+              <!-- ZOOM LEVEL INDICATOR -->
+              <% if (guesses && guesses.length > 0) { %>
+              <div class="zoom-indicator absolute bottom-2 right-2 px-3 py-1 bg-gradient-to-r from-[#191222]/80 to-[#1e1e2e]/80 rounded-lg text-xs text-[#abcde3] backdrop-blur-sm border border-[#45475a]/50">
+                <div class="flex items-center gap-1">
+                  <svg class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z" clip-rule="evenodd" />
+                  </svg>
+                  Zoom: <%= zoomLevel %>%
+                </div>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form id="splash-form" onsubmit="return false;" method="POST" class="text-[#f5f5f7] relative form-container">
+        <input type="hidden" name="targetName" value="<%= targetName %>" />
+        <input type="hidden" name="splashImage" value="<%= splashImage %>" />
+        <input type="hidden" name="splashTarget" value="<%= targetSplash %>" />
+
+        <div class="input-wrapper relative">
+          <input required name="guessName" id="champion-input" placeholder="Type a champion name..." class="w-full p-4 bg-gradient-to-r from-[#1e1e2e] to-[#252540] border border-[#45475a] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#4b6bac] focus:border-transparent text-[#f5f5f7] transition-all duration-300 hover:border-[#4b6bac]/50 placeholder-[#6fa0cc] text-lg" autocomplete="off" />
+          <div class="input-glow absolute inset-0 rounded-xl bg-gradient-to-r from-[#4b6bac]/20 to-[#20b2aa]/20 opacity-0 transition-opacity duration-300 pointer-events-none"></div>
+        </div>
+
+        <ul id="suggestions" class="z-50 w-full bg-gradient-to-b from-[#1e1e2e] to-[#252540] border border-[#4b6bac] rounded-xl max-h-60 overflow-auto hidden shadow-2xl backdrop-blur-sm"></ul>
+      </form>
+      <% } else { %>
+      <!-- Success State  -->
+      <div class="success-container text-center text-[#f5f5f7] bg-gradient-to-br from-[#1e1e2e] to-[#2a2a3e] rounded-xl p-4 border-2 border-[#20b2aa] mb-4 relative overflow-hidden shadow-[0_0_25px_rgba(32,178,170,0.3)]">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#20b2aa]/10 via-transparent to-[#20b2aa]/10"></div>
+        <div class="relative z-10">
+          <div id="success-splash-container" class="splash-image-container relative w-full h-64 rounded-xl overflow-hidden border-2 border-[#20b2aa] shadow-[0_0_15px_rgba(32,178,170,0.4)]">
+            <img loading="lazy" src="<%= splashImage %>" alt="Champion splash art" class="w-full h-full object-cover transition-all duration-1000 ease-out" />
+            <div class="absolute inset-0 bg-gradient-to-t from-[#191222]/10 to-transparent pointer-events-none"></div>
+
+            <!-- Success overlay -->
+            <div class="absolute inset-0 flex items-center justify-center bg-[#20b2aa]/10">
+              <div class="text-center">
+                <div class="success-icon mb-2">
+                  <svg class="w-12 h-12 mx-auto text-[#20b2aa] animate-bounce" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="success-divider w-16 h-0.5 bg-gradient-to-r from-transparent via-[#20b2aa] to-transparent mx-auto mt-4"></div>
+        </div>
+      </div>
+
+      <div class="mt-2 text-center text-emerald-300 font-bold animate-bounce">
+        🎉 You guessed it! It was <%= targetSplash %>.
+      </div>
+      <div class="mt-2 text-center text-emerald-300 font-bold ">
+        Attempts: <%= guessCount %>
+      </div>
+
+      <%
+          const correctSplash = splashNameGuesses.some(g => g.correct);
+          const findGuess     = k => splashNameGuesses.find(g => g.guess === k);
+        %>
+
+      <!-- Bonus 1 section -->
+      <div class="bonus-section flex flex-col justify-center content-center mt-6 p-4 bg-gradient-to-br from-[#1e1e2e]/50 to-[#2a2a3e]/50 rounded-xl border border-[#45475a]/30">
+        <h2 class="text-[#abcde3] text-xl text-center font-bold text-shadow-2xl">Bonus Challenge</h2>
+        <h3 class="text-[#abcde3] text-lg text-center font-semibold text-shadow-2xl mb-4">Guess the splash name</h3>
+        <div class="bonus-divider w-24 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
+
+        <form id="bonus-splash-form" action="/splash/name" method="POST" class="grid grid-cols-3 gap-3">
+          <% allSplashes.forEach(splash => {
+            const entry = findGuess(splash);
+            const isDisabled = correctSplash || Boolean(entry);
+            let extra = "";
+
+            if (entry) {
+              if (entry.correct) {
+                extra = "ring-2 ring-[#20b2aa] text-[#20b2aa] bg-gradient-to-r from-[#20b2aa]/10 to-[#20b2aa]/5";
+              } else {
+                extra = "ring-2 ring-[#ff6f61] text-[#ff6f61] bg-gradient-to-r from-[#ff6f61]/10 to-[#ff6f61]/5";
+              }
+            }
+          %>
+          <button name="guessSplash" value="<%= splash %>" type="submit" <%= isDisabled ? "disabled" : "" %> class="splash-name-button focus:outline-none bg-gradient-to-r from-[#1e1e2e] to-[#252540] hover:from-[#2a2a41] hover:to-[#2f2f4a] rounded-xl border border-[#45475a] cursor-pointer text-center hover:scale-105 transition-all duration-300 py-3 px-4 text-sm font-medium relative overflow-hidden <% if (!entry) { %>text-[#f5f5f7] hover:border-[#4b6bac]/50<% } %> <%= extra %>">
+            <%= splash %>
+          </button>
+          <% }) %>
+        </form>
+      </div>
+      <% } %>
+
+      <% if (guesses && guesses.length > 0) { %>
+      <div class="mt-6 space-y-3" id="splash-guesses-container">
+        <div class="text-center text-[#f5f5f7] text-sm font-medium mb-4 splash-header">
+          Your Guesses
+        </div>
+        <div class="grid grid-cols-1 gap-3">
+          <% guesses.slice().reverse().forEach((guess, idx) => { %>
+          <div class="splash-guess-container" data-index="<%= idx %>">
+            <div class="
+                    flex flex-col items-center justify-center gap-2
+                    bg-gradient-to-r from-[#1e1e2e] to-[#252540] rounded-xl p-3 splash-guess transition-all duration-300 hover:transform hover:scale-[1.02]
+                    <%= guess.correct
+                        ? 'border-2 border-[#20b2aa] shadow-[0_0_15px_rgba(32,178,170,0.4)] hover:shadow-[0_0_25px_rgba(32,178,170,0.6)]'
+                        : 'border-2 border-[#ff6f61] shadow-[0_0_15px_rgba(255,111,97,0.4)] hover:shadow-[0_0_25px_rgba(255,111,97,0.6)]'
+                      %>
+                  ">
+              <img loading="lazy" src="<%= guess.icon %>" alt="<%= guess.guess %> icon" title="<%= guess.guess %>" class="
+                      w-14 h-14 rounded-xl transition-all duration-300 hover:scale-110
+                      <%= guess.correct ? 'ring-2 ring-[#20b2aa]' : 'ring-2 ring-[#ff6f61]' %>
+                    " />
+              <p class="
+                      text-center font-semibold text-sm transition-all duration-300
+                      <%= guess.correct ? 'text-[#20b2aa]' : 'text-[#ff6f61]' %>
+                    ">
+                <%= guess.guess %>
+              </p>
+            </div>
+          </div>
+          <% }) %>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+<script id="splash-data" type="application/json">
+  {
+    "champions": <%- JSON.stringify(champions) %>,
+    "allSplashes": <%- JSON.stringify(allSplashes) %>,
+    "splashNameGuesses": <%- JSON.stringify(splashNameGuesses) %>,
+    "splashImage": "<%= splashImage %>",
+    "targetSplash": "<%= targetSplash %>",
+    "guessCount": <%= (guesses || []).length %>,
+    "guesses": <%- JSON.stringify(guesses || []) %>,
+    "originX": "<%= originX %>",
+    "originY": "<%= originY %>"
+  }
+</script>
+
+<script src="/scripts/splashScript.js"></script>

@@ -1,0 +1,114 @@
+<%
+  let isEmojiComplete = false;
+  let isCorrect = false;
+  if (guesses && guesses.length > 0) {
+    const last = guesses[guesses.length - 1];
+    isEmojiComplete = last.correct;
+    isCorrect = last.correct;
+  }
+%>
+<%- include("navBar.ejs", { 
+  isClassicComplete:  flags.isClassicComplete,
+  isQuoteComplete:    flags.isQuoteComplete,
+  isAbilityComplete:  flags.isAbilityComplete,
+  isSplashComplete:   flags.isSplashComplete,
+  isEmojiComplete:    flags.isEmojiComplete,
+}) %>
+
+<section id="emoji">
+  <div class="max-w-lg mx-auto px-4 py-2 backdrop-blur-4xl bg-gradient-to-br from-[#191222]/70 to-[#1e1e2e]/70 rounded-2xl border border-[#45475a]/30 shadow-2xl">
+    <div class="flex flex-col gap-3 px-6">
+      <h2 class="text-[#abcde3] text-2xl text-center font-bold text-shadow-2xl mb-1 tracking-wide">
+        Guess the champion by emojis!
+      </h2>
+      <div class="title-underline w-32 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
+
+      <% if (!isCorrect) { %>
+      <!-- Emoji Display Container -->
+      <div class="emoji-display-container text-center text-[#f5f5f7] bg-gradient-to-br from-[#1e1e2e] to-[#2a2a3e] rounded-xl p-6 border border-[#45475a] mb-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-[#4b6bac]/5 to-transparent opacity-50"></div>
+        <div class="relative z-10">
+          <div id="all-emojis-container" class="flex flex-wrap justify-center items-center gap-4 min-h-[100px]">
+            <% for (let i = 0; i < targetEmojis.length; i++) { %>
+            <div class="emoji-container" data-index="<%= i %>">
+              <span class="emoji-revealed text-6xl transition-all duration-500 ease-out transform hover:scale-110 cursor-default" style="display: none;">
+                <%= targetEmojis[i] %>
+              </span>
+              <div class="emoji-hidden w-14 h-14 bg-gradient-to-br from-[#45475a] to-[#3a3a42] rounded-xl flex items-center justify-center border-2 border-dashed border-[#6fa0cc] transition-all duration-300 hover:border-[#4b6bac] hover:scale-105">
+                <span class="text-[#6fa0cc] text-4xl animate-pulse">?</span>
+              </div>
+            </div>
+            <% } %>
+          </div>
+          <div id="emoji-progress" class="mt-4 text-sm text-[#abcde3] opacity-75 bg-[#191222]/30 rounded-lg px-3 py-1 inline-block"></div>
+        </div>
+      </div>
+
+      <form id="emoji-form" onsubmit="return false;" method="POST" class="text-[#f5f5f7] relative form-container" autocomplete="off">
+        <input type="hidden" name="targetName" value="<%= targetName %>">
+        <input type="hidden" name="targetEmojis" value="<%= JSON.stringify(targetEmojis) %>">
+
+        <div class="input-wrapper relative">
+          <input required name="guessName" id="champion-input" placeholder="Type a champion name..." class="w-full p-4 bg-gradient-to-r from-[#1e1e2e] to-[#252540] border border-[#45475a] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#4b6bac] focus:border-transparent text-[#f5f5f7] transition-all duration-300 hover:border-[#4b6bac]/50 placeholder-[#6fa0cc] text-lg" autocomplete="off" />
+          <div class="input-glow absolute inset-0 rounded-xl bg-gradient-to-r from-[#4b6bac]/20 to-[#20b2aa]/20 opacity-0 transition-opacity duration-300 pointer-events-none"></div>
+        </div>
+
+        <ul id="suggestions" class="z-50 w-full bg-gradient-to-b from-[#1e1e2e] to-[#252540] border border-[#4b6bac] rounded-xl max-h-60 overflow-auto hidden shadow-2xl backdrop-blur-sm"></ul>
+      </form>
+      <% } else { %>
+      <!-- Success State -->
+      <div class="emoji-success-container text-center text-[#f5f5f7] bg-gradient-to-br from-[#1e1e2e] to-[#2a2a3e] rounded-xl p-6 border-2 border-[#20b2aa] mb-4 relative overflow-hidden shadow-[0_0_25px_rgba(32,178,170,0.3)]">
+        <div class="absolute inset-0 bg-gradient-to-r from-[#20b2aa]/10 via-transparent to-[#20b2aa]/10"></div>
+        <div class="relative z-10">
+          <div class="flex flex-wrap justify-center items-center gap-4 min-h-[100px]">
+            <% targetEmojis.forEach((emoji, index) => { %>
+            <span class="text-6xl transition-all duration-300 transform hover:scale-110 cursor-default animate-bounce" style="animation-delay: <%= index * 0.1 %>s;">
+              <%= emoji %>
+            </span>
+            <% }) %>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center text-emerald-300 font-bold animate-bounce">
+        🎉 You guessed it! It was <%= targetName %>.
+      </div>
+      <div class="mt-2 text-center text-emerald-300 font-bold ">
+        Attempts: <%= guessCount %>
+      </div>
+      <% } %>
+
+      <% if (guesses && guesses.length > 0) { %>
+      <div class="mt-6" id="emoji-guesses-container">
+        <div class="text-center text-[#f5f5f7] text-sm font-medium mb-4 emoji-header">
+          Your Guesses
+        </div>
+
+        <div class="grid grid-cols-1 gap-2">
+          <% guesses.slice().reverse().forEach((guess, idx) => { %>
+          <div class="emoji-guess-container" data-index="<%= idx %>">
+            <div class="flex flex-col items-center justify-center gap-0.5 bg-gradient-to-r from-[#1e1e2e] to-[#252540] rounded-xl p-3 emoji-guess transition-all duration-300 hover:transform hover:scale-[1.02] <%= guess.correct ? 'border-2 border-[#20b2aa] shadow-[0_0_15px_rgba(32,178,170,0.4)] hover:shadow-[0_0_25px_rgba(32,178,170,0.6)]' : 'border-2 border-[#ff6f61] shadow-[0_0_15px_rgba(255,111,97,0.4)] hover:shadow-[0_0_25px_rgba(255,111,97,0.6)]' %>">
+              <img loading="lazy" src="<%= guess.icon %>" alt="<%= guess.guess %> icon" title="<%= guess.guess %>" class="w-14 h-14 rounded-xl transition-all duration-300 hover:scale-110 <%= guess.correct ? 'ring-2 ring-[#20b2aa]' : 'ring-2 ring-[#ff6f61]' %>" />
+              <p class="text-center font-semibold text-sm transition-all duration-300 <%= guess.correct ? 'text-[#20b2aa]' : 'text-[#ff6f61]' %>">
+                <%= guess.guess %>
+              </p>
+            </div>
+          </div>
+          <% }); %>
+        </div>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+<script id="emoji-data" type="application/json">
+  {
+    "champions": <%- JSON.stringify(champions) %>,
+    "targetName": "<%= targetName %>",
+    "displayedEmojis": <%= displayedEmojis %>,
+    "totalEmojis": <%= targetEmojis.length %>
+  }
+</script>
+
+<script src="/scripts/emojiScript.js"></script>

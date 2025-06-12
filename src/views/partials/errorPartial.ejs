@@ -1,0 +1,149 @@
+<section id="error">
+  <div class="max-w-2xl mx-auto px-4 py-6 backdrop-blur-4xl bg-gradient-to-br from-[#191222]/70 to-[#1e1e2e]/70 rounded-2xl border border-[#45475a]/30 shadow-2xl">
+    <div class="flex flex-col items-center gap-6 px-4">
+      <!-- Error Icon -->
+      <div class="error-icon-container w-32 h-32 flex items-center justify-center bg-gradient-to-br from-[#1e1e2e] to-[#252540] rounded-full border-2 border-[#ff6f61] shadow-[0_0_25px_rgba(255,111,97,0.3)]">
+        <svg class="w-16 h-16 text-[#ff6f61]" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path>
+        </svg>
+      </div>
+
+      <!-- Error Status -->
+      <div class="text-center">
+        <h1 class="text-5xl font-bold text-[#ff6f61] mb-2 tracking-tight error-code">
+          <%= statusCode || '404' %>
+        </h1>
+        <div class="title-underline w-24 h-0.5 bg-gradient-to-r from-transparent via-[#ff6f61] to-transparent mx-auto mb-4"></div>
+        <h2 class="text-2xl font-semibold text-[#abcde3] mb-4 error-title">
+          <%= status || 'Page Not Found' %>
+        </h2>
+        <p class="text-[#f5f5f7] text-lg mb-6 error-message">
+          <%= message || 'The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.' %>
+        </p>
+      </div>
+
+      <!-- Suggestions -->
+      <div class="bg-gradient-to-r from-[#1e1e2e] to-[#252540] rounded-xl p-6 border border-[#45475a] w-full">
+        <h3 class="text-xl font-semibold text-[#abcde3] mb-3">Try the following:</h3>
+        <ul class="list-disc pl-6 text-[#f5f5f7] space-y-3">
+          <li class="error-suggestion">Check the URL for typos or errors</li>
+          <li class="error-suggestion">Return to the <a href="/" class="text-[#4b6bac] hover:text-[#6fa0cc] transition-colors duration-300 underline">home page</a></li>
+          <li class="error-suggestion">Clear your browser cache and cookies</li>
+        </ul>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="flex flex-col sm:flex-row gap-4 mt-2">
+        <a href="/" class="px-6 py-3 bg-gradient-to-r from-[#4b6bac] to-[#20b2aa] text-white font-medium rounded-xl transition-all duration-300 hover:shadow-[0_0_15px_rgba(75,107,172,0.5)] hover:scale-105 text-center">
+          Return to Home
+        </a>
+      </div>
+
+      <!-- Technical Details (only shown for 500 errors) -->
+      <% if (statusCode && statusCode >= 500) { %>
+      <div class="w-full mt-4">
+        <details class="technical-details">
+          <summary class="text-[#6fa0cc] cursor-pointer hover:text-[#abcde3] transition-colors duration-300 font-medium">
+            Technical Details
+          </summary>
+          <div class="mt-3 p-4 bg-[#191222] rounded-xl border border-[#45475a] overflow-x-auto">
+            <pre class="text-[#f5f5f7] text-sm"><code><%= technicalDetails || 'No additional technical details available.' %></code></pre>
+          </div>
+        </details>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+<style>
+  .error-icon-container {
+    animation: pulse 2s infinite;
+  }
+
+  @keyframes pulse {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 111, 97, 0.4);
+    }
+
+    70% {
+      box-shadow: 0 0 0 15px rgba(255, 111, 97, 0);
+    }
+
+    100% {
+      box-shadow: 0 0 0 0 rgba(255, 111, 97, 0);
+    }
+  }
+
+  .error-code {
+    animation: fadeInDown 0.8s ease-out;
+  }
+
+  .error-title {
+    animation: fadeInDown 0.8s ease-out 0.2s both;
+  }
+
+  .error-message {
+    animation: fadeInDown 0.8s ease-out 0.4s both;
+  }
+
+  .error-suggestion {
+    opacity: 0;
+    animation: fadeInLeft 0.5s ease-out forwards;
+  }
+
+  .error-suggestion:nth-child(1) {
+    animation-delay: 0.6s;
+  }
+
+  .error-suggestion:nth-child(2) {
+    animation-delay: 0.8s;
+  }
+
+  .error-suggestion:nth-child(3) {
+    animation-delay: 1s;
+  }
+
+  .error-suggestion:nth-child(4) {
+    animation-delay: 1.2s;
+  }
+
+  @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translateY(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInLeft {
+    from {
+      opacity: 0;
+      transform: translateX(-20px);
+    }
+
+    to {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .technical-details summary::-webkit-details-marker {
+    display: none;
+  }
+
+  .technical-details summary::before {
+    content: '▶';
+    display: inline-block;
+    margin-right: 5px;
+    transition: transform 0.3s ease;
+  }
+
+  .technical-details[open] summary::before {
+    transform: rotate(90deg);
+  }
+</style>

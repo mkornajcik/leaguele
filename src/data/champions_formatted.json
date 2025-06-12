@@ -1,0 +1,1532 @@
+{
+  "Aatrox": {
+    "name": "Aatrox",
+    "title": "the Darkin Blade",
+    "resource": "Blood Well",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Aatrox.png"
+  },
+  "Ahri": {
+    "name": "Ahri",
+    "title": "the Nine-Tailed Fox",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ahri.png"
+  },
+  "Akali": {
+    "name": "Akali",
+    "title": "the Rogue Assassin",
+    "resource": "Energy",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Akali.png"
+  },
+  "Akshan": {
+    "name": "Akshan",
+    "title": "the Rogue Sentinel",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2021",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Akshan.png"
+  },
+  "Alistar": {
+    "name": "Alistar",
+    "title": "the Minotaur",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Alistar.png"
+  },
+  "Ambessa": {
+    "name": "Ambessa",
+    "title": "Matriarch of War",
+    "resource": "Energy",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2024",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ambessa.png"
+  },
+  "Amumu": {
+    "name": "Amumu",
+    "title": "the Sad Mummy",
+    "resource": "Mana",
+    "position": "Jungle Support",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Amumu.png"
+  },
+  "Anivia": {
+    "name": "Anivia",
+    "title": "the Cryophoenix",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Anivia.png"
+  },
+  "Annie": {
+    "name": "Annie",
+    "title": "the Dark Child",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Annie.png"
+  },
+  "Aphelios": {
+    "name": "Aphelios",
+    "title": "the Weapon of the Faithful",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2019",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Aphelios.png"
+  },
+  "Ashe": {
+    "name": "Ashe",
+    "title": "the Frost Archer",
+    "resource": "Mana",
+    "position": "Bottom Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ashe.png"
+  },
+  "Aurelion Sol": {
+    "name": "Aurelion Sol",
+    "title": "The Star Forger",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/AurelionSol.png"
+  },
+  "Aurora": {
+    "name": "Aurora",
+    "title": "the Witch Between Worlds",
+    "resource": "Mana",
+    "position": "Middle Top",
+    "attackType": "Ranged",
+    "releaseDate": "2024",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Aurora.png"
+  },
+  "Azir": {
+    "name": "Azir",
+    "title": "the Emperor of the Sands",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Azir.png"
+  },
+  "Bard": {
+    "name": "Bard",
+    "title": "the Wandering Caretaker",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2015",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Bard.png"
+  },
+  "Bel'Veth": {
+    "name": "Bel'Veth",
+    "title": "the Empress of the Void",
+    "resource": "None",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2022",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Belveth.png"
+  },
+  "Blitzcrank": {
+    "name": "Blitzcrank",
+    "title": "the Great Steam Golem",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Blitzcrank.png"
+  },
+  "Brand": {
+    "name": "Brand",
+    "title": "the Burning Vengeance",
+    "resource": "Mana",
+    "position": "Jungle Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Brand.png"
+  },
+  "Braum": {
+    "name": "Braum",
+    "title": "the Heart of the Freljord",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Braum.png"
+  },
+  "Briar": {
+    "name": "Briar",
+    "title": "the Restrained Hunger",
+    "resource": "Frenzy",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2023",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Briar.png"
+  },
+  "Caitlyn": {
+    "name": "Caitlyn",
+    "title": "the Sheriff of Piltover",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Caitlyn.png"
+  },
+  "Camille": {
+    "name": "Camille",
+    "title": "the Steel Shadow",
+    "resource": "Mana",
+    "position": "Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Camille.png"
+  },
+  "Cassiopeia": {
+    "name": "Cassiopeia",
+    "title": "the Serpent's Embrace",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Cassiopeia.png"
+  },
+  "Cho'Gath": {
+    "name": "Cho'Gath",
+    "title": "the Terror of the Void",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Chogath.png"
+  },
+  "Corki": {
+    "name": "Corki",
+    "title": "the Daring Bombardier",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Corki.png"
+  },
+  "Darius": {
+    "name": "Darius",
+    "title": "the Hand of Noxus",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Darius.png"
+  },
+  "Diana": {
+    "name": "Diana",
+    "title": "Scorn of the Moon",
+    "resource": "Mana",
+    "position": "Jungle Middle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Diana.png"
+  },
+  "Dr. Mundo": {
+    "name": "Dr. Mundo",
+    "title": "the Madman of Zaun",
+    "resource": "Health",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/DrMundo.png"
+  },
+  "Draven": {
+    "name": "Draven",
+    "title": "the Glorious Executioner",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Draven.png"
+  },
+  "Ekko": {
+    "name": "Ekko",
+    "title": "the Boy Who Shattered Time",
+    "resource": "Mana",
+    "position": "Jungle Middle",
+    "attackType": "Melee",
+    "releaseDate": "2015",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ekko.png"
+  },
+  "Elise": {
+    "name": "Elise",
+    "title": "the Spider Queen",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Elise.png"
+  },
+  "Evelynn": {
+    "name": "Evelynn",
+    "title": "Agony's Embrace",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Evelynn.png"
+  },
+  "Ezreal": {
+    "name": "Ezreal",
+    "title": "the Prodigal Explorer",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ezreal.png"
+  },
+  "Fiddlesticks": {
+    "name": "Fiddlesticks",
+    "title": "the Ancient Fear",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Fiddlesticks.png"
+  },
+  "Fiora": {
+    "name": "Fiora",
+    "title": "the Grand Duelist",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Fiora.png"
+  },
+  "Fizz": {
+    "name": "Fizz",
+    "title": "the Tidal Trickster",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Fizz.png"
+  },
+  "Galio": {
+    "name": "Galio",
+    "title": "the Colossus",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Galio.png"
+  },
+  "Gangplank": {
+    "name": "Gangplank",
+    "title": "the Saltwater Scourge",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Gangplank.png"
+  },
+  "Garen": {
+    "name": "Garen",
+    "title": "The Might of Demacia",
+    "resource": "None",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Garen.png"
+  },
+  "Gnar": {
+    "name": "Gnar",
+    "title": "the Missing Link",
+    "resource": "Rage",
+    "position": "Top",
+    "attackType": "Ranged",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Gnar.png"
+  },
+  "Gragas": {
+    "name": "Gragas",
+    "title": "the Rabble Rouser",
+    "resource": "Mana",
+    "position": "Jungle Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Gragas.png"
+  },
+  "Graves": {
+    "name": "Graves",
+    "title": "the Outlaw",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Graves.png"
+  },
+  "Gwen": {
+    "name": "Gwen",
+    "title": "The Hallowed Seamstress",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2021",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Gwen.png"
+  },
+  "Hecarim": {
+    "name": "Hecarim",
+    "title": "the Shadow of War",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Hecarim.png"
+  },
+  "Heimerdinger": {
+    "name": "Heimerdinger",
+    "title": "the Revered Inventor",
+    "resource": "Mana",
+    "position": "Middle Support Top",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Heimerdinger.png"
+  },
+  "Hwei": {
+    "name": "Hwei",
+    "title": "the Visionary",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2023",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Hwei.png"
+  },
+  "Illaoi": {
+    "name": "Illaoi",
+    "title": "the Kraken Priestess",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2015",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Illaoi.png"
+  },
+  "Irelia": {
+    "name": "Irelia",
+    "title": "the Blade Dancer",
+    "resource": "Mana",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Irelia.png"
+  },
+  "Ivern": {
+    "name": "Ivern",
+    "title": "the Green Father",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ivern.png"
+  },
+  "Janna": {
+    "name": "Janna",
+    "title": "the Storm's Fury",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Janna.png"
+  },
+  "Jarvan IV": {
+    "name": "Jarvan IV",
+    "title": "the Exemplar of Demacia",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/JarvanIV.png"
+  },
+  "Jax": {
+    "name": "Jax",
+    "title": "Grandmaster at Arms",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Jax.png"
+  },
+  "Jayce": {
+    "name": "Jayce",
+    "title": "the Defender of Tomorrow",
+    "resource": "Mana",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Jayce.png"
+  },
+  "Jhin": {
+    "name": "Jhin",
+    "title": "the Virtuoso",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Jhin.png"
+  },
+  "Jinx": {
+    "name": "Jinx",
+    "title": "the Loose Cannon",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Jinx.png"
+  },
+  "K'Sante": {
+    "name": "K'Sante",
+    "title": "the Pride of Nazumah",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2022",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/KSante.png"
+  },
+  "Kai'Sa": {
+    "name": "Kai'Sa",
+    "title": "Daughter of the Void",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2018",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kaisa.png"
+  },
+  "Kalista": {
+    "name": "Kalista",
+    "title": "the Spear of Vengeance",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kalista.png"
+  },
+  "Karma": {
+    "name": "Karma",
+    "title": "the Enlightened One",
+    "resource": "Mana",
+    "position": "Middle Support Top",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Karma.png"
+  },
+  "Karthus": {
+    "name": "Karthus",
+    "title": "the Deathsinger",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Karthus.png"
+  },
+  "Kassadin": {
+    "name": "Kassadin",
+    "title": "the Void Walker",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kassadin.png"
+  },
+  "Katarina": {
+    "name": "Katarina",
+    "title": "the Sinister Blade",
+    "resource": "None",
+    "position": "Middle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Katarina.png"
+  },
+  "Kayle": {
+    "name": "Kayle",
+    "title": "the Righteous",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kayle.png"
+  },
+  "Kayn": {
+    "name": "Kayn",
+    "title": "the Shadow Reaper",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2017",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kayn.png"
+  },
+  "Kennen": {
+    "name": "Kennen",
+    "title": "the Heart of the Tempest",
+    "resource": "Energy",
+    "position": "Top",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kennen.png"
+  },
+  "Kha'Zix": {
+    "name": "Kha'Zix",
+    "title": "the Voidreaver",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Khazix.png"
+  },
+  "Kindred": {
+    "name": "Kindred",
+    "title": "The Eternal Hunters",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2015",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kindred.png"
+  },
+  "Kled": {
+    "name": "Kled",
+    "title": "the Cantankerous Cavalier",
+    "resource": "Courage",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Kled.png"
+  },
+  "Kog'Maw": {
+    "name": "Kog'Maw",
+    "title": "the Mouth of the Abyss",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/KogMaw.png"
+  },
+  "Leblanc": {
+    "name": "LeBlanc",
+    "title": "the Deceiver",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Leblanc.png"
+  },
+  "Lee Sin": {
+    "name": "Lee Sin",
+    "title": "the Blind Monk",
+    "resource": "Energy",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/LeeSin.png"
+  },
+  "Leona": {
+    "name": "Leona",
+    "title": "the Radiant Dawn",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Leona.png"
+  },
+  "Lillia": {
+    "name": "Lillia",
+    "title": "the Bashful Bloom",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lillia.png"
+  },
+  "Lissandra": {
+    "name": "Lissandra",
+    "title": "the Ice Witch",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lissandra.png"
+  },
+  "Lucian": {
+    "name": "Lucian",
+    "title": "the Purifier",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lucian.png"
+  },
+  "Lulu": {
+    "name": "Lulu",
+    "title": "the Fae Sorceress",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lulu.png"
+  },
+  "Lux": {
+    "name": "Lux",
+    "title": "the Lady of Luminosity",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lux.png"
+  },
+  "Malphite": {
+    "name": "Malphite",
+    "title": "Shard of the Monolith",
+    "resource": "Mana",
+    "position": "Middle Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Malphite.png"
+  },
+  "Malzahar": {
+    "name": "Malzahar",
+    "title": "the Prophet of the Void",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Malzahar.png"
+  },
+  "Maokai": {
+    "name": "Maokai",
+    "title": "the Twisted Treant",
+    "resource": "Mana",
+    "position": "Jungle Support",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Maokai.png"
+  },
+  "Master Yi": {
+    "name": "Master Yi",
+    "title": "the Wuju Bladesman",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/MasterYi.png"
+  },
+  "Mel": {
+    "name": "Mel",
+    "title": "the Soul's Reflection",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2025",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Mel.png"
+  },
+  "Milio": {
+    "name": "Milio",
+    "title": "The Gentle Flame",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2023",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Milio.png"
+  },
+  "Miss Fortune": {
+    "name": "Miss Fortune",
+    "title": "the Bounty Hunter",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/MissFortune.png"
+  },
+  "Mordekaiser": {
+    "name": "Mordekaiser",
+    "title": "the Iron Revenant",
+    "resource": "Shield",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Mordekaiser.png"
+  },
+  "Morgana": {
+    "name": "Morgana",
+    "title": "the Fallen",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Morgana.png"
+  },
+  "Naafiri": {
+    "name": "Naafiri",
+    "title": "the Hound of a Hundred Bites",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Melee",
+    "releaseDate": "2023",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Naafiri.png"
+  },
+  "Nami": {
+    "name": "Nami",
+    "title": "the Tidecaller",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nami.png"
+  },
+  "Nasus": {
+    "name": "Nasus",
+    "title": "the Curator of the Sands",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nasus.png"
+  },
+  "Nautilus": {
+    "name": "Nautilus",
+    "title": "the Titan of the Depths",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nautilus.png"
+  },
+  "Neeko": {
+    "name": "Neeko",
+    "title": "the Curious Chameleon",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2018",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Neeko.png"
+  },
+  "Nidalee": {
+    "name": "Nidalee",
+    "title": "the Bestial Huntress",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nidalee.png"
+  },
+  "Nilah": {
+    "name": "Nilah",
+    "title": "the Joy Unbound",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Melee",
+    "releaseDate": "2022",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nilah.png"
+  },
+  "Nocturne": {
+    "name": "Nocturne",
+    "title": "the Eternal Nightmare",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nocturne.png"
+  },
+  "Nunu & Willump": {
+    "name": "Nunu & Willump",
+    "title": "the Boy and His Yeti",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Nunu.png"
+  },
+  "Olaf": {
+    "name": "Olaf",
+    "title": "the Berserker",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Olaf.png"
+  },
+  "Orianna": {
+    "name": "Orianna",
+    "title": "the Lady of Clockwork",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Orianna.png"
+  },
+  "Ornn": {
+    "name": "Ornn",
+    "title": "The Fire Below the Mountain",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2017",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ornn.png"
+  },
+  "Pantheon": {
+    "name": "Pantheon",
+    "title": "the Unbreakable Spear",
+    "resource": "Mana",
+    "position": "Jungle Middle Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Pantheon.png"
+  },
+  "Poppy": {
+    "name": "Poppy",
+    "title": "Keeper of the Hammer",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Poppy.png"
+  },
+  "Pyke": {
+    "name": "Pyke",
+    "title": "the Bloodharbor Ripper",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2018",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Pyke.png"
+  },
+  "Qiyana": {
+    "name": "Qiyana",
+    "title": "Empress of the Elements",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Melee",
+    "releaseDate": "2019",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Qiyana.png"
+  },
+  "Quinn": {
+    "name": "Quinn",
+    "title": "Demacia's Wings",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Ranged",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Quinn.png"
+  },
+  "Rakan": {
+    "name": "Rakan",
+    "title": "The Charmer",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2017",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Rakan.png"
+  },
+  "Rammus": {
+    "name": "Rammus",
+    "title": "the Armordillo",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Rammus.png"
+  },
+  "Rek'Sai": {
+    "name": "Rek'Sai",
+    "title": "the Void Burrower",
+    "resource": "Rage",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/RekSai.png"
+  },
+  "Rell": {
+    "name": "Rell",
+    "title": "the Iron Maiden",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Melee",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Rell.png"
+  },
+  "Renata Glasc": {
+    "name": "Renata Glasc",
+    "title": "the Chem-Baroness",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2022",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Renata.png"
+  },
+  "Renekton": {
+    "name": "Renekton",
+    "title": "the Butcher of the Sands",
+    "resource": "Fury",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Renekton.png"
+  },
+  "Rengar": {
+    "name": "Rengar",
+    "title": "the Pridestalker",
+    "resource": "Ferocity",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Rengar.png"
+  },
+  "Riven": {
+    "name": "Riven",
+    "title": "the Exile",
+    "resource": "None",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Riven.png"
+  },
+  "Rumble": {
+    "name": "Rumble",
+    "title": "the Mechanized Menace",
+    "resource": "Heat",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Rumble.png"
+  },
+  "Ryze": {
+    "name": "Ryze",
+    "title": "the Rune Mage",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ryze.png"
+  },
+  "Samira": {
+    "name": "Samira",
+    "title": "the Desert Rose",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Samira.png"
+  },
+  "Sejuani": {
+    "name": "Sejuani",
+    "title": "Fury of the North",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sejuani.png"
+  },
+  "Senna": {
+    "name": "Senna",
+    "title": "the Redeemer",
+    "resource": "Mana",
+    "position": "Bottom Support",
+    "attackType": "Ranged",
+    "releaseDate": "2019",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Senna.png"
+  },
+  "Seraphine": {
+    "name": "Seraphine",
+    "title": "the Starry-Eyed Songstress",
+    "resource": "Mana",
+    "position": "Bottom Support",
+    "attackType": "Ranged",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Seraphine.png"
+  },
+  "Sett": {
+    "name": "Sett",
+    "title": "the Boss",
+    "resource": "Grit",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sett.png"
+  },
+  "Shaco": {
+    "name": "Shaco",
+    "title": "the Demon Jester",
+    "resource": "Mana",
+    "position": "Jungle Support",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Shaco.png"
+  },
+  "Shen": {
+    "name": "Shen",
+    "title": "the Eye of Twilight",
+    "resource": "Energy",
+    "position": "Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Shen.png"
+  },
+  "Shyvana": {
+    "name": "Shyvana",
+    "title": "the Half-Dragon",
+    "resource": "Fury",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Shyvana.png"
+  },
+  "Singed": {
+    "name": "Singed",
+    "title": "the Mad Chemist",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Singed.png"
+  },
+  "Sion": {
+    "name": "Sion",
+    "title": "The Undead Juggernaut",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sion.png"
+  },
+  "Sivir": {
+    "name": "Sivir",
+    "title": "the Battle Mistress",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sivir.png"
+  },
+  "Skarner": {
+    "name": "Skarner",
+    "title": "the Primordial Sovereign",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Skarner.png"
+  },
+  "Smolder": {
+    "name": "Smolder",
+    "title": "the Fiery Fledgling",
+    "resource": "Mana",
+    "position": "Bottom Middle Top",
+    "attackType": "Ranged",
+    "releaseDate": "2024",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Smolder.png"
+  },
+  "Sona": {
+    "name": "Sona",
+    "title": "Maven of the Strings",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sona.png"
+  },
+  "Soraka": {
+    "name": "Soraka",
+    "title": "the Starchild",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Soraka.png"
+  },
+  "Swain": {
+    "name": "Swain",
+    "title": "the Noxian Grand General",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Swain.png"
+  },
+  "Sylas": {
+    "name": "Sylas",
+    "title": "the Unshackled",
+    "resource": "Mana",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2019",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Sylas.png"
+  },
+  "Syndra": {
+    "name": "Syndra",
+    "title": "the Dark Sovereign",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Syndra.png"
+  },
+  "Tahm Kench": {
+    "name": "Tahm Kench",
+    "title": "The River King",
+    "resource": "Mana",
+    "position": "Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2015",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/TahmKench.png"
+  },
+  "Taliyah": {
+    "name": "Taliyah",
+    "title": "the Stoneweaver",
+    "resource": "Mana",
+    "position": "Jungle Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2016",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Taliyah.png"
+  },
+  "Talon": {
+    "name": "Talon",
+    "title": "the Blade's Shadow",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Talon.png"
+  },
+  "Taric": {
+    "name": "Taric",
+    "title": "the Shield of Valoran",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Taric.png"
+  },
+  "Teemo": {
+    "name": "Teemo",
+    "title": "the Swift Scout",
+    "resource": "Mana",
+    "position": "Jungle Support Top",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Teemo.png"
+  },
+  "Thresh": {
+    "name": "Thresh",
+    "title": "the Chain Warden",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Thresh.png"
+  },
+  "Tristana": {
+    "name": "Tristana",
+    "title": "the Yordle Gunner",
+    "resource": "Mana",
+    "position": "Bottom Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Tristana.png"
+  },
+  "Trundle": {
+    "name": "Trundle",
+    "title": "the Troll King",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Trundle.png"
+  },
+  "Tryndamere": {
+    "name": "Tryndamere",
+    "title": "the Barbarian King",
+    "resource": "Fury",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Tryndamere.png"
+  },
+  "Twisted Fate": {
+    "name": "Twisted Fate",
+    "title": "the Card Master",
+    "resource": "Mana",
+    "position": "Bottom Middle Top",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/TwistedFate.png"
+  },
+  "Twitch": {
+    "name": "Twitch",
+    "title": "the Plague Rat",
+    "resource": "Mana",
+    "position": "Bottom Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Twitch.png"
+  },
+  "Udyr": {
+    "name": "Udyr",
+    "title": "the Spirit Walker",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Udyr.png"
+  },
+  "Urgot": {
+    "name": "Urgot",
+    "title": "the Dreadnought",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Urgot.png"
+  },
+  "Varus": {
+    "name": "Varus",
+    "title": "the Arrow of Retribution",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Varus.png"
+  },
+  "Vayne": {
+    "name": "Vayne",
+    "title": "the Night Hunter",
+    "resource": "Mana",
+    "position": "Bottom Top",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Vayne.png"
+  },
+  "Veigar": {
+    "name": "Veigar",
+    "title": "the Tiny Master of Evil",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Veigar.png"
+  },
+  "Vel'Koz": {
+    "name": "Vel'Koz",
+    "title": "the Eye of the Void",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2014",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Velkoz.png"
+  },
+  "Vex": {
+    "name": "Vex",
+    "title": "the Gloomist",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2021",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Vex.png"
+  },
+  "Vi": {
+    "name": "Vi",
+    "title": "the Piltover Enforcer",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Vi.png"
+  },
+  "Viego": {
+    "name": "Viego",
+    "title": "The Ruined King",
+    "resource": "None",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2021",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Viego.png"
+  },
+  "Viktor": {
+    "name": "Viktor",
+    "title": "the Herald of the Arcane",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Viktor.png"
+  },
+  "Vladimir": {
+    "name": "Vladimir",
+    "title": "the Crimson Reaper",
+    "resource": "Crimson Rush",
+    "position": "Middle Top",
+    "attackType": "Ranged",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Vladimir.png"
+  },
+  "Volibear": {
+    "name": "Volibear",
+    "title": "the Relentless Storm",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Volibear.png"
+  },
+  "Warwick": {
+    "name": "Warwick",
+    "title": "the Uncaged Wrath of Zaun",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Warwick.png"
+  },
+  "MonkeyKing": {
+    "name": "Wukong",
+    "title": "the Monkey King",
+    "resource": "Mana",
+    "position": "Jungle Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/MonkeyKing.png"
+  },
+  "Xayah": {
+    "name": "Xayah",
+    "title": "the Rebel",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2017",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Xayah.png"
+  },
+  "Xerath": {
+    "name": "Xerath",
+    "title": "the Magus Ascendant",
+    "resource": "Mana",
+    "position": "Middle Support",
+    "attackType": "Ranged",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Xerath.png"
+  },
+  "Xin Zhao": {
+    "name": "Xin Zhao",
+    "title": "the Seneschal of Demacia",
+    "resource": "Mana",
+    "position": "Jungle",
+    "attackType": "Melee",
+    "releaseDate": "2010",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/XinZhao.png"
+  },
+  "Yasuo": {
+    "name": "Yasuo",
+    "title": "the Unforgiven",
+    "resource": "Flow",
+    "position": "Bottom Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Yasuo.png"
+  },
+  "Yone": {
+    "name": "Yone",
+    "title": "the Unforgotten",
+    "resource": "Flow",
+    "position": "Middle Top",
+    "attackType": "Melee",
+    "releaseDate": "2020",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Yone.png"
+  },
+  "Yorick": {
+    "name": "Yorick",
+    "title": "Shepherd of Souls",
+    "resource": "Mana",
+    "position": "Top",
+    "attackType": "Melee",
+    "releaseDate": "2011",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Yorick.png"
+  },
+  "Yuumi": {
+    "name": "Yuumi",
+    "title": "the Magical Cat",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2019",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Yuumi.png"
+  },
+  "Zac": {
+    "name": "Zac",
+    "title": "the Secret Weapon",
+    "resource": "Health",
+    "position": "Jungle Support Top",
+    "attackType": "Melee",
+    "releaseDate": "2013",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zac.png"
+  },
+  "Zed": {
+    "name": "Zed",
+    "title": "the Master of Shadows",
+    "resource": "Energy",
+    "position": "Jungle Middle",
+    "attackType": "Melee",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zed.png"
+  },
+  "Zeri": {
+    "name": "Zeri",
+    "title": "The Spark of Zaun",
+    "resource": "Mana",
+    "position": "Bottom",
+    "attackType": "Ranged",
+    "releaseDate": "2022",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zeri.png"
+  },
+  "Ziggs": {
+    "name": "Ziggs",
+    "title": "the Hexplosives Expert",
+    "resource": "Mana",
+    "position": "Bottom Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Ziggs.png"
+  },
+  "Zilean": {
+    "name": "Zilean",
+    "title": "the Chronokeeper",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2009",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zilean.png"
+  },
+  "Zoe": {
+    "name": "Zoe",
+    "title": "the Aspect of Twilight",
+    "resource": "Mana",
+    "position": "Middle",
+    "attackType": "Ranged",
+    "releaseDate": "2017",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zoe.png"
+  },
+  "Zyra": {
+    "name": "Zyra",
+    "title": "Rise of the Thorns",
+    "resource": "Mana",
+    "position": "Support",
+    "attackType": "Ranged",
+    "releaseDate": "2012",
+    "icon": "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Zyra.png"
+  }
+}

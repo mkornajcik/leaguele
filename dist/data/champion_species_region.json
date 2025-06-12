@@ -1,0 +1,682 @@
+{
+  "Aatrox": {
+    "species": "Darkin",
+    "region": "Runeterra"
+  },
+  "Ahri": {
+    "species": "Vastaya",
+    "region": "Ionia"
+  },
+  "Akali": {
+    "species": "Human",
+    "region": "Ionia"
+  },
+  "Akshan": {
+    "species": "Human",
+    "region": "Shurima"
+  },
+  "Alistar": {
+    "species": "Minotaur",
+    "region": "Runeterra"
+  },
+  "Ambessa": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Amumu": {
+    "species": "Undead Yordle",
+    "region": "Shurima"
+  },
+  "Anivia": {
+    "species": "God Spirit",
+    "region": "Freljord"
+  },
+  "Annie": {
+    "species": "Human",
+    "region": "Runeterra"
+  },
+  "Aphelios": {
+    "species": "Human",
+    "region": "Targon"
+  },
+  "Ashe": {
+    "species": "Human",
+    "region": "Freljord"
+  },
+  "Aurelion Sol": {
+    "species": "Celestial Dragon",
+    "region": "Runeterra"
+  },
+  "Aurora": {
+    "species": "Vastaya",
+    "region": "Freljord"
+  },
+  "Azir": {
+    "species": "God-Warrior",
+    "region": "Shurima"
+  },
+  "Bard": {
+    "species": "Celestial",
+    "region": "Runeterra"
+  },
+  "Bel'Veth": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Blitzcrank": {
+    "species": "Golem",
+    "region": "Zaun"
+  },
+  "Brand": {
+    "species": "Human Magically-Altered",
+    "region": "Runeterra"
+  },
+  "Braum": {
+    "species": "Human",
+    "region": "Freljord"
+  },
+  "Briar": {
+    "species": "Golem",
+    "region": "Noxus"
+  },
+  "Caitlyn": {
+    "species": "Human",
+    "region": "Piltover"
+  },
+  "Camille": {
+    "species": "Cyborg Human",
+    "region": "Piltover"
+  },
+  "Cassiopeia": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Cho'Gath": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Corki": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Darius": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Diana": {
+    "species": "Aspect Human",
+    "region": "Targon"
+  },
+  "Dr. Mundo": {
+    "species": "Human Chemically-Altered",
+    "region": "Zaun"
+  },
+  "Draven": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Ekko": {
+    "species": "Human",
+    "region": "Zaun"
+  },
+  "Elise": {
+    "species": "Human Magically-Altered",
+    "region": "Shadow isles"
+  },
+  "Evelynn": {
+    "species": "Demon Spirit",
+    "region": "Runeterra"
+  },
+  "Ezreal": {
+    "species": "Human",
+    "region": "Piltover"
+  },
+  "Fiddlesticks": {
+    "species": "Demon Spirit",
+    "region": "Runeterra"
+  },
+  "Fiora": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Fizz": {
+    "species": "Yordle",
+    "region": "Runeterra"
+  },
+  "Galio": {
+    "species": "Golem",
+    "region": "Demacia"
+  },
+  "Gangplank": {
+    "species": "Human",
+    "region": "Bilgewater"
+  },
+  "Garen": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Gnar": {
+    "species": "Yordle",
+    "region": "Freljord"
+  },
+  "Gragas": {
+    "species": "Human Iceborn",
+    "region": "Freljord"
+  },
+  "Graves": {
+    "species": "Human",
+    "region": "Bilgewater"
+  },
+  "Gwen": {
+    "species": "Human Magically-Altered",
+    "region": "Shadow isles"
+  },
+  "Hecarim": {
+    "species": "Undead",
+    "region": "Shadow isles"
+  },
+  "Heimerdinger": {
+    "species": "Yordle",
+    "region": "Piltover"
+  },
+  "Hwei": {
+    "species": "Human Magicborn",
+    "region": "Ionia"
+  },
+  "Illaoi": {
+    "species": "Human Spiritualist",
+    "region": "Bilgewater"
+  },
+  "Irelia": {
+    "species": "Human",
+    "region": "Ionia"
+  },
+  "Ivern": {
+    "species": "Human Magically-Altered",
+    "region": "Ionia"
+  },
+  "Janna": {
+    "species": "God Spirit",
+    "region": "Zaun"
+  },
+  "Jarvan IV": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Jax": {
+    "species": "Unknown",
+    "region": "Runeterra"
+  },
+  "Jayce": {
+    "species": "Human",
+    "region": "Piltover"
+  },
+  "Jhin": {
+    "species": "Human Spiritualist",
+    "region": "Ionia"
+  },
+  "Jinx": {
+    "species": "Human",
+    "region": "Zaun"
+  },
+  "K'Sante": {
+    "species": "Human",
+    "region": "Shurima"
+  },
+  "Kai'Sa": {
+    "species": "Human Void-Being",
+    "region": "The void"
+  },
+  "Kalista": {
+    "species": "Undead",
+    "region": "Shadow isles"
+  },
+  "Karma": {
+    "species": "Human Spiritualist",
+    "region": "Ionia"
+  },
+  "Karthus": {
+    "species": "Undead",
+    "region": "Shadow isles"
+  },
+  "Kassadin": {
+    "species": "Human Void-Being",
+    "region": "The void"
+  },
+  "Katarina": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Kayle": {
+    "species": "Aspect Human Magically-Altered",
+    "region": "Demacia"
+  },
+  "Kayn": {
+    "species": "Darkin",
+    "region": "Ionia"
+  },
+  "Kennen": {
+    "species": "Yordle",
+    "region": "Ionia"
+  },
+  "Kha'Zix": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Kindred": {
+    "species": "God Spirit",
+    "region": "Runeterra"
+  },
+  "Kled": {
+    "species": "Yordle",
+    "region": "Noxus"
+  },
+  "Kog'Maw": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Leblanc": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Lee Sin": {
+    "species": "Human Spiritualist",
+    "region": "Ionia"
+  },
+  "Leona": {
+    "species": "Aspect Human",
+    "region": "Targon"
+  },
+  "Lillia": {
+    "species": "Spirit",
+    "region": "Ionia"
+  },
+  "Lissandra": {
+    "species": "Human Iceborn",
+    "region": "Freljord"
+  },
+  "Lucian": {
+    "species": "Human",
+    "region": "Runeterra"
+  },
+  "Lulu": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Lux": {
+    "species": "Human Magicborn",
+    "region": "Demacia"
+  },
+  "Malphite": {
+    "species": "Golem",
+    "region": "Ixtal"
+  },
+  "Malzahar": {
+    "species": "Human Void-Being",
+    "region": "The void"
+  },
+  "Maokai": {
+    "species": "Spirit",
+    "region": "Shadow isles"
+  },
+  "Master Yi": {
+    "species": "Human Spiritualist",
+    "region": "Ionia"
+  },
+  "Mel": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Milio": {
+    "species": "Human Magicborn",
+    "region": "Ixtal"
+  },
+  "Miss Fortune": {
+    "species": "Human",
+    "region": "Bilgewater"
+  },
+  "Mordekaiser": {
+    "species": "Revenant",
+    "region": "Noxus"
+  },
+  "Morgana": {
+    "species": "Aspect Human Magically-Altered",
+    "region": "Demacia"
+  },
+  "Naafiri": {
+    "species": "Darkin",
+    "region": "Shurima"
+  },
+  "Nami": {
+    "species": "Vastaya",
+    "region": "Runeterra"
+  },
+  "Nasus": {
+    "species": "God-Warrior",
+    "region": "Shurima"
+  },
+  "Nautilus": {
+    "species": "Revenant",
+    "region": "Bilgewater"
+  },
+  "Neeko": {
+    "species": "Vastaya",
+    "region": "Ixtal"
+  },
+  "Nidalee": {
+    "species": "Human Spiritualist",
+    "region": "Ixtal"
+  },
+  "Nilah": {
+    "species": "Human Magically-Altered",
+    "region": "Bilgewater"
+  },
+  "Nocturne": {
+    "species": "Demon Spirit",
+    "region": "Runeterra"
+  },
+  "Nunu & Willump": {
+    "species": "Human Yeti",
+    "region": "Freljord"
+  },
+  "Olaf": {
+    "species": "Human Iceborn",
+    "region": "Freljord"
+  },
+  "Orianna": {
+    "species": "Golem",
+    "region": "Piltover"
+  },
+  "Ornn": {
+    "species": "God Spirit",
+    "region": "Freljord"
+  },
+  "Pantheon": {
+    "species": "Aspect Human",
+    "region": "Targon"
+  },
+  "Poppy": {
+    "species": "Yordle",
+    "region": "Demacia"
+  },
+  "Pyke": {
+    "species": "Revenant",
+    "region": "Bilgewater"
+  },
+  "Qiyana": {
+    "species": "Human Magicborn",
+    "region": "Ixtal"
+  },
+  "Quinn": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Rakan": {
+    "species": "Vastaya",
+    "region": "Ionia"
+  },
+  "Rammus": {
+    "species": "Unknown",
+    "region": "Shurima"
+  },
+  "Rek'Sai": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Rell": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Renata Glasc": {
+    "species": "Human Chemically-Altered",
+    "region": "Zaun"
+  },
+  "Renekton": {
+    "species": "God-Warrior",
+    "region": "Shurima"
+  },
+  "Rengar": {
+    "species": "Vastaya",
+    "region": "Ixtal"
+  },
+  "Riven": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Rumble": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Ryze": {
+    "species": "Human Magically-Altered",
+    "region": "Runeterra"
+  },
+  "Samira": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Sejuani": {
+    "species": "Human Iceborn",
+    "region": "Freljord"
+  },
+  "Senna": {
+    "species": "Human Undead",
+    "region": "Runeterra"
+  },
+  "Seraphine": {
+    "species": "Human Magicborn",
+    "region": "Piltover"
+  },
+  "Sett": {
+    "species": "Human Vastayan",
+    "region": "Ionia"
+  },
+  "Shaco": {
+    "species": "Spirit",
+    "region": "Runeterra"
+  },
+  "Shen": {
+    "species": "Human Spiritualist",
+    "region": "Ionia"
+  },
+  "Shyvana": {
+    "species": "Dragon Magically-Altered",
+    "region": "Demacia"
+  },
+  "Singed": {
+    "species": "Human Chemically-Altered",
+    "region": "Zaun"
+  },
+  "Sion": {
+    "species": "Revenant",
+    "region": "Noxus"
+  },
+  "Sivir": {
+    "species": "Human",
+    "region": "Shurima"
+  },
+  "Skarner": {
+    "species": "Brackern",
+    "region": "Ixtal"
+  },
+  "Smolder": {
+    "species": "Dragon",
+    "region": "Runeterra"
+  },
+  "Sona": {
+    "species": "Human Magicborn",
+    "region": "Demacia"
+  },
+  "Soraka": {
+    "species": "Celestial",
+    "region": "Targon"
+  },
+  "Swain": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Sylas": {
+    "species": "Human Magicborn",
+    "region": "Demacia"
+  },
+  "Syndra": {
+    "species": "Human Magicborn",
+    "region": "Ionia"
+  },
+  "Tahm Kench": {
+    "species": "Demon Spirit",
+    "region": "Runeterra"
+  },
+  "Taliyah": {
+    "species": "Human Magicborn",
+    "region": "Shurima"
+  },
+  "Talon": {
+    "species": "Human",
+    "region": "Noxus"
+  },
+  "Taric": {
+    "species": "Aspect Human",
+    "region": "Targon"
+  },
+  "Teemo": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Thresh": {
+    "species": "Undead",
+    "region": "Shadow isles"
+  },
+  "Tristana": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Trundle": {
+    "species": "Troll Iceborn",
+    "region": "Freljord"
+  },
+  "Tryndamere": {
+    "species": "Human Magically-Altered",
+    "region": "Freljord"
+  },
+  "Twisted Fate": {
+    "species": "Human Magicborn",
+    "region": "Bilgewater"
+  },
+  "Twitch": {
+    "species": "Rat Chemically-Altered",
+    "region": "Zaun"
+  },
+  "Udyr": {
+    "species": "Human Spiritualist",
+    "region": "Freljord"
+  },
+  "Urgot": {
+    "species": "Cyborg Human Chemically-Altered",
+    "region": "Zaun"
+  },
+  "Varus": {
+    "species": "Darkin",
+    "region": "Ionia"
+  },
+  "Vayne": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Veigar": {
+    "species": "Yordle",
+    "region": "Bandle city"
+  },
+  "Vel'Koz": {
+    "species": "Void-Being",
+    "region": "The void"
+  },
+  "Vex": {
+    "species": "Yordle",
+    "region": "Shadow isles"
+  },
+  "Vi": {
+    "species": "Human",
+    "region": "Piltover"
+  },
+  "Viego": {
+    "species": "Undead",
+    "region": "Shadow isles"
+  },
+  "Viktor": {
+    "species": "Cyborg Human",
+    "region": "Zaun"
+  },
+  "Vladimir": {
+    "species": "Human Magically-Altered",
+    "region": "Noxus"
+  },
+  "Volibear": {
+    "species": "God Spirit",
+    "region": "Freljord"
+  },
+  "Warwick": {
+    "species": "Cyborg Human Chemically-Altered",
+    "region": "Zaun"
+  },
+  "MonkeyKing": {
+    "species": "Vastaya",
+    "region": "Ionia"
+  },
+  "Xayah": {
+    "species": "Vastaya",
+    "region": "Ionia"
+  },
+  "Xerath": {
+    "species": "Baccal",
+    "region": "Shurima"
+  },
+  "Xin Zhao": {
+    "species": "Human",
+    "region": "Demacia"
+  },
+  "Yasuo": {
+    "species": "Human Magicborn",
+    "region": "Ionia"
+  },
+  "Yone": {
+    "species": "Human Magically-Altered",
+    "region": "Ionia"
+  },
+  "Yorick": {
+    "species": "Human Magically-Altered",
+    "region": "Shadow isles"
+  },
+  "Yuumi": {
+    "species": "Cat Magically-Altered",
+    "region": "Bandle city"
+  },
+  "Zac": {
+    "species": "Golem",
+    "region": "Zaun"
+  },
+  "Zed": {
+    "species": "Human Magically-Altered",
+    "region": "Ionia"
+  },
+  "Zeri": {
+    "species": "Human Magicborn",
+    "region": "Zaun"
+  },
+  "Ziggs": {
+    "species": "Yordle",
+    "region": "Zaun"
+  },
+  "Zilean": {
+    "species": "Human Magicborn",
+    "region": "Runeterra"
+  },
+  "Zoe": {
+    "species": "Aspect Human",
+    "region": "Targon"
+  },
+  "Zyra": {
+    "species": "Unknown",
+    "region": "Ixtal"
+  }
+}

@@ -1,0 +1,117 @@
+<%
+  // Determine if ability section is complete
+  let isAbilityComplete = false;
+  if (guesses && guesses.length > 0) {
+    const last = guesses[guesses.length - 1];
+    isAbilityComplete = last.correct;
+  }
+%>
+<%- include("navBar.ejs", { 
+  isClassicComplete:  flags.isClassicComplete,
+  isQuoteComplete:    flags.isQuoteComplete,
+  isAbilityComplete:  flags.isAbilityComplete,
+  isSplashComplete:   flags.isSplashComplete,
+  isEmojiComplete:    flags.isEmojiComplete,
+}) %>
+<section id="ability">
+  <div class="max-w-lg mx-auto px-4 py-2 backdrop-blur-4xl bg-gradient-to-br from-[#191222]/70 to-[#1e1e2e]/70 rounded-2xl border border-[#45475a]/30 shadow-2xl">
+    <div class="flex flex-col gap-3 px-6">
+      <h2 class="text-[#abcde3] text-2xl text-center font-bold text-shadow-2xl mb-1 tracking-wide">Guess the champion by ability!</h2>
+      <div class="title-underline w-32 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
+
+      <% let isCorrect=false; if (guesses && guesses.length> 0) {
+        const last = guesses[guesses.length - 1];
+        isCorrect = last.correct;
+        }
+        %>
+
+      <% if (!isCorrect) { %>
+      <div class="ability-display-container text-center text-[#f5f5f7] bg-gradient-to-br from-[#1e1e2e] to-[#2a2a3e] rounded-xl p-6 border border-[#45475a] mb-4 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-[#4b6bac]/5 to-transparent opacity-50"></div>
+        <div class="relative z-10">
+          <div class="flex justify-center mb-4">
+            <div class="ability-image-wrapper relative">
+              <img loading="lazy" id="ability-image" src="<%= targetIcon %>" alt="Champion ability" class="transform rotate-<%= abilityRotation %> grayscale w-28 h-28 rounded-xl border-2 border-[#4b6bac] shadow-2xl duration-300 hover:scale-105 hover:shadow-[0_0_25px_rgba(75,107,172,0.4)]" />
+              <div class="ability-glow absolute inset-0 rounded-xl bg-gradient-to-r from-[#4b6bac]/20 to-[#20b2aa]/20 opacity-0 transition-opacity duration-300"></div>
+
+              <div id="ability-loader" class="absolute inset-0 flex items-center justify-center transparent transition-opacity duration-300">
+                <div class="loader-content flex flex-col items-center">
+                  <img src="/images/favicon.webp" alt="Loading placeholder" class="w-16 h-16 animate-pulse mb-2" />
+                  <span class="text-sm text-[#abcde3] opacity-75">Loading...</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div id="easy-mode-container" class="flex justify-end">
+            <label id="easy-mode-label" class="inline-flex content-center items-center justify-end cursor-pointer max-w-fit flex-col group">
+              <span class="mb-1 text-sm font-medium text-[#f5f5f7] group-hover:text-[#abcde3] transition-colors duration-200">Easy mode</span>
+              <input id="easy-toggle" type="checkbox" value="" class="sr-only peer">
+              <div class="relative w-12 h-6 peer-focus:outline-none rounded-full peer bg-gradient-to-r from-[#4a4a52] to-[#3a3a42] peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-[#f5f5f7] after:border-[#1f1f23] after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-gradient-to-r peer-checked:from-[#4b6bac] peer-checked:to-[#20b2aa] shadow-inner"></div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <form id="input-form" onsubmit="return false;" method="POST" class="text-[#f5f5f7] relative form-container">
+        <input type="hidden" name="targetName" value="<%= targetName %>">
+        <input type="hidden" name="targetAbilityImage" value="<%= targetIcon %>">
+
+        <div class="input-wrapper relative">
+          <input required name="guessName" id="champion-input" placeholder="Type a champion name..." class="w-full p-4 bg-gradient-to-r from-[#1e1e2e] to-[#252540] border border-[#45475a] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#4b6bac] focus:border-transparent text-[#f5f5f7] transition-all duration-300 hover:border-[#4b6bac]/50 placeholder-[#6fa0cc] text-lg" autocomplete="off" />
+          <div class="input-glow absolute inset-0 rounded-xl bg-gradient-to-r from-[#4b6bac]/20 to-[#20b2aa]/20 opacity-0 transition-opacity duration-300 pointer-events-none"></div>
+        </div>
+
+        <ul id="suggestions" class="z-50 w-full bg-gradient-to-b from-[#1e1e2e] to-[#252540] border border-[#4b6bac] rounded-xl max-h-60 overflow-auto hidden shadow-2xl backdrop-blur-sm"></ul>
+      </form>
+      <% } else { %>
+      <div class="text-center text-[#f5f5f7] bg-[#1e1e2e] rounded-lg p-4 border border-[#45475a]">
+        <div class="flex justify-center">
+          <img loading="lazy" src="<%= targetIcon %>" alt="Champion ability" class="w-24 h-24 rounded-lg border-2 border-[#20b2aa] shadow-lg shadow-[#20b2aa]/30" />
+        </div>
+      </div>
+      <div class="mt-6 space-y-3" id="ability-guesses-container">
+        <div class="text-center text-emerald-300 font-bold animate-bounce">
+          🎉 You guessed it! It was <%= targetName %>.
+        </div>
+        <div class="mt-2 text-center text-emerald-300 font-bold attempts">
+          Attempts: <%= guessCount %>
+        </div>
+
+        <% } %>
+
+        <% if (guesses && guesses.length> 0) { %>
+        <div class="text-center text-[#f5f5f7] text-sm font-medium mb-4 ability-header">
+          Your Guesses
+        </div>
+
+        <% guesses.slice().reverse().forEach((guess, idx)=> { %>
+        <div class="ability-guess-container" data-index="<%= idx %>">
+          <div class="flex flex-col items-center justify-center gap-0.5 bg-[#1e1e2e] rounded-lg p-1 ability-guess transition-all duration-300 <%= guess.correct ? 'border-2 border-[#20b2aa] shadow-[0_0_15px_rgba(32,178,170,0.4)]' : 'border-2 border-[#ff6f61] shadow-[0_0_15px_rgba(255,111,97,0.4)]' %>">
+            <img loading="lazy" src="<%= guess.icon %>" alt="<%= guess.guess %> icon" title="<%= guess.guess %>" class="w-12 h-12 rounded-lg transition-all duration-300 hover:scale-105 <%= guess.correct ? 'ring-2 ring-[#20b2aa]' : 'ring-2 ring-[#ff6f61]' %>" />
+            <p class="text-center font-medium text-sm transition-all duration-300 <%= guess.correct ? 'text-[#20b2aa]' : 'text-[#ff6f61]' %>">
+              <%= guess.guess %>
+            </p>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+      <% } %>
+
+    </div>
+  </div>
+</section>
+
+<script id="ability-data" type="application/json">
+  {
+    "champions": <%- JSON.stringify(champions) %>,
+    "keyGuesses": <%- JSON.stringify(keyGuesses || []) %>,
+    "allAbilities": <%- JSON.stringify(allAbilities || []) %>,
+    "abilityNameGuesses": <%- JSON.stringify(abilityNameGuesses || []) %>,
+    "guesses": <%- JSON.stringify(guesses || []) %>,
+    "abilityRotation": <%- JSON.stringify(abilityRotation) %>,
+    "abilityIcon": <%- JSON.stringify(targetIcon) %>
+  }
+</script>
+
+<script src="/scripts/abilityScript.js"></script>

@@ -1,0 +1,147 @@
+<%
+  // Determine if classic section is complete
+  let isClassicComplete = false;
+  if (comparisons && comparisons.length > 0) {
+    const last = comparisons[comparisons.length - 1];
+    isClassicComplete = last.resource.correct && last.position.correct && last.attackType.correct && last.releaseDate.correct;
+  }
+%>
+<%- include("navBar.ejs", { 
+  isClassicComplete:  flags.isClassicComplete,
+  isQuoteComplete:    flags.isQuoteComplete,
+  isAbilityComplete:  flags.isAbilityComplete,
+  isSplashComplete:   flags.isSplashComplete,
+  isEmojiComplete:    flags.isEmojiComplete,
+}) %>
+<section id="classic">
+  <div class="max-w-2xl mx-auto px-4 py-2 backdrop-blur-4xl bg-gradient-to-br from-[#191222]/70 to-[#1e1e2e]/70 rounded-2xl border border-[#45475a]/30 shadow-2xl">
+    <div class="flex flex-col gap-3 px-1">
+      <h2 class="text-[#abcde3] text-2xl text-center font-bold text-shadow-2xl mb-1 tracking-wide">Guess the champion!</h2>
+      <div class="title-underline w-24 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
+
+      <% let isCorrect = false;
+           if (comparisons && comparisons.length > 0) {
+             const last = comparisons[comparisons.length - 1];
+             isCorrect = last.resource.correct && last.position.correct && last.attackType.correct && last.releaseDate.correct;
+           }
+        %>
+
+      <% if (!isCorrect) { %>
+      <form id="input-form" onsubmit="return false;" method="POST" class="text-[#f5f5f7] relative mb-4 form-container">
+        <input type="hidden" name="targetName" value="<%= targetName %>">
+        <div class="flex justify-center content-center">
+          <div class="input-wrapper relative w-md">
+            <input required name="guessName" id="champion-input" placeholder="Type a champion..." class="w-full p-4 bg-gradient-to-r from-[#1e1e2e] to-[#252540] border border-[#45475a] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#4b6bac] focus:border-transparent text-[#f5f5f7] transition-all duration-300 hover:border-[#4b6bac]/50 placeholder-[#6fa0cc] text-lg" autocomplete="off" />
+            <div class="input-glow absolute inset-0 rounded-xl bg-gradient-to-r from-[#4b6bac]/20 to-[#20b2aa]/20 opacity-0 transition-opacity duration-300 pointer-events-none"></div>
+          </div>
+        </div>
+        <div class="flex justify-center content-center">
+          <ul id="suggestions" class="w-md z-50 bg-gradient-to-b from-[#1e1e2e] to-[#252540] border border-[#4b6bac] rounded-xl max-h-50 overflow-auto hidden shadow-2xl backdrop-blur-sm"></ul>
+        </div>
+      </form>
+      <% } else { %>
+      <div class="mt-6 text-center text-emerald-300 font-bold animate-bounce">
+        🎉 You guessed it! It was <%= targetName %>.
+      </div>
+      <div class="mt-2 text-center text-emerald-300 font-bold ">
+        Attempts: <%= guessCount %>
+      </div>
+      <% } %>
+
+      <% if (comparisons && comparisons.length > 0) { %>
+      <div class="mt-6 space-y-2" id="comparisons-container">
+        <div class="grid grid-cols-8 gap-1 flex-1 text-[#f5f5f7] items-center text-sm comparison-header opacity-0 bg-gradient-to-r from-[#2a2a3e] to-[#1e1e2e] rounded-lg p-2 border border-[#45475a]/50">
+          <div class="text-center">Champion</div>
+          <div class="text-center">Gender</div>
+          <div class="text-center">Position</div>
+          <div class="text-center">Species</div>
+          <div class="text-center">Resource</div>
+          <div class="text-center">Range</div>
+          <div class="text-center">Region</div>
+          <div class="text-center">Year</div>
+        </div>
+        <% comparisons.slice().reverse().forEach((comp, idx) => { %>
+        <div class="flex items-center gap-3 bg-gradient-to-r from-[#1e1e2e] to-[#252540] rounded-xl comparison-row border border-[#45475a]/30 hover:border-[#4b6bac]/50 transition-all duration-300" data-index="<%= idx %>">
+          <div class="grid grid-cols-8 gap-1 flex-1 text-[#f5f5f7] items-center text-xs cursor-pointer comparison-grid">
+            <!-- Champion Icon -->
+            <div class="flex justify-center content-center comparison-element opacity-0 transform" data-element="icon">
+              <img loading="lazy" src="<%= comp.icon %>" alt="<%= comp.guessName %> icon" title="<%= comp.guessName %>" class="max-w-20 max-h-20 rounded-sm transition-transform duration-300 hover:scale-110" />
+            </div>
+
+            <!-- Gender -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg <%= comp.gender.correct ? 'text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]' : 'text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]' %> hover:scale-105 comparison-element opacity-0 transform" data-element="gender">
+              <%= comp.gender.guess %>
+            </div>
+
+            <!-- Position -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg
+              <% if (comp.position.correct) { %>
+                text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]
+              <% } else if (comp.position.partial) { %>
+                text-[#ffc300] border border-[#ffc300] shadow-[0_0_10px_rgba(255,215,0,0.3)]
+              <% } else { %>
+                text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]
+              <% } %>
+              hover:scale-105 comparison-element opacity-0 transform" data-element="position">
+              <%= comp.position.guess %>
+            </div>
+
+            <!-- Species -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg
+              <% if (comp.species.correct) { %>
+                text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]
+              <% } else if (comp.species.partial) { %>
+                text-[#ffc300] border border-[#ffc300] shadow-[0_0_10px_rgba(255,215,0,0.3)]
+              <% } else { %>
+                text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]
+              <% } %>
+              hover:scale-105 comparison-element opacity-0 transform" data-element="species">
+              <%= comp.species.guess %>
+            </div>
+
+            <!-- Resource -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg <%= comp.resource.correct ? 'text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]' : 'text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]' %> hover:scale-105 comparison-element opacity-0 transform" data-element="resource">
+              <%= comp.resource.guess %>
+            </div>
+
+            <!-- Attack Type -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg <%= comp.attackType.correct ? 'text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]' : 'text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]' %> hover:scale-105 comparison-element opacity-0 transform" data-element="attackType">
+              <%= comp.attackType.guess %>
+            </div>
+
+            <!-- Region-->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg <%= comp.region.correct ? 'text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]' : 'text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]' %> hover:scale-105 comparison-element opacity-0 transform" data-element="region">
+              <%= comp.region.guess %>
+            </div>
+
+            <!-- Release Date -->
+            <div class="content-center min-h-18 transition-all duration-300 font-semibold text-center p-2 rounded-lg <%= comp.releaseDate.correct ? 'text-[#20b2aa] border border-[#20b2aa] shadow-[0_0_10px_rgba(32,178,170,0.3)]' : 'text-[#ff6f61] border border-[#ff6f61] shadow-[0_0_10px_rgba(255,111,97,0.3)]' %> hover:scale-105 comparison-element opacity-0 transform" data-element="releaseDate">
+              <%= comp.releaseDate.guess %>
+              <% if (!comp.releaseDate.correct) { %>
+              <div class="text-xs mt-1 text-gray-400 transition-opacity duration-300">
+                <%= comp.releaseDate.hint === 'before' ? 'Too early' : 'Too late' %>
+              </div>
+              <% } %>
+            </div>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+      <% } %>
+    </div>
+  </div>
+</section>
+
+<script id="classic-data" type="application/json">
+  {
+    "champions": <%- JSON.stringify(champions) %>
+  }
+</script>
+
+<script type="module">
+  import {
+    setupClassic
+  } from '/scripts/classicScript.js';
+  const data = JSON.parse(document.getElementById('classic-data').textContent);
+  setupClassic(data);
+</script>
