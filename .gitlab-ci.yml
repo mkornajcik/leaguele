@@ -6,20 +6,25 @@ stages:
 type_check:
   image: node:22-alpine
   stage: lint
+  retry: 2
   script:
+    - npm config set cache .npm --global
     - npm ci
     - npm run build
   cache:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
+      - .npm
 
 build_css:
   image: node:22-alpine
   stage: build_assets
   needs:
     - type_check
+  retry: 2
   script:
+    - npm config set cache .npm --global
     - npm ci
     - npm run build:css
     - '[ -f dist/public/styles/styles.css ] && echo "CSS built OK" || (echo "CSS build failed" && exit 1)'
@@ -27,7 +32,8 @@ build_css:
     key: ${CI_COMMIT_REF_SLUG}
     paths:
       - node_modules/
-      
+      - .npm
+
 railway_deploy:
   image: ghcr.io/railwayapp/cli:latest
   stage: deploy
@@ -37,8 +43,6 @@ railway_deploy:
     - when: never
   variables:
     SVC_ID: "$RAILWAY_SERVICE_ID"
-
   script:
-    # Wrap commands in single quotes to avoid YAML misparsing of colons, quotes, etc.
     - 'echo "Deploying to Railway service ID: $SVC_ID"'
     - 'railway up --service="$SVC_ID" --yes'
