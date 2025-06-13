@@ -1,15 +1,15 @@
-default:
-  image: docker:24.0.5
-  services:
-    - docker:24.0.5-dind
-  before_script:
-    - echo "Starting..."
+variables:
+  # Ensure devDependencies are installed for build
+  NODE_ENV: development
 
 stages:
-  - build_docker
   - build_typescript
   - build_assets
 
+cache:
+  key: ${CI_COMMIT_REF_SLUG}
+  paths:
+    - node_modules/
 
 build_typescript_job:
   image: node:22-alpine
@@ -17,7 +17,6 @@ build_typescript_job:
   script:
     - echo "Installing dependencies..."
     - npm ci
-    - npm i @types/express
     - echo "Building TypeScript..."
     - npm run build
 

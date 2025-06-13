@@ -36,8 +36,8 @@
     "ts-node": "^10.9.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.2",
-    "@types/express-session": "^1.18.1",
+    "@types/express": "^5.0.3",
+    "@types/express-session": "^1.18.2",
     "@types/shelljs": "^0.8.16",
     "browser-sync": "^3.0.4",
     "jake": "^10.9.2",
