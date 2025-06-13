@@ -10,16 +10,6 @@ stages:
   - build_typescript
   - build_assets
 
-build_docker_job:
-    stage: build_docker
-    script: 
-      - echo "Building docker..."
-      - docker build -t leaguele-app .
-      - docker save leaguele-app > image.tar
-    artifacts:
-      paths:
-        - image.tar
-      expire_in: 10 minutes
 
 build_typescript_job:
   image: node:22-alpine
