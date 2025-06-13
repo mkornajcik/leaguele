@@ -17,7 +17,7 @@ build_typescript_job:
   script:
     - echo "Installing dependencies..."
     - npm ci
-    - npm i --save-dev @types/express
+    - npm i @types/express
     - echo "Building TypeScript..."
     - npm run build
 
