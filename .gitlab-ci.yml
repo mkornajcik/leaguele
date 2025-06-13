@@ -1,48 +1,13 @@
 stages:
-  - lint
-  - build_assets
-  - deploy
+  - build
 
-type_check:
-  image: node:22-alpine
-  stage: lint
-  retry: 2
-  script:
-    - npm config set cache .npm --global
-    - npm ci
-    - npm run build
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
-      - .npm
-
-build_css:
-  image: node:22-alpine
-  stage: build_assets
-  needs:
-    - type_check
-  retry: 2
-  script:
-    - npm config set cache .npm --global
-    - npm ci
-    - npm run build:css
-    - '[ -f dist/public/styles/styles.css ] && echo "CSS built OK" || (echo "CSS build failed" && exit 1)'
-  cache:
-    key: ${CI_COMMIT_REF_SLUG}
-    paths:
-      - node_modules/
-      - .npm
-
-railway_deploy:
-  image: ghcr.io/railwayapp/cli:latest
-  stage: deploy
-  rules:
-    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-      when: always
-    - when: never
-  variables:
-    SVC_ID: "$RAILWAY_SERVICE_ID"
-  script:
-    - 'echo "Deploying to Railway service ID: $SVC_ID"'
-    - 'railway up --service="$SVC_ID" --yes'
+build_job:
+    stage: build
+    script: 
+      echo "Building..."
+      docker build -t leaguele-app .
+      docker save leaguele-app > image.tar
+    artifacts:
+      paths:
+        - image.tar
+      expire_in: 12 minutes
