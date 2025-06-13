@@ -4,7 +4,6 @@ default:
     - docker:24.0.5-dind
   before_script:
     - echo "Starting..."
-    - docker info
 
 stages:
   - build_docker
