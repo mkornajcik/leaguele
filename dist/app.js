@@ -89,9 +89,4 @@ app.use((req, res, next) => {
 });
 //TODO: Error handling in prod
 app.use(globalErrorHandler);
-// Create HTTP server
-const port = parseInt(process.env.PORT, 10) || 3000;
-const server = app.listen(port, "0.0.0.0", () => {
-    console.log(`Server running on http://localhost:${port}`);
-});
 export default app;

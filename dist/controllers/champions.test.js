@@ -116,7 +116,6 @@ describe("Quote Controller Tests", () => {
     });
     test("GET /quote initializes session", async () => {
         const response = await request(app).get("/quote").expect(200).expect("Content-Type", /html/);
-        //TODO: Add more things to each test to expect
         expect(response.text).toContain("targetName");
         expect(response.text).toContain("targetQuote");
     });
@@ -167,7 +166,6 @@ describe("Ability Controller Tests", () => {
     });
     test("GET /ability initializes session", async () => {
         const response = await request(app).get("/ability").expect(200).expect("Content-Type", /html/);
-        //TODO: Add more things to each test to expect
         expect(response.text).toContain("targetName");
         expect(response.text).toContain("targetAbilityImage");
     });
@@ -265,7 +263,6 @@ describe("Emoji Controller Tests", () => {
     });
     test("GET /emoji initializes session", async () => {
         const response = await request(app).get("/emoji").expect(200).expect("Content-Type", /html/);
-        //TODO: Add more things to each test to expect
         expect(response.text).toContain("targetName");
         expect(response.text).toContain("targetEmojis");
     });
@@ -315,7 +312,6 @@ describe("Splash Controller Tests", () => {
     });
     test("GET /splash initializes session", async () => {
         const response = await request(app).get("/splash").expect(200).expect("Content-Type", /html/);
-        //TODO: Add more things to each test to expect
         expect(response.text).toContain("targetName");
         expect(response.text).toContain("splashImage");
         expect(response.text).toContain("splashTarget");

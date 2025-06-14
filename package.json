@@ -11,9 +11,9 @@
     "build": "tsc --build",
     "build:css": "postcss ./src/public/styles/styles.css -o ./dist/public/styles/styles.css",
     "watch:css": "postcss ./src/public/styles/styles.css -o ./dist/public/styles/styles.css --watch",
-    "start": "node ./dist/app.js",
-    "dev": "nodemon --exec tsx ./src/app.ts",
-    "prod": "node ./dist/app.js",
+    "start": "node ./dist/server.js",
+    "dev": "nodemon --exec tsx ./src/server.ts",
+    "prod": "node ./dist/server.js",
     "test": "jest"
   },
   "author": "Marko Kornajcik",
