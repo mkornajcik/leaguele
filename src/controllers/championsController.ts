@@ -11,14 +11,15 @@ import {
   compareSplashes,
   getRandomEmojiChallenge,
   compareEmojis,
-} from "../services/championService.js";
+} from "../services/championService";
 import { getCompletionFlags } from "../services/sessionHelpers.js";
 import { catchAsync } from "../services/catchAsync.js";
 import { AppError } from "../types/appError.js";
+import { validationResult } from "express-validator";
 
 // ----- Helper functions -----
 // Helper to shuffle arrays
-function shuffleArray<T>(arr: T[]): T[] {
+export function shuffleArray<T>(arr: T[]): T[] {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -28,7 +29,7 @@ function shuffleArray<T>(arr: T[]): T[] {
 }
 
 //Helper for splash: Returns random X and Y within a circle of radius around the center
-function getRandomCoordinatesExcludingBorder(
+export function getRandomCoordinatesExcludingBorder(
   widthPx: number,
   heightPx: number,
   borderRatio = 0.05
@@ -53,14 +54,14 @@ function getRandomCoordinatesExcludingBorder(
 }
 
 // Helper to get random rotation for ability
-function randomRotation() {
+export function randomRotation() {
   const degrees = [90, 180, 270];
   const index = Math.floor(Math.random() * degrees.length);
   return degrees[index];
 }
 
 // Compare ability keys helper
-function compareKeys(req: Request, guessKey: string) {
+export function compareKeys(req: Request, guessKey: string) {
   const correctKey = req.session.abilityKey!;
 
   req.session.keyGuesses = req.session.keyGuesses || [];
@@ -76,7 +77,7 @@ function compareKeys(req: Request, guessKey: string) {
 }
 
 //Compare ability names helper
-function compareNames(req: Request, guessName: string) {
+export function compareNames(req: Request, guessName: string) {
   const correctName = req.session.abilityName!;
 
   req.session.abilityNameGuesses = req.session.abilityNameGuesses || [];
@@ -92,7 +93,7 @@ function compareNames(req: Request, guessName: string) {
 }
 
 //Compare splash name helper
-function compareSplashNames(req: Request, guessName: string) {
+export function compareSplashNames(req: Request, guessName: string) {
   const correctName = req.session.splashName!;
 
   req.session.splashNameGuesses = req.session.splashNameGuesses || [];
@@ -142,11 +143,17 @@ export const getClassic = catchAsync(async (req: Request, res: Response, next: N
 });
 
 export const postClassic = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid classic input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
 
-  const { guessName } = req.body as { guessName: string };
+  const { guessName } = req.body;
   const targetName = req.session.classicTarget!;
 
   const comparison = compareChampions(guessName, targetName);
@@ -169,7 +176,7 @@ export const postClassic = catchAsync(async (req: Request, res: Response, next: 
 
   let guessCount = req.session.comparisons?.length;
 
-  res.json({
+  res.status(200).json({
     isCorrect: comparison.isClassicCorrect,
     icon: comparison.icon,
     guessName,
@@ -203,6 +210,12 @@ export const getQuote = catchAsync(async (req: Request, res: Response, next: Nex
 });
 
 export const postQuote = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid quote input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
@@ -226,7 +239,7 @@ export const postQuote = catchAsync(async (req: Request, res: Response, next: Ne
   }
 
   /* res.redirect("/quote"); */
-  res.json({
+  res.status(200).json({
     correct: result.correct,
     icon: result.icon,
     guessName,
@@ -277,6 +290,12 @@ export const getAbility = catchAsync(async (req: Request, res: Response, next: N
 });
 
 export const postAbility = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid ability input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
@@ -298,7 +317,7 @@ export const postAbility = catchAsync(async (req: Request, res: Response, next: 
     req.session.isAbilityComplete = true;
   }
 
-  res.json({
+  res.status(200).json({
     correct: result.correct,
     icon: result.icon,
     guessName,
@@ -307,23 +326,36 @@ export const postAbility = catchAsync(async (req: Request, res: Response, next: 
 });
 
 export const postKey = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid ability key input");
+
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
 
   const { guessKey } = req.body;
   const isCorrect = compareKeys(req, guessKey);
-  res.json({ correct: isCorrect });
+  res.status(200).json({ correct: isCorrect });
 });
 
 export const postAbilityName = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid ability name input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
 
   const { guessName } = req.body;
   const isCorrect = compareNames(req, guessName);
-  res.json({ correct: isCorrect });
+  res.status(200).json({ correct: isCorrect });
 });
 
 export const getEmoji = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
@@ -353,6 +385,12 @@ export const getEmoji = catchAsync(async (req: Request, res: Response, next: Nex
 });
 
 export const postEmoji = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid emoji input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
@@ -377,7 +415,7 @@ export const postEmoji = catchAsync(async (req: Request, res: Response, next: Ne
 
   const nextEmoji = req.session.emojiList![req.session.displayedEmojis! - 1];
 
-  res.json({
+  res.status(200).json({
     correct: result.correct,
     icon: result.icon,
     guessName,
@@ -430,6 +468,12 @@ export const getSplash = catchAsync(async (req: Request, res: Response, next: Ne
 });
 
 export const postSplash = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid splash input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
@@ -454,7 +498,7 @@ export const postSplash = catchAsync(async (req: Request, res: Response, next: N
   }
   let guessCount = req.session.splashGuesses?.length;
 
-  res.json({
+  res.status(200).json({
     correct: result.correct,
     icon: result.icon,
     guessName,
@@ -463,6 +507,12 @@ export const postSplash = catchAsync(async (req: Request, res: Response, next: N
 });
 
 export const postSplashName = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const errors = validationResult(req);
+  if (!errors.isEmpty()) {
+    console.error("Invalid splash name input");
+    return res.status(400).json({ errors: errors.array() });
+  }
+
   if (!req.session) {
     return next(new AppError("Session not configured", 500));
   }
@@ -470,5 +520,5 @@ export const postSplashName = catchAsync(async (req: Request, res: Response, nex
   const { guessSplash } = req.body;
   const isCorrect = compareSplashNames(req, guessSplash);
 
-  res.json({ correct: isCorrect });
+  res.status(200).json({ correct: isCorrect });
 });

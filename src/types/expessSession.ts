@@ -33,7 +33,7 @@ declare module "express-session" {
 
     splashTarget?: string;
     splashName?: string;
-    splashImage?: string;
+    splashImage?: string | number;
     allSplashes?: string[];
     splashGuesses?: Array<{ guess: string; correct: boolean; icon: string }>;
     splashNameGuesses?: Array<{ guess: string; correct: boolean }>;

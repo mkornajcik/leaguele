@@ -1,13 +1,13 @@
-import { fileURLToPath } from "url";
-import path from "path";
-import fs from "fs";
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+import championsJson from "../data/champions_final.json";
+import championQuotes from "../data/champion_quotes_new.json";
+import championAbilities from "../data/champion_abilities.json";
+import championSplash from "../data/champions_splash.json";
+import championEmojis from "../data/champion_emojis_new.json";
 // ******************************************************* Champions
-// All champions data
-const dataPath = path.resolve(__dirname, "../data/champions_final.json");
-const rawJson = fs.readFileSync(dataPath, "utf-8");
-const championsJson = JSON.parse(rawJson);
+// Read JSON data via URL
+/* const championsDataUrl = new URL("../data/champions_final.json", import.meta.url);
+const rawJson = fs.readFileSync(championsDataUrl, "utf-8");
+//const championsJson: Record<string, string[]> = JSON.parse(rawJson); */
 const championsWithIcons = Object.values(championsJson).map((champ) => ({
     name: champ.name,
     icon: champ.icon,
@@ -19,18 +19,16 @@ export function getRandomChampion() {
     const all = Object.values(championsJson);
     return all[Math.floor(Math.random() * all.length)];
 }
-// Quote data
-const quotesPath = path.resolve(__dirname, "../data/champion_quotes_new.json");
-const rawQuotes = fs.readFileSync(quotesPath, "utf-8");
-const championQuotes = JSON.parse(rawQuotes);
-// Returns a random champion name that has at least one quote
+/* const quotesDataUrl = new URL("../data/champion_quotes_new.json", import.meta.url);
+const rawQuotes = fs.readFileSync(quotesDataUrl, "utf-8");
+//const championQuotes: Record<string, string[]> = JSON.parse(rawQuotes); */
 function getRandomChampionWithQuote() {
-    const champions = Object.keys(championQuotes).filter((champ) => Array.isArray(championQuotes[champ]) && championQuotes[champ].length > 0);
+    const champions = Object.keys(championQuotes).filter((champ) => Array.isArray(championQuotes[champ]) &&
+        championQuotes[champ].length > 0);
     if (champions.length === 0)
         throw new Error("No champions with quotes available.");
     return champions[Math.floor(Math.random() * champions.length)];
 }
-// Get a random quote and the corresponding champion
 export function getRandomQuote() {
     const champion = getRandomChampionWithQuote();
     const quotes = championQuotes[champion];
@@ -53,12 +51,12 @@ export function compareQuotes(guessKey, targetKey) {
         correct,
     };
 }
-// Ability data
-const abilitiesPath = path.resolve(__dirname, "../data/champion_abilities.json");
-const rawAbilities = fs.readFileSync(abilitiesPath, "utf-8");
-const championAbilities = JSON.parse(rawAbilities);
+/* const abilitiesDataUrl = new URL("../data/champion_abilities.json", import.meta.url);
+const rawAbilities = fs.readFileSync(abilitiesDataUrl, "utf-8");
+//const championAbilities: Record<string, Record<string, [string, string]>> = JSON.parse(rawAbilities); */
 function getRandomChampionWithAbility() {
-    const champions = Object.keys(championAbilities).filter((champ) => typeof championAbilities[champ] === "object" && Object.keys(championAbilities[champ]).length > 0);
+    const champions = Object.keys(championAbilities).filter((champ) => typeof championAbilities[champ] === "object" &&
+        Object.keys(championAbilities[champ]).length > 0);
     if (champions.length === 0)
         throw new Error("No champions with abilities available.");
     return champions[Math.floor(Math.random() * champions.length)];
@@ -88,12 +86,12 @@ export function compareAbilities(guessKey, targetKey) {
         correct,
     };
 }
-// Splash data
-const splashPath = path.resolve(__dirname, "../data/champions_splash.json");
-const rawSplash = fs.readFileSync(splashPath, "utf-8");
-const championSplash = JSON.parse(rawSplash);
+/* const splashDataUrl = new URL("../data/champions_splash.json", import.meta.url);
+const rawSplash = fs.readFileSync(splashDataUrl, "utf-8");
+// const championSplash: Record<string, string[]> = JSON.parse(rawSplash); */
 function getRandomChampionWithSplash() {
-    const champions = Object.keys(championSplash).filter((champ) => typeof championSplash[champ] === "object" && Object.keys(championSplash[champ]).length > 0);
+    const champions = Object.keys(championSplash).filter((champ) => typeof championSplash[champ] === "object" &&
+        Object.keys(championSplash[champ]).length > 0);
     if (champions.length === 0)
         throw new Error("No champions with splashes available.");
     return champions[Math.floor(Math.random() * champions.length)];
@@ -123,19 +121,17 @@ export function compareSplashes(guessKey, targetKey) {
         correct,
     };
 }
-// Emoji data
-const emojisPath = path.resolve(__dirname, "../data/champion_emojis_new.json");
-const rawEmojis = fs.readFileSync(emojisPath, "utf-8");
-const championEmojis = JSON.parse(rawEmojis);
-// Returns a random champion name that has at least one emoji set
+/* const emojisDataUrl = new URL("../data/champion_emojis_new.json", import.meta.url);
+const rawEmojis = fs.readFileSync(emojisDataUrl, "utf-8");
+// const championEmojis: Record<string, string[]> = JSON.parse(rawEmojis); */
 function getRandomChampionWithEmojis() {
-    const champions = Object.keys(championEmojis).filter((champ) => Array.isArray(championEmojis[champ]) && championEmojis[champ].length >= 4);
+    const champions = Object.keys(championEmojis).filter((champ) => Array.isArray(championEmojis[champ]) &&
+        championEmojis[champ].length >= 4);
     if (champions.length === 0) {
         throw new Error("No champions with at least 4 emojis available.");
     }
     return champions[Math.floor(Math.random() * champions.length)];
 }
-// Fisher-Yates shuffle
 function shuffleArray(array) {
     const arr = [...array];
     for (let i = arr.length - 1; i > 0; i--) {
@@ -144,15 +140,12 @@ function shuffleArray(array) {
     }
     return arr;
 }
-// Get a random champion and 4 emojis
 export function getRandomEmojiChallenge() {
     const champion = getRandomChampionWithEmojis();
     const allEmojis = championEmojis[champion];
-    // Shuffle and pick first 4 emojis
     const emojis = shuffleArray(allEmojis).slice(0, 4);
     return { champion, emojis };
 }
-// Compare function
 export function compareEmojis(guessKey, targetKey) {
     const guess = championsJson[guessKey];
     const target = championsJson[targetKey];
@@ -182,21 +175,9 @@ export function compareChampions(guessKey, targetKey) {
     const championField = (field) => {
         const g = guess[field];
         const t = target[field];
-        // Special handling for species
-        if (field === "species") {
+        if (field === "species" || field === "position") {
             if (g === t)
                 return { guess: g, actual: t, correct: true };
-            // Split by space and check for overlap
-            const guessArr = g.split(" ").map((s) => s.toLowerCase());
-            const targetArr = t.split(" ").map((s) => s.toLowerCase());
-            const partial = guessArr.some((s) => targetArr.includes(s));
-            return { guess: g, actual: t, correct: false, partial };
-        }
-        // Special handling for positions
-        if (field === "position") {
-            if (g === t)
-                return { guess: g, actual: t, correct: true };
-            // Split by space and check for overlap
             const guessArr = g.split(" ").map((s) => s.toLowerCase());
             const targetArr = t.split(" ").map((s) => s.toLowerCase());
             const partial = guessArr.some((s) => targetArr.includes(s));

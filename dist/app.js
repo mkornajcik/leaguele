@@ -2,7 +2,7 @@ import dotenv from "dotenv";
 import express from "express";
 import session from "express-session";
 import path from "path";
-import { fileURLToPath } from "url";
+import fs from "fs";
 import indexRoutes from "./routes/indexRoutes.js";
 import { AppError } from "./types/appError.js";
 import { globalErrorHandler } from "./controllers/errorController.js";
@@ -10,15 +10,19 @@ import rateLimit from "express-rate-limit";
 import helmet from "helmet";
 // Start express app
 const app = express();
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
+/* const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename); */
+let viewsDir = path.join(process.cwd(), "dist", "views");
+if (!fs.existsSync(viewsDir)) {
+    viewsDir = path.join(process.cwd(), "src", "views");
+}
 // Get env
 dotenv.config();
 // Use JSON
 app.use(express.json());
 // Set EJS
+app.set("views", viewsDir);
 app.set("view engine", "ejs");
-app.set("views", path.join(__dirname, "views"));
 // Static files and body parser
 app.use(express.static("dist/public"));
 app.use(express.urlencoded({ extended: true }));

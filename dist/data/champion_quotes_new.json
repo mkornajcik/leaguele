@@ -1,998 +1,998 @@
 {
-  "Akshan": [
-    "\"I taunt with my grappling hook. See how it taunts you? Taunt, taunt, taunt...\"",
-    "\"How does this boomerang return? Someday I'm going to learn its secrets.\"",
-    "\"Fixing the world, one scoundrel at a time!\"",
-    "\"To the shadows... where the scoundrels hide.\"",
-    "\"Like the mysterious boomerang, I always return.\"",
-    "\"Now for my grand escape. Grappling hook!\"",
-    "\"It's important to stride into the wind so the cape flutters dramatically behind.\""
-  ],
-  "Akali": [
-    "\"Fear the assassin with no master.\"",
-    "\"Wars are messy. My kills are clean.\"",
-    "\"So many enemies, so many knives.\"",
-    "\"Skill and steel will get the job done.\"",
-    "\"The Kinkou couldn't control me. I do what they wouldn't.\"",
-    "\"Kama, or kunai... Depends how I'm feelin'.\""
-  ],
-  "Aatrox": [
-    "\"I do not obey! I cannot lay down! I will be the ender of all things!\"",
-    "\"I am Darkin! I do not die!\"",
-    "\"I am Darkin! Your gods fear me!\"",
-    "\"Insects, you think you can kill me? Behold my curse!\"",
-    "\"I am like a demon, but more edgy, right? You know, cause I'm a sword. Hmm...\""
-  ],
-  "Ahri": [
-    "\"I see all that you desire. Rawr!\"",
-    "\"I'll have them chasing their tails!\"",
-    "\"Quick as a fox!\"",
-    "\"Can't outrun a fox.\"",
-    "\"I may have nine tails, but I have unlimited lives.\"",
-    "\"My tails are my good-luck charm.\""
-  ],
-  "Alistar": ["\"Mess with the bull and you get the horns!\"", "\"You can't milk those.\""],
-  "Amumu": ["\"Let me give you a hug.\"", "\"Let's be friends forever.\""],
-  "Annie": [
-    "\"I'm rubber and you're... on fire!\"",
-    "\"Beaten by a little girl... ha!\"",
-    "\"You can't come to Tibbers' tea party! Bleh!\"",
-    "\"What's your favorite aminal? A bear?\"",
-    "\"You smell like burning!\""
-  ],
-  "Anivia": [
-    "\"Laying an egg isn't as easy as it looks.\"",
-    "\"Meaning, in every snowflake.\"",
-    "\"I am the snow, wind, and ice.\"",
-    "\"A thousand lives will I give for the Freljord.\"",
-    "\"The chicken or the egg? Actually I came first.\""
-  ],
-  "Ambessa": [
-    "\"My children are my greatest strength. And greatest weakness…\"",
-    "\"A warrior. A mother. There is no difference!\"",
-    "\"As your General, all of your mistakes reflect on my leadership. You would be wise to remember that.\"",
-    "\"Noxus prizes strength above all else. But sacrifice, is the mark of a true warrior.\"",
-    "\"All will be crushed by the full might of the Medardas!\""
-  ],
-  "Aphelios": [
-    "\"Find your orbit, brother.\"",
-    "\"When your steps falter, brother, follow my voice.\"",
-    "\"Condemned to darkness, where our power grows.\"",
-    "\"With every step, two steps. With every breath, two breaths.\"",
-    "\"Even from across the celestial veil… I will be with you, brother.\"",
-    "\"We're in this together. Darkness and light.\""
-  ],
-  "Aurora": [
-    "\"The spirits here are different from the ones in the  Freljord.\"",
-    "\"Unless you know anything about spirits or the Spirit Realm, you'd do well to let me focus on my work.\"",
-    "\"How can anyone be afraid of ghosts? They're adorable!\"",
-    "\"This region is teeming with wayward spirits. I'll find and help them all.\"",
-    "\"Spirits become wayward by absorbing the pain of mortals. It's my job to cleanse what each wisp has endured.\"",
-    "\"I see the Spirit Realm and material realm simultaneously — this blended world is my own... and it's beautiful.\""
-  ],
-  "Aurelion Sol": [
-    "\"Make a wish. See if the stars answer. I'll wait.\"",
-    "\"I used to wander the stars. Now I'm stuck down here, with you.\"",
-    "\"On other worlds, there is emerging life more complex than you.\"",
-    "\"Which star is your favorite? I made that one.\"",
-    "\"A sun is unimaginable celestial power, and thrilled mortals use theirs to coordinate this 'lunch time.'\"",
-    "\"I made the stars to illuminate the perpetual nothing, and mortals use them for 'relationship advice.'\"",
-    "\"I made the stars, but you... inspire me to make more.\"",
-    "\"First you start with some matter, then add star fire and voilà! It basically does the rest itself.\""
-  ],
-  "Azir": [
-    "\"What is the desert, but the ashes of my enemies?\"",
-    "\"There is only Shurima. All else is but a mirage.\"",
-    "\"So, a pigeon walks into a bar...\"",
-    "\"Shurima! Your emperor has returned!\"",
-    "\"Shurima will once again stretch to the horizon.\"",
-    "\"The world is a desert. I am the oasis.\"",
-    "\"For emperors, it's all about how you carry yourself.\""
-  ],
-  "Ashe": [
-    "\"This is the latest in Freljordian fashion. They call it a... skirt.\"",
-    "\"Prepare yourself, you face an Iceborn!\"",
-    "\"My tribe will bring peace to the North! The South should fear us.\"",
-    "\"No, really, put that apple on your head...\"",
-    "\"I hold a bow of True Ice. I hold my heart.\"",
-    "\"Hahaha! Check this out... Agh! Ugh, who makes a bow out of ice?!\""
-  ],
-  "Blitzcrank": [
-    "\"I put the 'go' in 'golem'. That was humor. Other golems find that to be appropriately funny.\"",
-    "\"Fired up and ready to serve.\"",
-    "\"A rolling golem gathers no rust.\""
-  ],
-  "Bel'Veth": [],
-  "Brand": [
-    "\"Is that fireproof?\"",
-    "\"Is it hot in here or is it just me?!\"",
-    "\"I am the fire that cleanses the world!\"",
-    "\"Ready to set the world on fire? Heheheh...\"",
-    "\"Some say the world will end in fire!\""
-  ],
-  "Braum": [
-    "\"The goats are wise; eat everything, climb everything, and if something kicks you, kick it back!\"",
-    "\"When life gives you curdled milk, be patient. You get very good cheese!\"",
-    "\"Mother always said: 'Float like iceberg, sting like thrown iceberg!'\""
-  ],
-  "Briar": [
-    "\"We don't have to fight! You could just... 'share' your blood!\"",
-    "\"I'm not a picky eater—whether it's a splash of blood, a bloody limb, cold blood, warm blood... I'll try it all!\""
-  ],
-  "Caitlyn": [
-    "\"Think you're above the law? Think again.\"",
-    "\"Ready, aim... (gasps) Urgh! Why am I not surprised?\"",
-    "\"This can only end with you behind bars.\"",
-    "\"I am not Piltover's dog. I work for its people, no one else.\"",
-    "\"I always aim to win. And my aim is perfect.\"",
-    "\"I have all the evidence I need.\""
-  ],
-  "Cassiopeia": [
-    "\"Another game of snake and mice.\"",
-    "\"No legs but I still have a little spring in my step.\"",
-    "\"Nothing escapes my coil.\""
-  ],
-  "Camille": [
-    "\"Command line received: Kill-Dash-Nine.\"",
-    "\"Precision is the difference between a butcher and a surgeon.\"",
-    "\"Command line received: Kill-Dash-Nine.\""
-  ],
-  "Cho'Gath": [
-    "\"Death... is not the end for you! I have seen to it: for eternity, you are mine!\"",
-    "\"Your souls will feed the Void!\"",
-    "\"Nom nom nom nom nom nom nom!\""
-  ],
-  "Corki": [
-    "\"That just goes to show you you're nothin' but a Whiskey Delta!\"",
-    "\"Consider yourself spanked, nugget!\"",
-    "\"I got a bogey on my tail!\"",
-    "\"Another fine sortie!\"",
-    "\"Lima Oscar Lima!\""
-  ],
-  "Diana": [
-    "\"I feel a kinship with the moon, though I know not why.\"",
-    "\"A new moon is rising.\"",
-    "\"The moon also rises.\"",
-    "\"Chosen of the moon..\"",
-    "\"The moon will rise. The night will last forever!\""
-  ],
-  "Darius": ["\"Defy Noxus and taste your own blood.\"", "\"Strength above all.\""],
-  "Dr. Mundo": [
-    "\"Hmm. Your chart look bad. Me recommend aggressive treatment!\"",
-    "\"You patient or donor? It not matter. Me do same thing.\"",
-    "\"Dear medical journal. First day in new hospital. Already have... uh... five patients.\"",
-    "\"Hi there, patient. Looks like you got too many parts.\"",
-    "\"Healthy boy building a healthy body!\""
-  ],
-  "Draven": [
-    "\"Let's admire me for a bit.\"",
-    "\"Got axes, need victims.\"",
-    "\"Man, I'm good.\"",
-    "\"Perfection? I got that.\""
-  ],
-  "Ekko": [
-    "\"I already calculated your odds. Sorry.\"",
-    "\"Won this fight already. Doing it again for fun.\"",
-    "\"I've seen your future, and it's got broken bones.\"",
-    "\"Time scramble doesn't travel my brain.\"",
-    "\"Uh… if anyone sees my paradox, ask 'im where I am.\"",
-    "\"This is the longest second of my life.\"",
-    "\"The timeline was already this broken when I found it. I swear.\""
-  ],
-  "Elise": [
-    "\"Come closer, I don't bite!\"",
-    "\"The spider, I. And you, the fly.\"",
-    "\"Only the spider is safe in her web.\"",
-    "\"Dangling by a thread.\"",
-    "\"Pull the strings. Watch them dance.\"",
-    "\"I hear a man likes a lady with legs.\""
-  ],
-  "Evelynn": [
-    "​\"I love it when they talk dirty. 'No! Please! Stop torturing me!'\" *laughs*",
-    "\"First time being tortured? Don't worry, I'll do everything.\"",
-    "\"Show me the man who has everything, and I'll show you my next victim.\"",
-    "​\"I've had my eye on you. *giggles* Now I'm gonna rip yours out.\"",
-    "​\"That skin looks good on you, but it would look better on my bedroom floor.\""
-  ],
-  "Ezreal": [
-    "\"You belong in a museum!\"",
-    "\"Nothing stops me. Except for Shuriman parasites. It was... not pretty.\"",
-    "\"Huh, could've sworn there was a hidden entrance around here somewhere...\"",
-    "\"Yeah, yeah, yeah. World. Peril. Save it. I got it, I got it.\"",
-    "\"Quest accepted! ...Wait, where are we going?\"",
-    "\"Who needs a map?\"",
-    "\"Exploration runs in my family. It's in my blood.\"",
-    "\"Know your environment.' My environment... is wet and muddy and probably filled with leeches.\"",
-    "\"Ugh... water's cold. AHH! Something touched my foot!\"",
-    "\"It's not grave-robbing if you have a college degree. Which I do... *cough* not have a college degree.\"",
-    "\"Time to show 'em who's best. Spoiler: it's me.\""
-  ],
-  "Fiora": ["\"Sharp blade, sharp mind.\"", "\"I am an artist with a sword—in more ways than one.\""],
-  "Fiddlesticks": [
-    "\"It's hunting us. It knows what we're afraid of.\"",
-    "\"I'm coming to help. Where are you? I can't see you. I. Can't. See you.\"",
-    "\"High above the rotten rows. Cloth and metal. Teeth and crows.\"",
-    "\"Through the field. Down the lane. Voices never heard again!\"",
-    "\"They haven't come back from the fields. It's been three days.\"",
-    "\"Once upon a time... once... upon a time!\""
-  ],
-  "Fizz": [
-    "\"You're boring, ugh... (snores) Huh, huh? (huffs)\"",
-    "\"Not interested, ungh... (snores). Hm, huh? (huffs)\"",
-    "\"Mmm... Fish fish fish! (giggles) (gulps)\"",
-    "\"Hmm, something's fishy! Hmm... (giggles) (gulps)\""
-  ],
-  "Garen": [
-    "\"The glory of Demacia will never fade.\"",
-    "\"Hey, look, I'm holding the world up!\"",
-    "\"My heart and sword always for Demacia.\"",
-    "\"Show them the strength of Demacia!\""
-  ],
-  "Galio": [
-    "\"Hey, you. Don't mess with Demacia. I saw you thinking about it.\"",
-    "\"Quick! Hide in my crevices.\"",
-    "\"I've got a high tolerance for magic. Takes a lot for me to feel it.\"",
-    "\"You know what's hard about fighting? Nothing! Come on, I'm made of stone.\"",
-    "\"Know of any battles? Just looking to get my wings dirty.\"",
-    "\"Let someone else be a statue, I got stuff to do.\"",
-    "\"The best offense is a good magic absorbing colossus..\"",
-    "\"Would you like to ride on my massive shoulder?\""
-  ],
-  "Gnar": ["\"Shugi shugi shugi!\"", "\"Shoo shoo? Bahnah!\" (laughs)"],
-  "Gangplank": [
-    "\"The smell of powder sets my blood to boil.\"",
-    "\"Survive this, and you'll need a lot of rum.\"",
-    "\"They're not just oranges. They're blood oranges.\"",
-    "\"I'm back at the helm.\"",
-    "\"Yar ha har argh! — (coughs) — Had something in my throat.\""
-  ],
-  "Gragas": [
-    "\"I'll drink you under the table, scrub!\"",
-    "\"The only time I have a drinking problem is when I spill it!\"",
-    "\"Let's get this party started!\"",
-    "\"Need some grog... \"",
-    "\"Happy hour incoming!\""
-  ],
-  "Gwen": [
-    "\"Scissors, needles, thread; tools of Isolde. She'll always be with me, and I with her.\"",
-    "\"Back when I was a doll, I really wanted to fight. This is my chance, my only one.\"",
-    "\"Bits of fabric can become something beautiful. My work here can do just the same!\"",
-    "\"I remember when she sewed my dress with these scissors. Now, they cut a different cloth.\""
-  ],
-  "Graves": [
-    "\"Don't die, yet! Heh, that was only a warning shot.\" *chuckles*",
-    "\"Dead man walkin'.\"",
-    "\"Everyone's a hero... till you shoot off a leg or two.\" *laughs*"
-  ],
-  "Hecarim": ["\"Behold, the might of the Shadow Isles.\"", "\"Trample their bones.\""],
-  "Heimerdinger": [
-    "\"I prefer a battle of wits, but you're unarmed!\"",
-    "\"Why do chemists call helium, curium, and barium 'the medical elements'? Because, if you can't 'helium' or 'curium', you 'barium'! Hm hm!\"",
-    "\"There are three key ingredients to invention: excessive imagination, good old fashioned stick-to-it-iveness, and a rocking good hairstyle!\"",
-    "\"Your first real battle! Are you ready, Pythagoras?\"",
-    "\"Why do people say 'you can't trust atoms'? Because they 'make up everything'! Hehe!\""
-  ],
-  "Hwei": [
-    "\"There's no secret to art... just begin and keep going. That's all we can do.\"",
-    "\"Leave everything to my imagination.\"",
-    "\"Creativity is limitless—for better or worse.\"",
-    "\"One breath and brush at a time.\"",
-    "\"Be my canvas!\"",
-    "\"Highlights and shadows!\"",
-    "\"Art is empty without empathy.\""
-  ],
-  "Illaoi": [
-    "\"I want you to hit me as hard as you can.\"",
-    "\"The ocean is calm. It is our desires that stir it.\"",
-    "\"I'm not big on sermons—broken bones teach better lessons.\"",
-    "\"Smile, child, or I'll shove your jaw into your brain.\"",
-    "\"Watch your mouth, or I'll slap the soul out of you.\""
-  ],
-  "Janna": [
-    "\"And you thought it was just a harmless breeze!\"",
-    "\"It's going to be another beautiful day in Summoner's Rift! Again.\"",
-    "\"Yes, it's true. For only $2.95 a minute, I will leave you breathless.\"",
-    "\"Say hello to the winds of—\" (double cough, clears throat) \"I don't know what came over me.\""
-  ],
-  "Jarvan IV": ["\"You like my weapon? Come on over for a closer inspection!\"", "\"Demacia! Get some!\""],
-  "Ivern": [
-    "\"Be grateful for the breeze and the grass beneath your feet.\"",
-    "\"May the sun warm you, all of your days.\"",
-    "\"I'm a tree-hugger, you should know that about me!\"",
-    "\"Hmm. Fragrant, with notes of wormwood.\"",
-    "\"The druid abides.\""
-  ],
-  "Jax": [
-    "\"Bearing the Light of  Icathia in a run-of-the-mill lantern? Just my style.\"",
-    "\"Back in my day, we didn't need fancy weapons! Hmph... still don't.\"",
-    "\"Who wants a piece of the champ?\"",
-    "\"We duel to the death! ...Or 'til you surrender, I'm not picky.\"",
-    "\"If you get lost, look for my light! Unless, of course, it's lodged in somebody's skull.\"",
-    "\"Oh, this? Just a fancy-lookin' lamp, don't worry about it.\"",
-    "\"Imagine if I had a real weapon.\""
-  ],
-  "Jayce": [
-    "\"Gone is the Golden Boy. The hextech dream. The brighter tomorrow. All that's left is me, and a mission.\"",
-    "\"No taking back the swing of the hammer, or the shot of the cannon. Follow through, or fall behind.\"",
-    "\"Stand against my city and you won't stay standing!\""
-  ],
-  "Irelia": ["\"I have but one life to give for Ionia. I must make it count.\""],
-  "Jhin": [
-    "\"You are mediocrity. My genius will supplant you.\"",
-    "\"This stage is beneath my talent, but I shall elevate it.\"",
-    "\"Mortals and their linear time, they appreciate my art, they have no choice.\"",
-    "\"Killing you will be one of my finest works.\"",
-    "\"Only my actions will make you memorable.\""
-  ],
-  "Jinx": [
-    "\"Three guns means never having to say 'I'm sorry'.\"",
-    "\"Maybe we should settle down and live peaceful lives. 'Really? I always hoped one day you'd--' Haha, nope! You're a death machine for life!\"",
-    "\"Didn't plan on bein' a hero.  The Undercity just needed somethin' to believe in. Must have been desperate picking me of all people!\"",
-    "\"'Your inventions could be used for creation instead of destruction.' Oh well, guess what! I created a gun, and I think that counts.\"",
-    "\"I'm bringing guns to the knife fight! ...Hehe.\"",
-    "\"Guns don't kill people. I mean, until you shoot 'em. Then they kill everything!\""
-  ],
-  "K'Sante": ["\"My ancestors built Nazumah. No god, king, or beast could conquer them; and none will conquer me.\""],
-  "Kalista": ["\"Let's see how many spears you can endure!\"", "\"Soft are the targets of our spears today!\""],
-  "Karthus": [
-    "\"I will shred your body, and burn your soul!\"",
-    "\"To feel the caress of death for the first time... I envy you!\"",
-    "\"I'm putting your name in my little black necronomicon.\"",
-    "\"What's the incantation again... yes, erm... oh, right, R!\"",
-    "\"Do you have a moment to talk about death?\""
-  ],
-  "Karma": [
-    "\"I know your spirit... but I must stop your heart.\"",
-    "\"You know what they say: karma always catches up to you.\""
-  ],
-  "Kassadin": [
-    "\"You are null and void.\"",
-    "\"Your magic is powerless against me!\"",
-    "\"I tried to silence my mother once. Boy, did I regret that.\""
-  ],
-  "Katarina": [
-    "\"A queen's versatility and an assassin's ruthlessness. The coronation never planned on me.\"",
-    "\"These other queens? I wish them luck. Why shouldn't I? There's no one like me.\"",
-    "\"I am the queen of assassins. I won my throne by murder. I'd like to see these others try and take it.\"",
-    "\"Better dead than dull.\"",
-    "\"There's glory in bloodshed, but there's also purpose. A feared queen reigns longest.\"",
-    "\"If you run, you won't see me stab you!\""
-  ],
-  "Kayle": [
-    "\"Surrender to the light, and I will spare your soul!\"",
-    "\"There is no hiding from the light.\"",
-    "\"Only those with malice in their hearts need fear the light!\""
-  ],
-  "Kai'Sa": [
-    "\"Imagine a place where it's always night and you're holding faith for a dawn that never comes. I don't have to imagine. I've been there.\"",
-    "\"Down  there, I was surrounded by nothingness... but I was never alone. Memories comfort like the closest companion.\"",
-    "\"This place is too beautiful to be decimated by the Void...\"",
-    "\"I've been to the Void and back. You're nothing.\"",
-    "\"The Void will not consume me; but I must act, or the others will not be as lucky.\""
-  ],
-  "Kayn": [
-    "\"I'm holding a sentient weapon of doom, denied blood for eons! You think I'm scared of you?\"",
-    "\"Whom should I obey? Master Zed, or the farm implement with delusions of grandeur?\"",
-    "\"The shadows reveal weakness.\"",
-    "\"The focused blade cuts deepest.\""
-  ],
-  "Kennen": ["\"Big targets are the best! There's more to aim at!\"", "\"Yes, they make shurikens this small!\""],
-  "Kha'Zix": [
-    "\"If I eat you, will I learn how to die?\"",
-    "\"Hahaha. You're barely worth eating!\"",
-    "\"To truly know someone, eat them and walk a mile in their feet.\"",
-    "\"My purpose is eating deadly creatures. My hobby is eating Yordles.\"",
-    "\"I ate an optimist once, but I couldn't keep him down.\""
-  ],
-  "Kog'Maw": ["\"Fa la la la la, la la la laaaa\""],
-  "Leblanc": [
-    "\"Smoke and mirrors. Shadow and steel.\"",
-    "\"It is said that every rose has its thorns, but none are sharper than mine.\"",
-    "\"Lies are like roses: marvel too long at the bloom, and one may miss the thorns benenath.\"",
-    "\"The Black Rose shall bloom once more.\"",
-    "\"History forgets, but the Black Rose remembers.\""
-  ],
-  "Kled": [
-    "\"Woo, no sir, I ain't gonna kill you and feed you to my lizard! Them's just... malicious rumours!\"",
-    "\"Was you making fun of my Skaarl?\""
-  ],
-  "Kindred": [
-    "\"Hold still, Wolf.\"",
-    "\"Are you there, dear Wolf?\"",
-    "\"I am, little Lamb.\"",
-    "\"Tell me again, little Lamb, which things are mine to take?\"",
-    "\"Have they forgotten us yet, little Lamb?\"",
-    "\"How old are we, Lamb?\""
-  ],
-  "Lee Sin": [
-    "\"Enough blind jokes. Stop asking for more.\"",
-    "\"My sight may be gone, but my vision holds true.\"",
-    "\"The monks taught me well, but I determine my own fate.\"",
-    "\"They see only a blind man.  I will open their eyes.\"",
-    "\"Many monks live in peace.  I do not envy them.\"",
-    "\"Blindness is no impairment against a smelly enemy.\""
-  ],
-  "Lillia": [
-    "\"The garden is filled with burls. The burls, with nightmares... Mother Tree, I'll remind them how to dream.\"",
-    "\"Would you...maybe, possibly, perhaps...want to dream with me?\"",
-    "\"Where are you, little lost dreams? I'll bring you to your home in the Dreaming Tree.\"",
-    "\"Your dream calls to me! I-I hope you don't mind. Oh, you mind, don't you?\"",
-    "\"I'm glad you're with me, dream.\"",
-    "\"Humans cast a spell every night. Every time they fall asleep.\""
-  ],
-  "Lissandra": [
-    "\"The world began in ice, and it will end in ice.\"",
-    "\"Close your eyes, and let the cold take you.\"",
-    "\"I make cold look... hot.\"",
-    "\"I consider 'frigid'... a compliment.\"",
-    "\"Is it cold in here, or is it just me?\""
-  ],
-  "Leona": [
-    "\"I will protect thee from the ever darkness.\"",
-    "\"In the savage twilight, I will be our shield.\"",
-    "\"The sun has gone. But I am here.\""
-  ],
-  "Malphite": ["\"You will lose.\"", "\"Caught between a rock... and a hard place.\""],
-  "Lucian": [
-    "\"Two guns, one you. Ain't likin' your odds.\"",
-    "\"I got two guns. One's for what's in front of me, and one's for what's chasin'.\"",
-    "\"So my wife is half dead. Not a problem. I'll just... love the half that isn't.\"",
-    "\"Ain't enough bullets in the world for all the killin' I'm about to do.\"",
-    "\"There's a right side and a wrong side to these guns. Don't wanna be on the wrong side.\""
-  ],
-  "Malzahar": ["\"Bow to the Void, or be consumed by it!\""],
-  "Lux": [
-    "\"Double rainbow... what does it mean?\"",
-    "\"I've been hiding my light long enough.\"",
-    "\"The sun is shining; we should too.\"",
-    "\"Well, a double rainbow is a phenomenon of optics that displays a spectrum of light due to the sun shining on droplets of moisture in the atmosphere. Does that explain it?\""
-  ],
-  "Maokai": [
-    "\"The seeds of your destruction!\"",
-    "\"The sapling does not fall far from the treant!\"",
-    "\"If a human screams in the forest, will anyone hear it?\"",
-    "\"I love all my saplings—especially how they taste.\" (gulp)",
-    "\"If only the humans were vegetarians.\" (gulp)"
-  ],
-  "Master Yi": ["\"I will take an eye! ...As if I don't have enough already.\"", "\"The goggles? Just for reading.\""],
-  "Mel": [
-    "\"For so long, I wanted to regain my family's respect; but I wasn't prepare for what it would cost me…\"",
-    "\"The Medardas depend on my strength. My unwaivering conviction.\"",
-    "\"Raised in Noxus, shaped by Piltover, tainted with magic. Many question my motives, but their whispers do not define me.\""
-  ],
-  "Miss Fortune": [
-    "\"This is a friendly reminder to aim for vital organs and exposed heads.\"",
-    "\"A lifetime ago, I wouldn't even touch a gun! Then some people tried to kill me... Changes your perspective.\"",
-    "\"How do you like my guns... Shock, and Awe!\""
-  ],
-  "Milio": [
-    "\"Elemental magic is easy. You just gotta think about it, and then – bam, fire!\"",
-    "\"I'm gonna be the youngest kid to ever join the Yun Tal! Pretty amazing.\"",
-    "\"My furnacita isn't as heavy as it looks. I built it myself!\"",
-    "\"And then cousin Javi was like: 'You're just a baby'. I'm twelve, do I look like a baby to you?\""
-  ],
-  "Mordekaiser": [
-    "\"Naive men pray to the gods; they will learn to pray to me.\"",
-    "\"I carve my kingdom beyond, from the ashes of nothing, no mortals, not even gods, will stop me from claiming what is mine.\"",
-    "\"Once I suffered a mortal body, now I am iron incarnate.\"",
-    "\"The world has tried to forget my existence, time to remind them why they fear.\"",
-    "\"I have bent the realm of the dead to my will, this world shall be next.\""
-  ],
-  "Morgana": [
-    "\"I am your darkness, I am your truth.\"",
-    "\"They are not ready for the reflections within my darkness.\"",
-    "\"Wings bound and feet earthly tethered, I move against the false promises of order and justice.\"",
-    "\"My sister cauterized her wound in holy fire. Mine remains.\""
-  ],
-  "Naafiri": [
-    "\"It does not bark. It is not brethren...\"",
-    "\"You're a long way from the den, pup...!\"",
-    "\"Don't expect us to roll over and beg.\"",
-    "\"One mind, spread among many vessels; this, is the way of the pack.\"",
-    "\"Do not confuse feral, with stupid.\"",
-    "\"We never release our bite, even if the blood chokes us.\"",
-    "\"Who's a good dog? ...We are.\""
-  ],
-  "Nami": [
-    "\"Afraid to get your feet wet?\"",
-    "\"Swim at your own risk.\"",
-    "\"Sometimes you're the catch. Sometimes you're the bait.\"",
-    "\"My hermit crab will make a most favorable home from thy skull.\"",
-    "\"Shrouded by the bottomless sea, we laid in wait... Now, we strike!\"",
-    "\"Well-met, 'land-spawn'.\"",
-    "\"The sea holds fearsome creatures… and them.\""
-  ],
-  "Nasus": [
-    "\"Your legacy shall drift away; blown into eternity, like the sands of the desert.\"",
-    "\"No, I will not fetch the ball.\"",
-    "\"Rage burned away all that was good in you, my brother.\"",
-    "\"Who let the dogs out? Woof. Woof. Woof.\"",
-    "\"My bite is worse than my bark.\""
-  ],
-  "Nautilus": [
-    "\"You are in the deep end now!\"",
-    "\"Sometimes I think this anchor just weighs me down. ♪ Ba-da-dee, ba-da-do, ba-da-doo... ♪\""
-  ],
-  "Neeko": [],
-  "Bard": [],
-  "Nocturne": [
-    "\"Embrace the darkness.\"",
-    "\"Afraid of the dark?\"",
-    "\"Do I scare you, summoner?\"",
-    "\"Are you my nightmare, or am I yours?\""
-  ],
-  "Nunu & Willump": [
-    "\"A snowball is never just a snowball, if you believe in magic!\"",
-    "\"This is gonna be the biggest snowball ever!\""
-  ],
-  "Nidalee": [
-    "\"How would you prefer to die: by spear, or by claw?\"",
-    "\"I am never alone. My tribe lives in my heart, and in my spear.\"",
-    "\"A hunter's instincts are inherited. A hunter's skills are honed.\"",
-    "\"The jungle lives in my bones. The Pakaa, in my heart.\"",
-    "\"Meow... meow-meow, meow-meow-meow-meow... You got that?\""
-  ],
-  "Nilah": [
-    "\"Bilgewater is nice. There's always something big to kill.\"",
-    "\"Seven hands reach for seven locks, yearning to break free.\""
-  ],
-  "Olaf": [
-    "\"C'mon, I won't hurt you. I promise!\"",
-    "\"The worth of a man can be measured by the length of his beard, and the girth of his belt buckle.\""
-  ],
-  "Orianna": ["\"The ball is impatient.\"", "\"They come apart so easily. How do you put them back together again?\""],
-  "Pantheon": [
-    "\"I am no more than a soldier, and no less.\"",
-    "\"Why do they keep breaking?\"",
-    "\"Yes, I am a weapon.\"",
-    "\"I call upon the stars... to bake my bountiful breads!\""
-  ],
-  "Poppy": [
-    "\"This hammer has two sides. Did you want to feel the other one too?\"",
-    "\"Could you maybe get out of the way? Y'know, so I don't have to flatten you.\"",
-    "\"I've heard a lot about this hero with a hammer, can't wait to meet him.\"",
-    "\"Fool me once, shame on you. Fool me twice, uh... hammer!\""
-  ],
-  "Ornn": [
-    "\"I have fur. It is soft. Do not hug me.\"",
-    "\"I made this hammer. It was so good I named it... 'Hammer.'\"",
-    "\"The  Freljord is a place for building, fighting, and eating. Home, sweet home.\""
-  ],
-  "Qiyana": [
-    "\"It's not a ring blade, it's an ohmlatl! Idiots.\"",
-    "\"The rocks don't like you, the plants don't like you, and I'm pretty sure I don't like you.\""
-  ],
-  "Quinn": [
-    "\"Valor's shadow is the last thing you'll see.\"",
-    "\"Justice takes wing.\"",
-    "\"Stick to the plan, Val.\"",
-    "\"Val's stealing all the glory again.\"",
-    "\"A bird's eye view is the best advantage.\"",
-    "\"Sometimes I swear that bird is just showing off.\""
-  ],
-  "Pyke": [
-    "\"I'm gonna drag you down to the swimming city!\"",
-    "\"Pretty face... Shame if someone stuck a harpoon in it.\"",
-    "\"Been to the bottom of the sea, gets a little deeper each time.\"",
-    "\"Went too deep, part of me is still down there... swimming...\"",
-    "\"There's plenty of room for everyone at the bottom of the sea.\"",
-    "\"No one's honest, 'til they get a knife in their gut.\"",
-    "\"Got a hook with your name on it.\""
-  ],
-  "Rammus": [],
-  "Rek'Sai": [],
-  "Rell": [
-    "\"This 'little girl' is about to crush some heads.\"",
-    "\"Iron body, iron will!\"",
-    "\"The armor keeps the world out. The lance does the rest.\"",
-    "\"When steel crashes against steel, it's so loud. I almost forget.\""
-  ],
-  "Rakan": [
-    "\"I got three rules. You're breaking two of them with that outfit.\"",
-    "\"There's this thing called grooming. You should try it.\"",
-    "\"So, when you got dressed this morning, was this the look you were going for?\""
-  ],
-  "Renata Glasc": [
-    "\"'I'll make you kill your loved ones' is a more effective threat than any gun.\"",
-    "\"Alright, I've got companies to buy and a city to crush, so let's make this quick.\"",
-    "\"Money can't buy happiness? Only someone born rich would agree with that.\"",
-    "\"Every fashionable Piltovan owns at least one of my products. So trusting, so naive.\""
-  ],
-  "Renekton": [
-    "\"You should have done a better job locking me away, Nasus!\"",
-    "\"I went instead, so  Nasus wouldn't become...this. Should have let him go.\"",
-    "\"What? Do I have someone in my teeth?\""
-  ],
-  "Rengar": [
-    "\"You've earned a good death. I've earned the kill.\"",
-    "\"You have a warrior's heart. I think I'll take it.\"",
-    "\"So much bloodshed... This is my kind of place!\"",
-    "\"All these trophies... I'm gonna need a bigger den!\""
-  ],
-  "Rumble": [
-    "\"Come on, I'm not even holding the controls!\"",
-    "\"Bandle City! Oops, forgot the clutch.\"",
-    "\"Turbo on--- ! Uh... woah--- ! Just needs a little kick start there.\""
-  ],
-  "Ryze": [
-    "\"If I had a tattoo that looked like you, I'd get it removed.\"",
-    "\"I sense another rune, but where?\"",
-    "\"I find the runes so they won't be found by someone else... or some"
-  ],
-  "Riven": [
-    "\"A broken blade is more than enough for the likes of you!\"",
-    "\"Ugh... I knew I should have sprung for the blade warranty.\""
-  ],
-  "Samira": [
-    "\"Hm. How come no one ever tells me to reload?\"",
-    "\"Born in Shurima, raised by Noxus. Maybe I'll die in Demacia to make things interesting, huh?\"",
-    "\"Indari was a great captain. She taught me how to shoot. I taught myself how to kill.\""
-  ],
-  "Sejuani": [
-    "\"Don't worry, Bristle, I'll leave you the scraps.\"",
-    "\"Who wants a treat? Bristle wants a treat? Not until we've trampled our foes to dust!\"",
-    "\"Can you smell 'coward', Bristle? Get 'em!\""
-  ],
-  "Senna": [
-    "\"Only thing bigger than this gun? The mistake you made standing in its sights.\"",
-    "\"If I can handle this gun, I can handle myself. Trust me, I can handle this gun.\"",
-    "\"Sentinel. Wife. A beacon unto damn darkness. When can I just be a person? When can I be me?\"",
-    "\"It's enough to hear Lucian say my name.\""
-  ],
-  "Shaco": [
-    "\"Why so serious?\"",
-    "\"For my next trick, I'll make you disappear!\"",
-    "\"Now you see me, now you don't!\"",
-    "\"The joke's on you!\"",
-    "\"How about a magic trick?\""
-  ],
-  "Sett": [
-    "\"You're the number one contender? Hah, I must've really cleaned out the division.\"",
-    "\"Welcome to my show! If you live, I'll have you back.\"",
-    "\"You got guts. Too bad I gotta put my fists through 'em.\"",
-    "\"Okay, everyone here knows how to throw a punch, right? 'Cause I don't have time for lessons.\"",
-    "\"Looks like I brought my fists to a knife fight. Honestly, I feel bad for the knives.\""
-  ],
-  "Shyvana": [
-    "\"Come get a glimpse into the belly of the beast!\"",
-    "\"What do you get when a dragon sneezes? (chuckles) Out of the way.\""
-  ],
-  "Seraphine": [
-    "\"I'll fight if you make me, but we could sing instead!\"",
-    "\"Aw, how can I say anything bad about a fan? Come on, make some noise!\"",
-    "\"Can't wait to write a song about this moment!\"",
-    "\"Hey! Wanna hear your song?\"",
-    "\"I sing to help them find themselves. The stage just makes it easier.\"",
-    "\"Everything sings to me! I've gotta sing it all back.\"",
-    "\"It can't be as simple as us versus them. I know if I sing loud enough, they'll listen!\"",
-    "\"Wow. All these songs sound amazing. I'll bring them into harmony!\"",
-    "\"When I'm on stage, I feel complete. I wanna help everyone find that peace.\"",
-    "\"Everyone's singing the same song and they don't even know it!\"",
-    "\"Some songs start with a rhyme, some with a rhythm... Mine, starts with the crowd.\""
-  ],
-  "Singed": [
-    "\"Shaken, not stirred.\"",
-    "\"Mix, mix, swirl, mix.\"",
-    "\"How about a drink?\"",
-    "\"To shake, or not to shake.\""
-  ],
-  "Shen": [
-    "\"You're already dead, you just haven't caught up yet.\"",
-    "\"If light travels so fast, how come it's never caught a ninja?\""
-  ],
-  "Sivir": [
-    "\"You can't tame the desert.\"",
-    "\"They say the desert is a cruel mistress. I like the sound of that.\"",
-    "\"This is my desert.\"",
-    "\"Come to my desert, pay my price.\"",
-    "\"Everyone has a price.\""
-  ],
-  "Sion": ["\"Your snapping bones are music to my ears!\"", "\"Your bones will pave my road to glory!\""],
-  "Smolder": [
-    "\"Mom says I'm not supposed to eat you—but I'm too fast for her to stop me!\"",
-    "\"Well, my mom's the biggest, baddest dragon around, and she's gonna burn you!\"",
-    "\"One day, I'll be so big that, if we played hide and seek, you could hide in my mouth.\"",
-    "\"My wings flap, my sneezes are flame-nados, and my super fire beam breaths are only getting stronger! No more getting treated like a hatchling!\"",
-    "\"I'm gonna be big and strong one day. Then they'll be sorry.\"",
-    "\"Roar! Beware the dragon's power! Hehe.\""
-  ],
-  "Skarner": [
-    "\"War is a weapon of the weak. I rupture the earth and bring devastation.\"",
-    "\"I live beneath the earth, where I hear everything above. There, I listen... and wait.\"",
-    "\"I am the vanguard of Ixtal's protection.\"",
-    "\"It is through my sovereignty that Ixtal continues to survive.\"",
-    "\"I carry my broodmother's name with pride.\"",
-    "\"Ixtal's enemies—my enemies—will tremble at my name!\"",
-    "\"For generations, I have defended Ixtal. I will defend this land, too.\"",
-    "\"I feel movements in the vibration of the earth; like threads, they are plucked and thrum.\""
-  ],
-  "Swain": [
-    "\"Caw caw caw caw caw. There, are you satisfied?\"",
-    "\"My birds are hungry.\"",
-    "\"The outcome was decided when they brought an army; and I brought a demon.\"",
-    "\"They expect me to play fairly... We aren't even playing the same game.\"",
-    "\"What is one more demon, when I already have so many?\"",
-    "\"Every day I rule, Noxus becomes a more perfect expression of my will.\"",
-    "\"You can sit on a throne, that doesn't make you a ruler. It only means you have an arse.\""
-  ],
-  "Sona": [
-    "\"Am I supposed to know this person? Is he a... fan?\"",
-    "\"Haha. I can never shake the nerves before a big performance.\"",
-    "\"I never could refuse an empty stage. Not even this one.\"",
-    "\"The world is cruel. Until that changes, I'll never stop playing.\"",
-    "\"Strings move, and people dance in time with the memories.\"",
-    "\"Magic is like a song. It's woven into everything. Waiting.\""
-  ],
-  "Soraka": [
-    "\"No, I'm not happy to see you. Yes, that is a horn growing out of my head.\"",
-    "\"To heal and protect.\"",
-    "\"Yes, that was a banana. No one expects the banana.\""
-  ],
-  "Sylas": [
-    "\"So... who wants to kill the king?\"",
-    "\"Breaking out was nothing! Watch me break a kingdom.\"",
-    "\"No more kings! No more queens! No more Mageseekers! It all ends now!\"",
-    "\"Their shackles are now my weapons! Ha, how's that for irony?\""
-  ],
-  "Syndra": [
-    "\"Immense power is fun! You should try it sometime.\"",
-    "\"So much untapped power!\"",
-    "\"My potential is limitless!\""
-  ],
-  "Talon": [
-    "\"Eventually, my blades will find their way into your heart.\"",
-    "\"Ugh, I lost another blade. I wonder who it's in this time.\"",
-    "\"The worst part of losing a blade is trying to trace back all my stabbings.\""
-  ],
-  "Tahm Kench": [
-    "\"It is my mouth into which all travels end.\"",
-    "\"Call me king, call me demon. Water forgets the names of the drowned.\"",
-    "\"The river never stops!\"",
-    "\"All the world's a river, and I'm its king.\"",
-    "\"You are a malodorous offense to my palate!\""
-  ],
-  "Taric": [
-    "\"You know what they say about big gems, right?\"",
-    "\"Two tickets to the gem show.\"",
-    "\"My gems aren't merely outrageous, they're fabulous.\"",
-    "\"Gems are truly, truly, truly outrageous.\"",
-    "\"Much like a fine gem, I'm multifaceted.\""
-  ],
-  "Taliyah": [
-    "\"Even the smallest stone can start an avalanche.\"",
-    "\"The stone here is amazing!\"",
-    "\"The earth calls, and I must answer.\"",
-    "\"Sometimes I wish rocks could give pep talks.\"",
-    "\"Know the loom. Be the stone.\""
-  ],
-  "Teemo": [
-    "\"Goggles: check. Hat: check. Mushrooms: check. Okay, armed and ready!\"",
-    "\"Scout rule #212: You gotta team up to fight for what's right!\"",
-    "\"I pledge to uphold the Bandle scout way and serve yordlekind each and every day.\"",
-    "\"Yordles are never alone. Every river is our friend; every pebble, our bestest buddy!\"",
-    "\"Never underestimate the power of the Scout Code!\"",
-    "\"Hello scouts, I'll be your troop leader for today. Let's have fun!\"",
-    "\"Rule #419: Care for your equipment, and it will care for you.\""
-  ],
-  "Trundle": [
-    "\"I'm gonna crush your dreams... They're in your skull, right?\"",
-    "\"Troll with the biggest club gets to be king. That's the rule!\"",
-    "\"Time to troll!\"",
-    "\"King of trolls, coming through.\"",
-    "\"Time to start an ice age.\"",
-    "\"Not troll chief, troll king. King!\"",
-    "\"I'm troll judge, troll jury, and execu... troll!\""
-  ],
-  "Thresh": [
-    "\"Ever seen your soul? Would you like to?\" *slurps*",
-    "\"Poor lost spirits beckoning to bloom. I've been waiting for you.\"",
-    "\"Do not worry, my dear spirits, you will all be safe in my collection.\"",
-    "\"The dead passing to spirits. The spirits passing to my collection. That is how it must be.\"",
-    "\"There is life. There is death. And then there is me.\""
-  ],
-  "Tristana": [
-    "\"Is that a rocket in your pocket?\"",
-    "\"Please allow my cannon and I to conflict-resolve.\"",
-    "\"This is my .357 caliber handgun...\"",
-    "\"A cannonball is the best icebreaker!\"",
-    "\"Locked, loaded, and ready to rocket!\""
-  ],
-  "Tryndamere": ["\"My right arm is a lot stronger than my left arm!\""],
-  "Twisted Fate": [
-    "\"Only a fool plays the hand he's dealt.\"",
-    "\"Only two Jokers in the deck, and I get dealt you.\"",
-    "\"Never lost a fair game... or played one.\""
-  ],
-  "Udyr": [
-    "\"Our fight will keep the Freljord alive.\"",
-    "\"I channel the spirits I feel closest to.\"",
-    "\"A bear's strength is its joy. Its joy is strength.\"",
-    "\"A boar's true shield is not its hide, but its will.\"",
-    "\"Mastery is a volcano, and I will rise within it like magma.\"",
-    "\"May we never know life without the frost.\"",
-    "\"The spirits at the heart of the Freljord have need of me. I answer their call.\""
-  ],
-  "Twitch": [
-    "\"I hear you're trash. Bow before your king!\"",
-    "\"From out of the sewers comes... doom.\"",
-    "\"All pipes lead to home.\"",
-    "\"Have you met my fleas?\"",
-    "\"Dip it in sewage... leave it in the sun for a while... oh, yes, that's perfect, yes!\"",
-    "\"Rust is like more delicious mold.\"",
-    "\"Stop moving my stench!\""
-  ],
-  "Urgot": [
-    "\"Carnage—as intoxicating as chemtech.\"",
-    "\"Break men to break their shackles.\"",
-    "\"They put me in chains. They gave me my weapon.\""
-  ],
-  "Varus": [
-    "\"If you must speak, humans: let your voices be the howl of arrows.\"",
-    "\"This bow is a heavy burden...\"",
-    "\"The guilty will know agony.\""
-  ],
-  "Vayne": [
-    "\"Demon hunting can wait while I hold back the Harrowing. Well... maybe a little demon-hunting on the side.\"",
-    "\"Hitting me is like boxing with shadows!\"",
-    "\"Evil lurks around every corner.\"",
-    "\"The dark should fear me.\"",
-    "\"Let us hunt those who have fallen to darkness.\""
-  ],
-  "Vel'Koz": [
-    "\"It seems your chances of survival are... less than zero!\"",
-    "\"Let's see... (mumbles) yes, infinity more samples required!\""
-  ],
-  "Veigar": [
-    "\"You deny the darkness in your soul! You deny your power!\"",
-    "\"Know that if the tables were turned, I would show you no mercy!\"",
-    "\"'It's only a short way'? Is that a short joke?!\"",
-    "\"I am evil! Stop laughing!\"",
-    "\"What's black and blue and is about to show you the definition of pain?!\""
-  ],
-  "Vex": [
-    "\"We're all doomed, but you're more doomed.\"",
-    "\"Another person to kill. Shadow, can you handle it?\"",
-    "\"Life sucks... but at least I'm not you.\"",
-    "\"And then I told her, 'Get outta my room!' And she said, 'This is my house, young lady and'... Oh, hang on, Shadow. I'll finish this later.\"",
-    "\"Welcome to Sad Town. Population: Me. Everyone else get out.\"",
-    "\"Okay, Shadow. Wake me when we hit something.\"",
-    "\"I am not cute. I am dark and forlorn and hopelessly morbid!\""
-  ],
-  "Vi": [
-    "\"If I want your opinion, I'll beat it out of you.\"",
-    "\"Care for a spot of tea? Or maybe a spot of punch in the face.\"",
-    "\"I joined the enforcers. I turned on  the Undercity. I betrayed everything I stand for.\"",
-    "\"I like your smile. Makes a nice target.\"",
-    "\"Why can't I get a straight answer? It's always just 'Oh no! Stop hitting me! Ow, my face!'\""
-  ],
-  "Viego": [
-    "\"You stand in the way of my love. A mistake.\"",
-    "\"Hate me if you must. Until she returns to my arms, all will be brought to ruin.\"",
-    "\"No price is too great. No atrocity beyond my reach. For her, I will do anything.\"",
-    "\"I will rip her from the jaws of death. Fate cannot stop me. Nothing can.\"",
-    "\"A crown lost long ago, reborn in unlife, ripped away from his only love.\"",
-    "\"Step aside, peasant. You are nothing compared to my queen.\""
-  ],
-  "Vladimir": [
-    "\"Go ahead, be negative. You'll be just my type.\"",
-    "\"I'm a universal recipient.\"",
-    "\"The clot thickens.\""
-  ],
-  "Volibear": [
-    "\"Gods do not beg. We take what is ours!\"",
-    "\"This ground will tremble with the first storm!\"",
-    "\"I am a god. I cannot die. But, do I live if I am not in the hearts of warriors?\"",
-    "\"Thunder roars. Wind howls. Only fools ignore the call to battle.\"",
-    "\"Darkening clouds. An omen to those who stand against the wild!\"",
-    "\"Clouds are the storm-cloak I wrap around my fur.\""
-  ],
-  "Wukong": ["\"Wuju style.\""],
-  "Warwick": [
-    "\"Scratch behind my ears...\"",
-    "\"Who's a good boy? I am!\"",
-    "\"Blood runs... they all run.\"",
-    "\"I can smell everything.\"",
-    "\"Blood brings rage.\"",
-    "\"You're the prey!\"",
-    "\"I have your scent.\"",
-    "\"The chains are broken... the beast is free.\""
-  ],
-  "Viktor": [
-    "\"It is Hextech that holds the answers to your questions.\"",
-    "\"No longer will we be guided by invisible hands. The Arcane will free us, and I am its herald.\"",
-    "\"I speak now with not one voice, but many. Embrace Hextech.\"",
-    "\"Hexcorization requires no justification. What purpose is there in explaining a horseshoe to the horse?\""
-  ],
-  "Xerath": [
-    "\"It will take only a spark of my magic to end you.\"",
-    "\"These chains cannot hold me.\"",
-    "\"I stand at the brink of infinity.\"",
-    "\"I am power incarnate! Who dares oppose me?\"",
-    "\"Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt!\""
-  ],
-  "Xayah": [
-    "\"I'm just an ordinary girl. An ordinary girl with an infinite supply of death quills.\"",
-    "\"The world owes the Vastaya a great debt. I'm here to collect.\"",
-    "\"Fine, I'll just be over here... sharpening my feathers.\"",
-    "\"Oh, I was born to ruffle feathers.\"",
-    "\"Ever been stabbed by a feather?\""
-  ],
-  "Xin Zhao": ["\"Here's a tip, and a spear behind it!\""],
-  "Yuumi": [
-    "\"Fishy fishy fish! Mmph— Waagh!\"",
-    "\"Cats make great companions! Just ask my master... who disappeared under mysterious circumstances.\"",
-    "\"Alright! Which one of you's got great aim, and is good at chin scritches?\"",
-    "\"Tell me the game plan again. Wait. Fish! Someone has fish! Where is it?\"",
-    "\"So, who wants to be my best friend? ...Book, I know you're already my best friend!\"",
-    "\"I'm descended from lions! And you're descended from trees! We're in our element, Book!\"",
-    "\"Book, sometimes I pretend you're just a nice comfy box! ...What? That's a compliment! Purr~\"",
-    "\"I've read all of Book. Well, most of Book. I like the pictures of fish... of which there are none, Book! Meow...\"",
-    "\"Who's ready to risk our lives, defeat our foes, and maybe knock over some cups?\""
-  ],
-  "Yorick": [
-    "\"For you, I won't dig too deep.\"",
-    "\"Fear not... I will make use of your corpse.\"",
-    "\"I am the rift between life and death. The thin divide between breath and grave.\"",
-    "\"Tired, ancient, and half-dead. Still, I come for you.\""
-  ],
-  "Yone": [
-    "\"I will take no joy in cutting you down!\"",
-    "\"One blade carries the weight of my past. The other, holds the key to my future...\"",
-    "\"Yield, or fall to my blades!\"",
-    "\"Storm of blades!\"",
-    "\"With each mask I claim, I come one step closer to understanding my own.\"",
-    "\"They look at me and see only the mask.\"",
-    "\"Wear a mask long enough... and you forget the face beneath.\"",
-    "\"Unworthy of my blades!\""
-  ],
-  "Yasuo": [
-    "\"The blade above all things... except a good drink.\"",
-    "\"Death is like the wind—always by my side.\"",
-    "\"Face the wind!\"",
-    "\"This blade never gets any lighter.\""
-  ],
-  "Zac": [
-    "\"Fighting is in my blood... I mean... my goo.\"",
-    "\"I was made for this... literally.\"",
-    "\"I'm not as squishy as I look.\""
-  ],
-  "Zeri": [
-    "\"Run fast, charge up, shoot the bad guys. Easy enough.\"",
-    "\"A spark is all I need!\"",
-    "\"Gotta hurry. People need my spark!\"",
-    "\"A spark is all I need!\"",
-    "\"Lightning in a gun coming through.\""
-  ],
-  "Ziggs": [
-    "\"Bombs away!\"",
-    "\"Explosion first, questions later.\"",
-    "\"I like my enemies, like I like my bombs: about to explode!\"",
-    "\"You wanna see how to disarm a bomb? (Gobble) (exhale) (burp)\""
-  ],
-  "Zed": [
-    "\"Embrace the shadow... or die in darkness!\"",
-    "\"The unseen blade is the deadliest.\"",
-    "\"Brave the shadows, find the truth.\"",
-    "\"The shadows have enlightened me.\"",
-    "\"The merest shade of me... is enough to defeat you!\""
-  ],
-  "Zilean": ["\"I've seen your death, it was painful... \"", "\"Time flies like an arrow; fruit flies like banana.\""],
-  "Zyra": [
-    "\"Feel the thorns' embrace.\"",
-    "\"Just a harmless flower.\"",
-    "\"A promising garden.\"",
-    "\"Wait until my seeds take root.\"",
-    "\"What lurks beneath the soil?\"",
-    "\"Death is in bloom.\"",
-    "\"The harvest is upon us.\""
-  ],
-  "Zoe": [
-    "\"Nobody has to grow up if they don't want to. Orrrrr maybe they do. I don't, though.\"",
-    "\"Something good is going to happen. With sparkles!\"",
-    "\"I'm not boy-crazy! I just... don't have a boyfriend yet.\"",
-    "\"Thanks for asking! I like butterflies, unicorns, and watching the end of finite realities!\"",
-    "\"I don't want to grow up. You can't make me.\"",
-    "\"You need more stardust, I could give you some!\"",
-    "\"Gotcha! Now that was more sparkles.\""
-  ]
+    "Akshan": [
+        "\"I taunt with my grappling hook. See how it taunts you? Taunt, taunt, taunt...\"",
+        "\"How does this boomerang return? Someday I'm going to learn its secrets.\"",
+        "\"Fixing the world, one scoundrel at a time!\"",
+        "\"To the shadows... where the scoundrels hide.\"",
+        "\"Like the mysterious boomerang, I always return.\"",
+        "\"Now for my grand escape. Grappling hook!\"",
+        "\"It's important to stride into the wind so the cape flutters dramatically behind.\""
+    ],
+    "Akali": [
+        "\"Fear the assassin with no master.\"",
+        "\"Wars are messy. My kills are clean.\"",
+        "\"So many enemies, so many knives.\"",
+        "\"Skill and steel will get the job done.\"",
+        "\"The Kinkou couldn't control me. I do what they wouldn't.\"",
+        "\"Kama, or kunai... Depends how I'm feelin'.\""
+    ],
+    "Aatrox": [
+        "\"I do not obey! I cannot lay down! I will be the ender of all things!\"",
+        "\"I am Darkin! I do not die!\"",
+        "\"I am Darkin! Your gods fear me!\"",
+        "\"Insects, you think you can kill me? Behold my curse!\"",
+        "\"I am like a demon, but more edgy, right? You know, cause I'm a sword. Hmm...\""
+    ],
+    "Ahri": [
+        "\"I see all that you desire. Rawr!\"",
+        "\"I'll have them chasing their tails!\"",
+        "\"Quick as a fox!\"",
+        "\"Can't outrun a fox.\"",
+        "\"I may have nine tails, but I have unlimited lives.\"",
+        "\"My tails are my good-luck charm.\""
+    ],
+    "Alistar": ["\"Mess with the bull and you get the horns!\"", "\"You can't milk those.\""],
+    "Amumu": ["\"Let me give you a hug.\"", "\"Let's be friends forever.\""],
+    "Annie": [
+        "\"I'm rubber and you're... on fire!\"",
+        "\"Beaten by a little girl... ha!\"",
+        "\"You can't come to Tibbers' tea party! Bleh!\"",
+        "\"What's your favorite aminal? A bear?\"",
+        "\"You smell like burning!\""
+    ],
+    "Anivia": [
+        "\"Laying an egg isn't as easy as it looks.\"",
+        "\"Meaning, in every snowflake.\"",
+        "\"I am the snow, wind, and ice.\"",
+        "\"A thousand lives will I give for the Freljord.\"",
+        "\"The chicken or the egg? Actually I came first.\""
+    ],
+    "Ambessa": [
+        "\"My children are my greatest strength. And greatest weakness…\"",
+        "\"A warrior. A mother. There is no difference!\"",
+        "\"As your General, all of your mistakes reflect on my leadership. You would be wise to remember that.\"",
+        "\"Noxus prizes strength above all else. But sacrifice, is the mark of a true warrior.\"",
+        "\"All will be crushed by the full might of the Medardas!\""
+    ],
+    "Aphelios": [
+        "\"Find your orbit, brother.\"",
+        "\"When your steps falter, brother, follow my voice.\"",
+        "\"Condemned to darkness, where our power grows.\"",
+        "\"With every step, two steps. With every breath, two breaths.\"",
+        "\"Even from across the celestial veil… I will be with you, brother.\"",
+        "\"We're in this together. Darkness and light.\""
+    ],
+    "Aurora": [
+        "\"The spirits here are different from the ones in the  Freljord.\"",
+        "\"Unless you know anything about spirits or the Spirit Realm, you'd do well to let me focus on my work.\"",
+        "\"How can anyone be afraid of ghosts? They're adorable!\"",
+        "\"This region is teeming with wayward spirits. I'll find and help them all.\"",
+        "\"Spirits become wayward by absorbing the pain of mortals. It's my job to cleanse what each wisp has endured.\"",
+        "\"I see the Spirit Realm and material realm simultaneously — this blended world is my own... and it's beautiful.\""
+    ],
+    "Aurelion Sol": [
+        "\"Make a wish. See if the stars answer. I'll wait.\"",
+        "\"I used to wander the stars. Now I'm stuck down here, with you.\"",
+        "\"On other worlds, there is emerging life more complex than you.\"",
+        "\"Which star is your favorite? I made that one.\"",
+        "\"A sun is unimaginable celestial power, and thrilled mortals use theirs to coordinate this 'lunch time.'\"",
+        "\"I made the stars to illuminate the perpetual nothing, and mortals use them for 'relationship advice.'\"",
+        "\"I made the stars, but you... inspire me to make more.\"",
+        "\"First you start with some matter, then add star fire and voilà! It basically does the rest itself.\""
+    ],
+    "Azir": [
+        "\"What is the desert, but the ashes of my enemies?\"",
+        "\"There is only Shurima. All else is but a mirage.\"",
+        "\"So, a pigeon walks into a bar...\"",
+        "\"Shurima! Your emperor has returned!\"",
+        "\"Shurima will once again stretch to the horizon.\"",
+        "\"The world is a desert. I am the oasis.\"",
+        "\"For emperors, it's all about how you carry yourself.\""
+    ],
+    "Ashe": [
+        "\"This is the latest in Freljordian fashion. They call it a... skirt.\"",
+        "\"Prepare yourself, you face an Iceborn!\"",
+        "\"My tribe will bring peace to the North! The South should fear us.\"",
+        "\"No, really, put that apple on your head...\"",
+        "\"I hold a bow of True Ice. I hold my heart.\"",
+        "\"Hahaha! Check this out... Agh! Ugh, who makes a bow out of ice?!\""
+    ],
+    "Blitzcrank": [
+        "\"I put the 'go' in 'golem'. That was humor. Other golems find that to be appropriately funny.\"",
+        "\"Fired up and ready to serve.\"",
+        "\"A rolling golem gathers no rust.\""
+    ],
+    "Bel'Veth": [],
+    "Brand": [
+        "\"Is that fireproof?\"",
+        "\"Is it hot in here or is it just me?!\"",
+        "\"I am the fire that cleanses the world!\"",
+        "\"Ready to set the world on fire? Heheheh...\"",
+        "\"Some say the world will end in fire!\""
+    ],
+    "Braum": [
+        "\"The goats are wise; eat everything, climb everything, and if something kicks you, kick it back!\"",
+        "\"When life gives you curdled milk, be patient. You get very good cheese!\"",
+        "\"Mother always said: 'Float like iceberg, sting like thrown iceberg!'\""
+    ],
+    "Briar": [
+        "\"We don't have to fight! You could just... 'share' your blood!\"",
+        "\"I'm not a picky eater—whether it's a splash of blood, a bloody limb, cold blood, warm blood... I'll try it all!\""
+    ],
+    "Caitlyn": [
+        "\"Think you're above the law? Think again.\"",
+        "\"Ready, aim... (gasps) Urgh! Why am I not surprised?\"",
+        "\"This can only end with you behind bars.\"",
+        "\"I am not Piltover's dog. I work for its people, no one else.\"",
+        "\"I always aim to win. And my aim is perfect.\"",
+        "\"I have all the evidence I need.\""
+    ],
+    "Cassiopeia": [
+        "\"Another game of snake and mice.\"",
+        "\"No legs but I still have a little spring in my step.\"",
+        "\"Nothing escapes my coil.\""
+    ],
+    "Camille": [
+        "\"Command line received: Kill-Dash-Nine.\"",
+        "\"Precision is the difference between a butcher and a surgeon.\"",
+        "\"Command line received: Kill-Dash-Nine.\""
+    ],
+    "Cho'Gath": [
+        "\"Death... is not the end for you! I have seen to it: for eternity, you are mine!\"",
+        "\"Your souls will feed the Void!\"",
+        "\"Nom nom nom nom nom nom nom!\""
+    ],
+    "Corki": [
+        "\"That just goes to show you you're nothin' but a Whiskey Delta!\"",
+        "\"Consider yourself spanked, nugget!\"",
+        "\"I got a bogey on my tail!\"",
+        "\"Another fine sortie!\"",
+        "\"Lima Oscar Lima!\""
+    ],
+    "Diana": [
+        "\"I feel a kinship with the moon, though I know not why.\"",
+        "\"A new moon is rising.\"",
+        "\"The moon also rises.\"",
+        "\"Chosen of the moon..\"",
+        "\"The moon will rise. The night will last forever!\""
+    ],
+    "Darius": ["\"Defy Noxus and taste your own blood.\"", "\"Strength above all.\""],
+    "Dr. Mundo": [
+        "\"Hmm. Your chart look bad. Me recommend aggressive treatment!\"",
+        "\"You patient or donor? It not matter. Me do same thing.\"",
+        "\"Dear medical journal. First day in new hospital. Already have... uh... five patients.\"",
+        "\"Hi there, patient. Looks like you got too many parts.\"",
+        "\"Healthy boy building a healthy body!\""
+    ],
+    "Draven": [
+        "\"Let's admire me for a bit.\"",
+        "\"Got axes, need victims.\"",
+        "\"Man, I'm good.\"",
+        "\"Perfection? I got that.\""
+    ],
+    "Ekko": [
+        "\"I already calculated your odds. Sorry.\"",
+        "\"Won this fight already. Doing it again for fun.\"",
+        "\"I've seen your future, and it's got broken bones.\"",
+        "\"Time scramble doesn't travel my brain.\"",
+        "\"Uh… if anyone sees my paradox, ask 'im where I am.\"",
+        "\"This is the longest second of my life.\"",
+        "\"The timeline was already this broken when I found it. I swear.\""
+    ],
+    "Elise": [
+        "\"Come closer, I don't bite!\"",
+        "\"The spider, I. And you, the fly.\"",
+        "\"Only the spider is safe in her web.\"",
+        "\"Dangling by a thread.\"",
+        "\"Pull the strings. Watch them dance.\"",
+        "\"I hear a man likes a lady with legs.\""
+    ],
+    "Evelynn": [
+        "​\"I love it when they talk dirty. 'No! Please! Stop torturing me!'\" *laughs*",
+        "\"First time being tortured? Don't worry, I'll do everything.\"",
+        "\"Show me the man who has everything, and I'll show you my next victim.\"",
+        "​\"I've had my eye on you. *giggles* Now I'm gonna rip yours out.\"",
+        "​\"That skin looks good on you, but it would look better on my bedroom floor.\""
+    ],
+    "Ezreal": [
+        "\"You belong in a museum!\"",
+        "\"Nothing stops me. Except for Shuriman parasites. It was... not pretty.\"",
+        "\"Huh, could've sworn there was a hidden entrance around here somewhere...\"",
+        "\"Yeah, yeah, yeah. World. Peril. Save it. I got it, I got it.\"",
+        "\"Quest accepted! ...Wait, where are we going?\"",
+        "\"Who needs a map?\"",
+        "\"Exploration runs in my family. It's in my blood.\"",
+        "\"Know your environment.' My environment... is wet and muddy and probably filled with leeches.\"",
+        "\"Ugh... water's cold. AHH! Something touched my foot!\"",
+        "\"It's not grave-robbing if you have a college degree. Which I do... *cough* not have a college degree.\"",
+        "\"Time to show 'em who's best. Spoiler: it's me.\""
+    ],
+    "Fiora": ["\"Sharp blade, sharp mind.\"", "\"I am an artist with a sword—in more ways than one.\""],
+    "Fiddlesticks": [
+        "\"It's hunting us. It knows what we're afraid of.\"",
+        "\"I'm coming to help. Where are you? I can't see you. I. Can't. See you.\"",
+        "\"High above the rotten rows. Cloth and metal. Teeth and crows.\"",
+        "\"Through the field. Down the lane. Voices never heard again!\"",
+        "\"They haven't come back from the fields. It's been three days.\"",
+        "\"Once upon a time... once... upon a time!\""
+    ],
+    "Fizz": [
+        "\"You're boring, ugh... (snores) Huh, huh? (huffs)\"",
+        "\"Not interested, ungh... (snores). Hm, huh? (huffs)\"",
+        "\"Mmm... Fish fish fish! (giggles) (gulps)\"",
+        "\"Hmm, something's fishy! Hmm... (giggles) (gulps)\""
+    ],
+    "Garen": [
+        "\"The glory of Demacia will never fade.\"",
+        "\"Hey, look, I'm holding the world up!\"",
+        "\"My heart and sword always for Demacia.\"",
+        "\"Show them the strength of Demacia!\""
+    ],
+    "Galio": [
+        "\"Hey, you. Don't mess with Demacia. I saw you thinking about it.\"",
+        "\"Quick! Hide in my crevices.\"",
+        "\"I've got a high tolerance for magic. Takes a lot for me to feel it.\"",
+        "\"You know what's hard about fighting? Nothing! Come on, I'm made of stone.\"",
+        "\"Know of any battles? Just looking to get my wings dirty.\"",
+        "\"Let someone else be a statue, I got stuff to do.\"",
+        "\"The best offense is a good magic absorbing colossus..\"",
+        "\"Would you like to ride on my massive shoulder?\""
+    ],
+    "Gnar": ["\"Shugi shugi shugi!\"", "\"Shoo shoo? Bahnah!\" (laughs)"],
+    "Gangplank": [
+        "\"The smell of powder sets my blood to boil.\"",
+        "\"Survive this, and you'll need a lot of rum.\"",
+        "\"They're not just oranges. They're blood oranges.\"",
+        "\"I'm back at the helm.\"",
+        "\"Yar ha har argh! — (coughs) — Had something in my throat.\""
+    ],
+    "Gragas": [
+        "\"I'll drink you under the table, scrub!\"",
+        "\"The only time I have a drinking problem is when I spill it!\"",
+        "\"Let's get this party started!\"",
+        "\"Need some grog... \"",
+        "\"Happy hour incoming!\""
+    ],
+    "Gwen": [
+        "\"Scissors, needles, thread; tools of Isolde. She'll always be with me, and I with her.\"",
+        "\"Back when I was a doll, I really wanted to fight. This is my chance, my only one.\"",
+        "\"Bits of fabric can become something beautiful. My work here can do just the same!\"",
+        "\"I remember when she sewed my dress with these scissors. Now, they cut a different cloth.\""
+    ],
+    "Graves": [
+        "\"Don't die, yet! Heh, that was only a warning shot.\" *chuckles*",
+        "\"Dead man walkin'.\"",
+        "\"Everyone's a hero... till you shoot off a leg or two.\" *laughs*"
+    ],
+    "Hecarim": ["\"Behold, the might of the Shadow Isles.\"", "\"Trample their bones.\""],
+    "Heimerdinger": [
+        "\"I prefer a battle of wits, but you're unarmed!\"",
+        "\"Why do chemists call helium, curium, and barium 'the medical elements'? Because, if you can't 'helium' or 'curium', you 'barium'! Hm hm!\"",
+        "\"There are three key ingredients to invention: excessive imagination, good old fashioned stick-to-it-iveness, and a rocking good hairstyle!\"",
+        "\"Your first real battle! Are you ready, Pythagoras?\"",
+        "\"Why do people say 'you can't trust atoms'? Because they 'make up everything'! Hehe!\""
+    ],
+    "Hwei": [
+        "\"There's no secret to art... just begin and keep going. That's all we can do.\"",
+        "\"Leave everything to my imagination.\"",
+        "\"Creativity is limitless—for better or worse.\"",
+        "\"One breath and brush at a time.\"",
+        "\"Be my canvas!\"",
+        "\"Highlights and shadows!\"",
+        "\"Art is empty without empathy.\""
+    ],
+    "Illaoi": [
+        "\"I want you to hit me as hard as you can.\"",
+        "\"The ocean is calm. It is our desires that stir it.\"",
+        "\"I'm not big on sermons—broken bones teach better lessons.\"",
+        "\"Smile, child, or I'll shove your jaw into your brain.\"",
+        "\"Watch your mouth, or I'll slap the soul out of you.\""
+    ],
+    "Janna": [
+        "\"And you thought it was just a harmless breeze!\"",
+        "\"It's going to be another beautiful day in Summoner's Rift! Again.\"",
+        "\"Yes, it's true. For only $2.95 a minute, I will leave you breathless.\"",
+        "\"Say hello to the winds of—\" (double cough, clears throat) \"I don't know what came over me.\""
+    ],
+    "Jarvan IV": ["\"You like my weapon? Come on over for a closer inspection!\"", "\"Demacia! Get some!\""],
+    "Ivern": [
+        "\"Be grateful for the breeze and the grass beneath your feet.\"",
+        "\"May the sun warm you, all of your days.\"",
+        "\"I'm a tree-hugger, you should know that about me!\"",
+        "\"Hmm. Fragrant, with notes of wormwood.\"",
+        "\"The druid abides.\""
+    ],
+    "Jax": [
+        "\"Bearing the Light of  Icathia in a run-of-the-mill lantern? Just my style.\"",
+        "\"Back in my day, we didn't need fancy weapons! Hmph... still don't.\"",
+        "\"Who wants a piece of the champ?\"",
+        "\"We duel to the death! ...Or 'til you surrender, I'm not picky.\"",
+        "\"If you get lost, look for my light! Unless, of course, it's lodged in somebody's skull.\"",
+        "\"Oh, this? Just a fancy-lookin' lamp, don't worry about it.\"",
+        "\"Imagine if I had a real weapon.\""
+    ],
+    "Jayce": [
+        "\"Gone is the Golden Boy. The hextech dream. The brighter tomorrow. All that's left is me, and a mission.\"",
+        "\"No taking back the swing of the hammer, or the shot of the cannon. Follow through, or fall behind.\"",
+        "\"Stand against my city and you won't stay standing!\""
+    ],
+    "Irelia": ["\"I have but one life to give for Ionia. I must make it count.\""],
+    "Jhin": [
+        "\"You are mediocrity. My genius will supplant you.\"",
+        "\"This stage is beneath my talent, but I shall elevate it.\"",
+        "\"Mortals and their linear time, they appreciate my art, they have no choice.\"",
+        "\"Killing you will be one of my finest works.\"",
+        "\"Only my actions will make you memorable.\""
+    ],
+    "Jinx": [
+        "\"Three guns means never having to say 'I'm sorry'.\"",
+        "\"Maybe we should settle down and live peaceful lives. 'Really? I always hoped one day you'd--' Haha, nope! You're a death machine for life!\"",
+        "\"Didn't plan on bein' a hero.  The Undercity just needed somethin' to believe in. Must have been desperate picking me of all people!\"",
+        "\"'Your inventions could be used for creation instead of destruction.' Oh well, guess what! I created a gun, and I think that counts.\"",
+        "\"I'm bringing guns to the knife fight! ...Hehe.\"",
+        "\"Guns don't kill people. I mean, until you shoot 'em. Then they kill everything!\""
+    ],
+    "K'Sante": ["\"My ancestors built Nazumah. No god, king, or beast could conquer them; and none will conquer me.\""],
+    "Kalista": ["\"Let's see how many spears you can endure!\"", "\"Soft are the targets of our spears today!\""],
+    "Karthus": [
+        "\"I will shred your body, and burn your soul!\"",
+        "\"To feel the caress of death for the first time... I envy you!\"",
+        "\"I'm putting your name in my little black necronomicon.\"",
+        "\"What's the incantation again... yes, erm... oh, right, R!\"",
+        "\"Do you have a moment to talk about death?\""
+    ],
+    "Karma": [
+        "\"I know your spirit... but I must stop your heart.\"",
+        "\"You know what they say: karma always catches up to you.\""
+    ],
+    "Kassadin": [
+        "\"You are null and void.\"",
+        "\"Your magic is powerless against me!\"",
+        "\"I tried to silence my mother once. Boy, did I regret that.\""
+    ],
+    "Katarina": [
+        "\"A queen's versatility and an assassin's ruthlessness. The coronation never planned on me.\"",
+        "\"These other queens? I wish them luck. Why shouldn't I? There's no one like me.\"",
+        "\"I am the queen of assassins. I won my throne by murder. I'd like to see these others try and take it.\"",
+        "\"Better dead than dull.\"",
+        "\"There's glory in bloodshed, but there's also purpose. A feared queen reigns longest.\"",
+        "\"If you run, you won't see me stab you!\""
+    ],
+    "Kayle": [
+        "\"Surrender to the light, and I will spare your soul!\"",
+        "\"There is no hiding from the light.\"",
+        "\"Only those with malice in their hearts need fear the light!\""
+    ],
+    "Kai'Sa": [
+        "\"Imagine a place where it's always night and you're holding faith for a dawn that never comes. I don't have to imagine. I've been there.\"",
+        "\"Down  there, I was surrounded by nothingness... but I was never alone. Memories comfort like the closest companion.\"",
+        "\"This place is too beautiful to be decimated by the Void...\"",
+        "\"I've been to the Void and back. You're nothing.\"",
+        "\"The Void will not consume me; but I must act, or the others will not be as lucky.\""
+    ],
+    "Kayn": [
+        "\"I'm holding a sentient weapon of doom, denied blood for eons! You think I'm scared of you?\"",
+        "\"Whom should I obey? Master Zed, or the farm implement with delusions of grandeur?\"",
+        "\"The shadows reveal weakness.\"",
+        "\"The focused blade cuts deepest.\""
+    ],
+    "Kennen": ["\"Big targets are the best! There's more to aim at!\"", "\"Yes, they make shurikens this small!\""],
+    "Kha'Zix": [
+        "\"If I eat you, will I learn how to die?\"",
+        "\"Hahaha. You're barely worth eating!\"",
+        "\"To truly know someone, eat them and walk a mile in their feet.\"",
+        "\"My purpose is eating deadly creatures. My hobby is eating Yordles.\"",
+        "\"I ate an optimist once, but I couldn't keep him down.\""
+    ],
+    "Kog'Maw": ["\"Fa la la la la, la la la laaaa\""],
+    "Leblanc": [
+        "\"Smoke and mirrors. Shadow and steel.\"",
+        "\"It is said that every rose has its thorns, but none are sharper than mine.\"",
+        "\"Lies are like roses: marvel too long at the bloom, and one may miss the thorns benenath.\"",
+        "\"The Black Rose shall bloom once more.\"",
+        "\"History forgets, but the Black Rose remembers.\""
+    ],
+    "Kled": [
+        "\"Woo, no sir, I ain't gonna kill you and feed you to my lizard! Them's just... malicious rumours!\"",
+        "\"Was you making fun of my Skaarl?\""
+    ],
+    "Kindred": [
+        "\"Hold still, Wolf.\"",
+        "\"Are you there, dear Wolf?\"",
+        "\"I am, little Lamb.\"",
+        "\"Tell me again, little Lamb, which things are mine to take?\"",
+        "\"Have they forgotten us yet, little Lamb?\"",
+        "\"How old are we, Lamb?\""
+    ],
+    "Lee Sin": [
+        "\"Enough blind jokes. Stop asking for more.\"",
+        "\"My sight may be gone, but my vision holds true.\"",
+        "\"The monks taught me well, but I determine my own fate.\"",
+        "\"They see only a blind man.  I will open their eyes.\"",
+        "\"Many monks live in peace.  I do not envy them.\"",
+        "\"Blindness is no impairment against a smelly enemy.\""
+    ],
+    "Lillia": [
+        "\"The garden is filled with burls. The burls, with nightmares... Mother Tree, I'll remind them how to dream.\"",
+        "\"Would you...maybe, possibly, perhaps...want to dream with me?\"",
+        "\"Where are you, little lost dreams? I'll bring you to your home in the Dreaming Tree.\"",
+        "\"Your dream calls to me! I-I hope you don't mind. Oh, you mind, don't you?\"",
+        "\"I'm glad you're with me, dream.\"",
+        "\"Humans cast a spell every night. Every time they fall asleep.\""
+    ],
+    "Lissandra": [
+        "\"The world began in ice, and it will end in ice.\"",
+        "\"Close your eyes, and let the cold take you.\"",
+        "\"I make cold look... hot.\"",
+        "\"I consider 'frigid'... a compliment.\"",
+        "\"Is it cold in here, or is it just me?\""
+    ],
+    "Leona": [
+        "\"I will protect thee from the ever darkness.\"",
+        "\"In the savage twilight, I will be our shield.\"",
+        "\"The sun has gone. But I am here.\""
+    ],
+    "Malphite": ["\"You will lose.\"", "\"Caught between a rock... and a hard place.\""],
+    "Lucian": [
+        "\"Two guns, one you. Ain't likin' your odds.\"",
+        "\"I got two guns. One's for what's in front of me, and one's for what's chasin'.\"",
+        "\"So my wife is half dead. Not a problem. I'll just... love the half that isn't.\"",
+        "\"Ain't enough bullets in the world for all the killin' I'm about to do.\"",
+        "\"There's a right side and a wrong side to these guns. Don't wanna be on the wrong side.\""
+    ],
+    "Malzahar": ["\"Bow to the Void, or be consumed by it!\""],
+    "Lux": [
+        "\"Double rainbow... what does it mean?\"",
+        "\"I've been hiding my light long enough.\"",
+        "\"The sun is shining; we should too.\"",
+        "\"Well, a double rainbow is a phenomenon of optics that displays a spectrum of light due to the sun shining on droplets of moisture in the atmosphere. Does that explain it?\""
+    ],
+    "Maokai": [
+        "\"The seeds of your destruction!\"",
+        "\"The sapling does not fall far from the treant!\"",
+        "\"If a human screams in the forest, will anyone hear it?\"",
+        "\"I love all my saplings—especially how they taste.\" (gulp)",
+        "\"If only the humans were vegetarians.\" (gulp)"
+    ],
+    "Master Yi": ["\"I will take an eye! ...As if I don't have enough already.\"", "\"The goggles? Just for reading.\""],
+    "Mel": [
+        "\"For so long, I wanted to regain my family's respect; but I wasn't prepare for what it would cost me…\"",
+        "\"The Medardas depend on my strength. My unwaivering conviction.\"",
+        "\"Raised in Noxus, shaped by Piltover, tainted with magic. Many question my motives, but their whispers do not define me.\""
+    ],
+    "Miss Fortune": [
+        "\"This is a friendly reminder to aim for vital organs and exposed heads.\"",
+        "\"A lifetime ago, I wouldn't even touch a gun! Then some people tried to kill me... Changes your perspective.\"",
+        "\"How do you like my guns... Shock, and Awe!\""
+    ],
+    "Milio": [
+        "\"Elemental magic is easy. You just gotta think about it, and then – bam, fire!\"",
+        "\"I'm gonna be the youngest kid to ever join the Yun Tal! Pretty amazing.\"",
+        "\"My furnacita isn't as heavy as it looks. I built it myself!\"",
+        "\"And then cousin Javi was like: 'You're just a baby'. I'm twelve, do I look like a baby to you?\""
+    ],
+    "Mordekaiser": [
+        "\"Naive men pray to the gods; they will learn to pray to me.\"",
+        "\"I carve my kingdom beyond, from the ashes of nothing, no mortals, not even gods, will stop me from claiming what is mine.\"",
+        "\"Once I suffered a mortal body, now I am iron incarnate.\"",
+        "\"The world has tried to forget my existence, time to remind them why they fear.\"",
+        "\"I have bent the realm of the dead to my will, this world shall be next.\""
+    ],
+    "Morgana": [
+        "\"I am your darkness, I am your truth.\"",
+        "\"They are not ready for the reflections within my darkness.\"",
+        "\"Wings bound and feet earthly tethered, I move against the false promises of order and justice.\"",
+        "\"My sister cauterized her wound in holy fire. Mine remains.\""
+    ],
+    "Naafiri": [
+        "\"It does not bark. It is not brethren...\"",
+        "\"You're a long way from the den, pup...!\"",
+        "\"Don't expect us to roll over and beg.\"",
+        "\"One mind, spread among many vessels; this, is the way of the pack.\"",
+        "\"Do not confuse feral, with stupid.\"",
+        "\"We never release our bite, even if the blood chokes us.\"",
+        "\"Who's a good dog? ...We are.\""
+    ],
+    "Nami": [
+        "\"Afraid to get your feet wet?\"",
+        "\"Swim at your own risk.\"",
+        "\"Sometimes you're the catch. Sometimes you're the bait.\"",
+        "\"My hermit crab will make a most favorable home from thy skull.\"",
+        "\"Shrouded by the bottomless sea, we laid in wait... Now, we strike!\"",
+        "\"Well-met, 'land-spawn'.\"",
+        "\"The sea holds fearsome creatures… and them.\""
+    ],
+    "Nasus": [
+        "\"Your legacy shall drift away; blown into eternity, like the sands of the desert.\"",
+        "\"No, I will not fetch the ball.\"",
+        "\"Rage burned away all that was good in you, my brother.\"",
+        "\"Who let the dogs out? Woof. Woof. Woof.\"",
+        "\"My bite is worse than my bark.\""
+    ],
+    "Nautilus": [
+        "\"You are in the deep end now!\"",
+        "\"Sometimes I think this anchor just weighs me down. ♪ Ba-da-dee, ba-da-do, ba-da-doo... ♪\""
+    ],
+    "Neeko": [],
+    "Bard": [],
+    "Nocturne": [
+        "\"Embrace the darkness.\"",
+        "\"Afraid of the dark?\"",
+        "\"Do I scare you, summoner?\"",
+        "\"Are you my nightmare, or am I yours?\""
+    ],
+    "Nunu & Willump": [
+        "\"A snowball is never just a snowball, if you believe in magic!\"",
+        "\"This is gonna be the biggest snowball ever!\""
+    ],
+    "Nidalee": [
+        "\"How would you prefer to die: by spear, or by claw?\"",
+        "\"I am never alone. My tribe lives in my heart, and in my spear.\"",
+        "\"A hunter's instincts are inherited. A hunter's skills are honed.\"",
+        "\"The jungle lives in my bones. The Pakaa, in my heart.\"",
+        "\"Meow... meow-meow, meow-meow-meow-meow... You got that?\""
+    ],
+    "Nilah": [
+        "\"Bilgewater is nice. There's always something big to kill.\"",
+        "\"Seven hands reach for seven locks, yearning to break free.\""
+    ],
+    "Olaf": [
+        "\"C'mon, I won't hurt you. I promise!\"",
+        "\"The worth of a man can be measured by the length of his beard, and the girth of his belt buckle.\""
+    ],
+    "Orianna": ["\"The ball is impatient.\"", "\"They come apart so easily. How do you put them back together again?\""],
+    "Pantheon": [
+        "\"I am no more than a soldier, and no less.\"",
+        "\"Why do they keep breaking?\"",
+        "\"Yes, I am a weapon.\"",
+        "\"I call upon the stars... to bake my bountiful breads!\""
+    ],
+    "Poppy": [
+        "\"This hammer has two sides. Did you want to feel the other one too?\"",
+        "\"Could you maybe get out of the way? Y'know, so I don't have to flatten you.\"",
+        "\"I've heard a lot about this hero with a hammer, can't wait to meet him.\"",
+        "\"Fool me once, shame on you. Fool me twice, uh... hammer!\""
+    ],
+    "Ornn": [
+        "\"I have fur. It is soft. Do not hug me.\"",
+        "\"I made this hammer. It was so good I named it... 'Hammer.'\"",
+        "\"The  Freljord is a place for building, fighting, and eating. Home, sweet home.\""
+    ],
+    "Qiyana": [
+        "\"It's not a ring blade, it's an ohmlatl! Idiots.\"",
+        "\"The rocks don't like you, the plants don't like you, and I'm pretty sure I don't like you.\""
+    ],
+    "Quinn": [
+        "\"Valor's shadow is the last thing you'll see.\"",
+        "\"Justice takes wing.\"",
+        "\"Stick to the plan, Val.\"",
+        "\"Val's stealing all the glory again.\"",
+        "\"A bird's eye view is the best advantage.\"",
+        "\"Sometimes I swear that bird is just showing off.\""
+    ],
+    "Pyke": [
+        "\"I'm gonna drag you down to the swimming city!\"",
+        "\"Pretty face... Shame if someone stuck a harpoon in it.\"",
+        "\"Been to the bottom of the sea, gets a little deeper each time.\"",
+        "\"Went too deep, part of me is still down there... swimming...\"",
+        "\"There's plenty of room for everyone at the bottom of the sea.\"",
+        "\"No one's honest, 'til they get a knife in their gut.\"",
+        "\"Got a hook with your name on it.\""
+    ],
+    "Rammus": [],
+    "Rek'Sai": [],
+    "Rell": [
+        "\"This 'little girl' is about to crush some heads.\"",
+        "\"Iron body, iron will!\"",
+        "\"The armor keeps the world out. The lance does the rest.\"",
+        "\"When steel crashes against steel, it's so loud. I almost forget.\""
+    ],
+    "Rakan": [
+        "\"I got three rules. You're breaking two of them with that outfit.\"",
+        "\"There's this thing called grooming. You should try it.\"",
+        "\"So, when you got dressed this morning, was this the look you were going for?\""
+    ],
+    "Renata Glasc": [
+        "\"'I'll make you kill your loved ones' is a more effective threat than any gun.\"",
+        "\"Alright, I've got companies to buy and a city to crush, so let's make this quick.\"",
+        "\"Money can't buy happiness? Only someone born rich would agree with that.\"",
+        "\"Every fashionable Piltovan owns at least one of my products. So trusting, so naive.\""
+    ],
+    "Renekton": [
+        "\"You should have done a better job locking me away, Nasus!\"",
+        "\"I went instead, so  Nasus wouldn't become...this. Should have let him go.\"",
+        "\"What? Do I have someone in my teeth?\""
+    ],
+    "Rengar": [
+        "\"You've earned a good death. I've earned the kill.\"",
+        "\"You have a warrior's heart. I think I'll take it.\"",
+        "\"So much bloodshed... This is my kind of place!\"",
+        "\"All these trophies... I'm gonna need a bigger den!\""
+    ],
+    "Rumble": [
+        "\"Come on, I'm not even holding the controls!\"",
+        "\"Bandle City! Oops, forgot the clutch.\"",
+        "\"Turbo on--- ! Uh... woah--- ! Just needs a little kick start there.\""
+    ],
+    "Ryze": [
+        "\"If I had a tattoo that looked like you, I'd get it removed.\"",
+        "\"I sense another rune, but where?\"",
+        "\"I find the runes so they won't be found by someone else... or some"
+    ],
+    "Riven": [
+        "\"A broken blade is more than enough for the likes of you!\"",
+        "\"Ugh... I knew I should have sprung for the blade warranty.\""
+    ],
+    "Samira": [
+        "\"Hm. How come no one ever tells me to reload?\"",
+        "\"Born in Shurima, raised by Noxus. Maybe I'll die in Demacia to make things interesting, huh?\"",
+        "\"Indari was a great captain. She taught me how to shoot. I taught myself how to kill.\""
+    ],
+    "Sejuani": [
+        "\"Don't worry, Bristle, I'll leave you the scraps.\"",
+        "\"Who wants a treat? Bristle wants a treat? Not until we've trampled our foes to dust!\"",
+        "\"Can you smell 'coward', Bristle? Get 'em!\""
+    ],
+    "Senna": [
+        "\"Only thing bigger than this gun? The mistake you made standing in its sights.\"",
+        "\"If I can handle this gun, I can handle myself. Trust me, I can handle this gun.\"",
+        "\"Sentinel. Wife. A beacon unto damn darkness. When can I just be a person? When can I be me?\"",
+        "\"It's enough to hear Lucian say my name.\""
+    ],
+    "Shaco": [
+        "\"Why so serious?\"",
+        "\"For my next trick, I'll make you disappear!\"",
+        "\"Now you see me, now you don't!\"",
+        "\"The joke's on you!\"",
+        "\"How about a magic trick?\""
+    ],
+    "Sett": [
+        "\"You're the number one contender? Hah, I must've really cleaned out the division.\"",
+        "\"Welcome to my show! If you live, I'll have you back.\"",
+        "\"You got guts. Too bad I gotta put my fists through 'em.\"",
+        "\"Okay, everyone here knows how to throw a punch, right? 'Cause I don't have time for lessons.\"",
+        "\"Looks like I brought my fists to a knife fight. Honestly, I feel bad for the knives.\""
+    ],
+    "Shyvana": [
+        "\"Come get a glimpse into the belly of the beast!\"",
+        "\"What do you get when a dragon sneezes? (chuckles) Out of the way.\""
+    ],
+    "Seraphine": [
+        "\"I'll fight if you make me, but we could sing instead!\"",
+        "\"Aw, how can I say anything bad about a fan? Come on, make some noise!\"",
+        "\"Can't wait to write a song about this moment!\"",
+        "\"Hey! Wanna hear your song?\"",
+        "\"I sing to help them find themselves. The stage just makes it easier.\"",
+        "\"Everything sings to me! I've gotta sing it all back.\"",
+        "\"It can't be as simple as us versus them. I know if I sing loud enough, they'll listen!\"",
+        "\"Wow. All these songs sound amazing. I'll bring them into harmony!\"",
+        "\"When I'm on stage, I feel complete. I wanna help everyone find that peace.\"",
+        "\"Everyone's singing the same song and they don't even know it!\"",
+        "\"Some songs start with a rhyme, some with a rhythm... Mine, starts with the crowd.\""
+    ],
+    "Singed": [
+        "\"Shaken, not stirred.\"",
+        "\"Mix, mix, swirl, mix.\"",
+        "\"How about a drink?\"",
+        "\"To shake, or not to shake.\""
+    ],
+    "Shen": [
+        "\"You're already dead, you just haven't caught up yet.\"",
+        "\"If light travels so fast, how come it's never caught a ninja?\""
+    ],
+    "Sivir": [
+        "\"You can't tame the desert.\"",
+        "\"They say the desert is a cruel mistress. I like the sound of that.\"",
+        "\"This is my desert.\"",
+        "\"Come to my desert, pay my price.\"",
+        "\"Everyone has a price.\""
+    ],
+    "Sion": ["\"Your snapping bones are music to my ears!\"", "\"Your bones will pave my road to glory!\""],
+    "Smolder": [
+        "\"Mom says I'm not supposed to eat you—but I'm too fast for her to stop me!\"",
+        "\"Well, my mom's the biggest, baddest dragon around, and she's gonna burn you!\"",
+        "\"One day, I'll be so big that, if we played hide and seek, you could hide in my mouth.\"",
+        "\"My wings flap, my sneezes are flame-nados, and my super fire beam breaths are only getting stronger! No more getting treated like a hatchling!\"",
+        "\"I'm gonna be big and strong one day. Then they'll be sorry.\"",
+        "\"Roar! Beware the dragon's power! Hehe.\""
+    ],
+    "Skarner": [
+        "\"War is a weapon of the weak. I rupture the earth and bring devastation.\"",
+        "\"I live beneath the earth, where I hear everything above. There, I listen... and wait.\"",
+        "\"I am the vanguard of Ixtal's protection.\"",
+        "\"It is through my sovereignty that Ixtal continues to survive.\"",
+        "\"I carry my broodmother's name with pride.\"",
+        "\"Ixtal's enemies—my enemies—will tremble at my name!\"",
+        "\"For generations, I have defended Ixtal. I will defend this land, too.\"",
+        "\"I feel movements in the vibration of the earth; like threads, they are plucked and thrum.\""
+    ],
+    "Swain": [
+        "\"Caw caw caw caw caw. There, are you satisfied?\"",
+        "\"My birds are hungry.\"",
+        "\"The outcome was decided when they brought an army; and I brought a demon.\"",
+        "\"They expect me to play fairly... We aren't even playing the same game.\"",
+        "\"What is one more demon, when I already have so many?\"",
+        "\"Every day I rule, Noxus becomes a more perfect expression of my will.\"",
+        "\"You can sit on a throne, that doesn't make you a ruler. It only means you have an arse.\""
+    ],
+    "Sona": [
+        "\"Am I supposed to know this person? Is he a... fan?\"",
+        "\"Haha. I can never shake the nerves before a big performance.\"",
+        "\"I never could refuse an empty stage. Not even this one.\"",
+        "\"The world is cruel. Until that changes, I'll never stop playing.\"",
+        "\"Strings move, and people dance in time with the memories.\"",
+        "\"Magic is like a song. It's woven into everything. Waiting.\""
+    ],
+    "Soraka": [
+        "\"No, I'm not happy to see you. Yes, that is a horn growing out of my head.\"",
+        "\"To heal and protect.\"",
+        "\"Yes, that was a banana. No one expects the banana.\""
+    ],
+    "Sylas": [
+        "\"So... who wants to kill the king?\"",
+        "\"Breaking out was nothing! Watch me break a kingdom.\"",
+        "\"No more kings! No more queens! No more Mageseekers! It all ends now!\"",
+        "\"Their shackles are now my weapons! Ha, how's that for irony?\""
+    ],
+    "Syndra": [
+        "\"Immense power is fun! You should try it sometime.\"",
+        "\"So much untapped power!\"",
+        "\"My potential is limitless!\""
+    ],
+    "Talon": [
+        "\"Eventually, my blades will find their way into your heart.\"",
+        "\"Ugh, I lost another blade. I wonder who it's in this time.\"",
+        "\"The worst part of losing a blade is trying to trace back all my stabbings.\""
+    ],
+    "Tahm Kench": [
+        "\"It is my mouth into which all travels end.\"",
+        "\"Call me king, call me demon. Water forgets the names of the drowned.\"",
+        "\"The river never stops!\"",
+        "\"All the world's a river, and I'm its king.\"",
+        "\"You are a malodorous offense to my palate!\""
+    ],
+    "Taric": [
+        "\"You know what they say about big gems, right?\"",
+        "\"Two tickets to the gem show.\"",
+        "\"My gems aren't merely outrageous, they're fabulous.\"",
+        "\"Gems are truly, truly, truly outrageous.\"",
+        "\"Much like a fine gem, I'm multifaceted.\""
+    ],
+    "Taliyah": [
+        "\"Even the smallest stone can start an avalanche.\"",
+        "\"The stone here is amazing!\"",
+        "\"The earth calls, and I must answer.\"",
+        "\"Sometimes I wish rocks could give pep talks.\"",
+        "\"Know the loom. Be the stone.\""
+    ],
+    "Teemo": [
+        "\"Goggles: check. Hat: check. Mushrooms: check. Okay, armed and ready!\"",
+        "\"Scout rule #212: You gotta team up to fight for what's right!\"",
+        "\"I pledge to uphold the Bandle scout way and serve yordlekind each and every day.\"",
+        "\"Yordles are never alone. Every river is our friend; every pebble, our bestest buddy!\"",
+        "\"Never underestimate the power of the Scout Code!\"",
+        "\"Hello scouts, I'll be your troop leader for today. Let's have fun!\"",
+        "\"Rule #419: Care for your equipment, and it will care for you.\""
+    ],
+    "Trundle": [
+        "\"I'm gonna crush your dreams... They're in your skull, right?\"",
+        "\"Troll with the biggest club gets to be king. That's the rule!\"",
+        "\"Time to troll!\"",
+        "\"King of trolls, coming through.\"",
+        "\"Time to start an ice age.\"",
+        "\"Not troll chief, troll king. King!\"",
+        "\"I'm troll judge, troll jury, and execu... troll!\""
+    ],
+    "Thresh": [
+        "\"Ever seen your soul? Would you like to?\" *slurps*",
+        "\"Poor lost spirits beckoning to bloom. I've been waiting for you.\"",
+        "\"Do not worry, my dear spirits, you will all be safe in my collection.\"",
+        "\"The dead passing to spirits. The spirits passing to my collection. That is how it must be.\"",
+        "\"There is life. There is death. And then there is me.\""
+    ],
+    "Tristana": [
+        "\"Is that a rocket in your pocket?\"",
+        "\"Please allow my cannon and I to conflict-resolve.\"",
+        "\"This is my .357 caliber handgun...\"",
+        "\"A cannonball is the best icebreaker!\"",
+        "\"Locked, loaded, and ready to rocket!\""
+    ],
+    "Tryndamere": ["\"My right arm is a lot stronger than my left arm!\""],
+    "Twisted Fate": [
+        "\"Only a fool plays the hand he's dealt.\"",
+        "\"Only two Jokers in the deck, and I get dealt you.\"",
+        "\"Never lost a fair game... or played one.\""
+    ],
+    "Udyr": [
+        "\"Our fight will keep the Freljord alive.\"",
+        "\"I channel the spirits I feel closest to.\"",
+        "\"A bear's strength is its joy. Its joy is strength.\"",
+        "\"A boar's true shield is not its hide, but its will.\"",
+        "\"Mastery is a volcano, and I will rise within it like magma.\"",
+        "\"May we never know life without the frost.\"",
+        "\"The spirits at the heart of the Freljord have need of me. I answer their call.\""
+    ],
+    "Twitch": [
+        "\"I hear you're trash. Bow before your king!\"",
+        "\"From out of the sewers comes... doom.\"",
+        "\"All pipes lead to home.\"",
+        "\"Have you met my fleas?\"",
+        "\"Dip it in sewage... leave it in the sun for a while... oh, yes, that's perfect, yes!\"",
+        "\"Rust is like more delicious mold.\"",
+        "\"Stop moving my stench!\""
+    ],
+    "Urgot": [
+        "\"Carnage—as intoxicating as chemtech.\"",
+        "\"Break men to break their shackles.\"",
+        "\"They put me in chains. They gave me my weapon.\""
+    ],
+    "Varus": [
+        "\"If you must speak, humans: let your voices be the howl of arrows.\"",
+        "\"This bow is a heavy burden...\"",
+        "\"The guilty will know agony.\""
+    ],
+    "Vayne": [
+        "\"Demon hunting can wait while I hold back the Harrowing. Well... maybe a little demon-hunting on the side.\"",
+        "\"Hitting me is like boxing with shadows!\"",
+        "\"Evil lurks around every corner.\"",
+        "\"The dark should fear me.\"",
+        "\"Let us hunt those who have fallen to darkness.\""
+    ],
+    "Vel'Koz": [
+        "\"It seems your chances of survival are... less than zero!\"",
+        "\"Let's see... (mumbles) yes, infinity more samples required!\""
+    ],
+    "Veigar": [
+        "\"You deny the darkness in your soul! You deny your power!\"",
+        "\"Know that if the tables were turned, I would show you no mercy!\"",
+        "\"'It's only a short way'? Is that a short joke?!\"",
+        "\"I am evil! Stop laughing!\"",
+        "\"What's black and blue and is about to show you the definition of pain?!\""
+    ],
+    "Vex": [
+        "\"We're all doomed, but you're more doomed.\"",
+        "\"Another person to kill. Shadow, can you handle it?\"",
+        "\"Life sucks... but at least I'm not you.\"",
+        "\"And then I told her, 'Get outta my room!' And she said, 'This is my house, young lady and'... Oh, hang on, Shadow. I'll finish this later.\"",
+        "\"Welcome to Sad Town. Population: Me. Everyone else get out.\"",
+        "\"Okay, Shadow. Wake me when we hit something.\"",
+        "\"I am not cute. I am dark and forlorn and hopelessly morbid!\""
+    ],
+    "Vi": [
+        "\"If I want your opinion, I'll beat it out of you.\"",
+        "\"Care for a spot of tea? Or maybe a spot of punch in the face.\"",
+        "\"I joined the enforcers. I turned on  the Undercity. I betrayed everything I stand for.\"",
+        "\"I like your smile. Makes a nice target.\"",
+        "\"Why can't I get a straight answer? It's always just 'Oh no! Stop hitting me! Ow, my face!'\""
+    ],
+    "Viego": [
+        "\"You stand in the way of my love. A mistake.\"",
+        "\"Hate me if you must. Until she returns to my arms, all will be brought to ruin.\"",
+        "\"No price is too great. No atrocity beyond my reach. For her, I will do anything.\"",
+        "\"I will rip her from the jaws of death. Fate cannot stop me. Nothing can.\"",
+        "\"A crown lost long ago, reborn in unlife, ripped away from his only love.\"",
+        "\"Step aside, peasant. You are nothing compared to my queen.\""
+    ],
+    "Vladimir": [
+        "\"Go ahead, be negative. You'll be just my type.\"",
+        "\"I'm a universal recipient.\"",
+        "\"The clot thickens.\""
+    ],
+    "Volibear": [
+        "\"Gods do not beg. We take what is ours!\"",
+        "\"This ground will tremble with the first storm!\"",
+        "\"I am a god. I cannot die. But, do I live if I am not in the hearts of warriors?\"",
+        "\"Thunder roars. Wind howls. Only fools ignore the call to battle.\"",
+        "\"Darkening clouds. An omen to those who stand against the wild!\"",
+        "\"Clouds are the storm-cloak I wrap around my fur.\""
+    ],
+    "Wukong": ["\"Wuju style.\""],
+    "Warwick": [
+        "\"Scratch behind my ears...\"",
+        "\"Who's a good boy? I am!\"",
+        "\"Blood runs... they all run.\"",
+        "\"I can smell everything.\"",
+        "\"Blood brings rage.\"",
+        "\"You're the prey!\"",
+        "\"I have your scent.\"",
+        "\"The chains are broken... the beast is free.\""
+    ],
+    "Viktor": [
+        "\"It is Hextech that holds the answers to your questions.\"",
+        "\"No longer will we be guided by invisible hands. The Arcane will free us, and I am its herald.\"",
+        "\"I speak now with not one voice, but many. Embrace Hextech.\"",
+        "\"Hexcorization requires no justification. What purpose is there in explaining a horseshoe to the horse?\""
+    ],
+    "Xerath": [
+        "\"It will take only a spark of my magic to end you.\"",
+        "\"These chains cannot hold me.\"",
+        "\"I stand at the brink of infinity.\"",
+        "\"I am power incarnate! Who dares oppose me?\"",
+        "\"Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt! Lightning bolt!\""
+    ],
+    "Xayah": [
+        "\"I'm just an ordinary girl. An ordinary girl with an infinite supply of death quills.\"",
+        "\"The world owes the Vastaya a great debt. I'm here to collect.\"",
+        "\"Fine, I'll just be over here... sharpening my feathers.\"",
+        "\"Oh, I was born to ruffle feathers.\"",
+        "\"Ever been stabbed by a feather?\""
+    ],
+    "Xin Zhao": ["\"Here's a tip, and a spear behind it!\""],
+    "Yuumi": [
+        "\"Fishy fishy fish! Mmph— Waagh!\"",
+        "\"Cats make great companions! Just ask my master... who disappeared under mysterious circumstances.\"",
+        "\"Alright! Which one of you's got great aim, and is good at chin scritches?\"",
+        "\"Tell me the game plan again. Wait. Fish! Someone has fish! Where is it?\"",
+        "\"So, who wants to be my best friend? ...Book, I know you're already my best friend!\"",
+        "\"I'm descended from lions! And you're descended from trees! We're in our element, Book!\"",
+        "\"Book, sometimes I pretend you're just a nice comfy box! ...What? That's a compliment! Purr~\"",
+        "\"I've read all of Book. Well, most of Book. I like the pictures of fish... of which there are none, Book! Meow...\"",
+        "\"Who's ready to risk our lives, defeat our foes, and maybe knock over some cups?\""
+    ],
+    "Yorick": [
+        "\"For you, I won't dig too deep.\"",
+        "\"Fear not... I will make use of your corpse.\"",
+        "\"I am the rift between life and death. The thin divide between breath and grave.\"",
+        "\"Tired, ancient, and half-dead. Still, I come for you.\""
+    ],
+    "Yone": [
+        "\"I will take no joy in cutting you down!\"",
+        "\"One blade carries the weight of my past. The other, holds the key to my future...\"",
+        "\"Yield, or fall to my blades!\"",
+        "\"Storm of blades!\"",
+        "\"With each mask I claim, I come one step closer to understanding my own.\"",
+        "\"They look at me and see only the mask.\"",
+        "\"Wear a mask long enough... and you forget the face beneath.\"",
+        "\"Unworthy of my blades!\""
+    ],
+    "Yasuo": [
+        "\"The blade above all things... except a good drink.\"",
+        "\"Death is like the wind—always by my side.\"",
+        "\"Face the wind!\"",
+        "\"This blade never gets any lighter.\""
+    ],
+    "Zac": [
+        "\"Fighting is in my blood... I mean... my goo.\"",
+        "\"I was made for this... literally.\"",
+        "\"I'm not as squishy as I look.\""
+    ],
+    "Zeri": [
+        "\"Run fast, charge up, shoot the bad guys. Easy enough.\"",
+        "\"A spark is all I need!\"",
+        "\"Gotta hurry. People need my spark!\"",
+        "\"A spark is all I need!\"",
+        "\"Lightning in a gun coming through.\""
+    ],
+    "Ziggs": [
+        "\"Bombs away!\"",
+        "\"Explosion first, questions later.\"",
+        "\"I like my enemies, like I like my bombs: about to explode!\"",
+        "\"You wanna see how to disarm a bomb? (Gobble) (exhale) (burp)\""
+    ],
+    "Zed": [
+        "\"Embrace the shadow... or die in darkness!\"",
+        "\"The unseen blade is the deadliest.\"",
+        "\"Brave the shadows, find the truth.\"",
+        "\"The shadows have enlightened me.\"",
+        "\"The merest shade of me... is enough to defeat you!\""
+    ],
+    "Zilean": ["\"I've seen your death, it was painful... \"", "\"Time flies like an arrow; fruit flies like banana.\""],
+    "Zyra": [
+        "\"Feel the thorns' embrace.\"",
+        "\"Just a harmless flower.\"",
+        "\"A promising garden.\"",
+        "\"Wait until my seeds take root.\"",
+        "\"What lurks beneath the soil?\"",
+        "\"Death is in bloom.\"",
+        "\"The harvest is upon us.\""
+    ],
+    "Zoe": [
+        "\"Nobody has to grow up if they don't want to. Orrrrr maybe they do. I don't, though.\"",
+        "\"Something good is going to happen. With sparkles!\"",
+        "\"I'm not boy-crazy! I just... don't have a boyfriend yet.\"",
+        "\"Thanks for asking! I like butterflies, unicorns, and watching the end of finite realities!\"",
+        "\"I don't want to grow up. You can't make me.\"",
+        "\"You need more stardust, I could give you some!\"",
+        "\"Gotcha! Now that was more sparkles.\""
+    ]
 }
