@@ -13,7 +13,7 @@ stages:
   - build_docker
   - build_typescript
   - build_assets
-  - deploy
+  - test
 
 cache:
   key: ${CI_COMMIT_REF_SLUG}
@@ -49,14 +49,11 @@ build_assets_job:
     - echo "Building assets..."
     - npm run build:css
 
-workflow:
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
-
-railway-deploy:
-  stage: deploy
-  image: ghcr.io/railwayapp/cli:latest
-  variables:
-    SVC_ID: 05835fa3-578b-45f7-a513-ba13aaea8d60
+run_tests_job:
+  image: node:22-alpine
+  stage: test
   script:
-    - railway up --service=$SVC_ID
+    - echo "Installing dependencies..."
+    - npm ci
+    - echo "Running tests..."
+    - npm run test
