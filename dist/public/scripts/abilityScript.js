@@ -19,6 +19,7 @@ const allAbilities = abilityData.allAbilities || [];
 const abilityNameGuesses = abilityData.abilityNameGuesses || [];
 const abilityRotation = abilityData.abilityRotation;
 const abilityIcon = abilityData.abilityIcon;
+const targetAbilityName = abilityData.targetAbility;
 
 champions.forEach((c) => {
   const img = new Image();
@@ -212,7 +213,7 @@ function renderBonus1(keys, keyGuessesArr, correctKey) {
         <h3 class="text-[#abcde3] text-lg text-center font-semibold text-shadow-2xl mb-4">Guess the ability</h3>
         <div class="bonus-divider w-24 h-0.5 bg-gradient-to-r from-transparent via-[#4b6bac] to-transparent mx-auto mb-4"></div>
         <div class="ml-5 mr-5">
-          <form action="/ability/key" method="POST" class="grid grid-cols-5 ml-5 mr-5 gap-3">
+          <form action="/ability/key" method="POST" class="ability-bonus-form grid grid-cols-5 ml-5 mr-5 gap-3">
             ${keys
               .map((key) => {
                 const entry = keyGuessesArr.find((g) => g.guess === key);

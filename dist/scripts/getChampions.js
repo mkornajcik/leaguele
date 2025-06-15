@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import championsJson from "./champions.json";
+import championsJson from "./champions.json" with { type: "json" };
 // Path for output file
 const outputPath = path.resolve(__dirname, "../data/champions_formatted.json");
 function toTitleCase(raw) {

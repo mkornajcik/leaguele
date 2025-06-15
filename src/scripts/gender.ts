@@ -1,8 +1,8 @@
 import * as fs from "fs";
 import * as path from "path";
 
-import formattedChampionsJson from "../data/champions_formatted.json";
-import genderJson from "../data/genders.json";
+import formattedChampionsJson from "../data/champions_formatted.json" with { type: "json" };
+import genderJson from "../data/genders.json" with { type: "json" };
 
 interface ChampionDetails {
   name: string;

@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", () => {
       <div class="absolute inset-0 bg-gradient-to-r from-[#20b2aa]/10 via-transparent to-[#20b2aa]/10"></div>
       <div class="relative z-10">
         <div id="success-splash-container" class="splash-image-container relative w-full h-64 rounded-xl overflow-hidden border-2 border-[#20b2aa] shadow-[0_0_15px_rgba(32,178,170,0.4)]">
-          <img loading="lazy" src="${splashData.splashImage}" alt="Champion splash art" class="w-full h-full object-cover transition-all duration-1000 ease-out" />
+          <img loading="lazy" src="${splashData.splashImage}" alt="Champion splash art" class="success-image w-full h-full object-cover transition-all duration-1000 ease-out" />
           <div class="absolute inset-0 bg-gradient-to-t from-[#191222]/10 to-transparent pointer-events-none"></div>
           
           <!-- Success overlay -->

@@ -1,8 +1,14 @@
 import request from "supertest";
-import app from "../app";
-import { shuffleArray, getRandomCoordinatesExcludingBorder, randomRotation } from "./championsController";
-import * as champService from "../services/championService";
-import * as dailyChampions from "../services/dailyChampions.js";
+import app from "../src/app.js";
+import {
+  shuffleArray,
+  getRandomCoordinatesExcludingBorder,
+  randomRotation,
+} from "../src/controllers/championsController.js";
+import * as champService from "../src/services/championService.js";
+import * as dailyChampions from "../src/services/dailyChampions.js";
+import { jest } from "@jest/globals";
+import { load } from "cheerio";
 
 // --------------------- Helpers ---------------------
 describe("shuffleArray", () => {
@@ -60,36 +66,18 @@ jest.mock("../services/sessionHelpers", () => ({
 
 // --------------------- Classic ---------------------
 describe("Classic Controller Tests", () => {
-  beforeEach(() => {
-    jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
-      date: dailyChampions.getTodayParis(),
-      classicToday: "Lux",
-      quoteToday: "Lux",
-      abilityToday: { champion: "Lux", key: "Q", name: "Light Binding" },
-      splashToday: "Lux",
-      emojiToday: "Lux",
-    });
-  });
-  afterEach(() => {
-    jest.restoreAllMocks();
-  });
-
-  test("GET /classic initializes session", async () => {
-    const response = await request(app).get("/classic").expect(200).expect("Content-Type", /html/);
-
-    expect(response.text).toContain("targetName");
-  });
-
-  test("POST /classic handles correct guess", async () => {
+  test("GET /classic initializes session and POST /classic with correct guess", async () => {
     const agent = request.agent(app); // Preserves cookies
 
-    //initialize session
-    await agent.get("/classic");
+    // Initialize session and extract targetName
+    const getResponse = await agent.get("/classic").expect(200).expect("Content-Type", /html/);
+    const $ = load(getResponse.text);
+    const classicTargetName = $('input[name="targetName"]').val();
 
-    const response = await agent.post("/classic").send({ guessName: "Lux" }).expect(200);
+    // Use the extracted targetName in the POST request
+    const postResponse = await agent.post("/classic").send({ guessName: classicTargetName }).expect(200);
 
-    // Basic response validation
-    expect(response.body).toMatchObject({
+    expect(postResponse.body).toMatchObject({
       isCorrect: true,
       guessCount: 1,
       icon: expect.any(String),
@@ -121,20 +109,6 @@ describe("Classic Controller Tests", () => {
 
 // --------------------- Quote ---------------------
 describe("Quote Controller Tests", () => {
-  beforeEach(() => {
-    jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
-      date: dailyChampions.getTodayParis(),
-      classicToday: "Lux",
-      quoteToday: "Lux",
-      abilityToday: { champion: "Lux", key: "Q", name: "Light Binding" },
-      splashToday: "Lux",
-      emojiToday: "Lux",
-    });
-  });
-  afterEach(() => {
-    jest.restoreAllMocks();
-  });
-
   test("GET /quote initializes session", async () => {
     const response = await request(app).get("/quote").expect(200).expect("Content-Type", /html/);
 
@@ -185,26 +159,6 @@ describe("Quote Controller Tests", () => {
 
 // --------------------- Ability ---------------------
 describe("Ability Controller Tests", () => {
-  beforeEach(() => {
-    jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
-      date: dailyChampions.getTodayParis(),
-      classicToday: "Lux",
-      quoteToday: "Lux",
-      abilityToday: {
-        champion: "Lux",
-        key: "Q",
-        name: "Light Binding",
-        allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
-        icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
-      },
-      splashToday: "Lux",
-      emojiToday: "Lux",
-    });
-  });
-  afterEach(() => {
-    jest.restoreAllMocks();
-  });
-
   test("GET /ability initializes session", async () => {
     const response = await request(app).get("/ability").expect(200).expect("Content-Type", /html/);
 
@@ -257,10 +211,13 @@ describe("Ability Controller Tests", () => {
   test("POST /ability/key handles correct guess", async () => {
     const agent = request.agent(app); // Preserves cookies
 
+    const getResponse = await agent.get("/ability").expect(200).expect("Content-Type", /html/);
+    const $ = load(getResponse.text);
+    const abilityKey = $('input[name="targetAbilityKey"]').val();
     //initialize session
     await agent.get("/ability");
 
-    const response = await agent.post("/ability/key").send({ guessKey: "Q" }).expect(200);
+    const response = await agent.post("/ability/key").send({ guessKey: abilityKey }).expect(200);
 
     // Basic response validation
     expect(response.body).toMatchObject({
@@ -292,10 +249,13 @@ describe("Ability Controller Tests", () => {
   test("POST /ability/name handles correct guess", async () => {
     const agent = request.agent(app); // Preserves cookies
 
+    const getResponse = await agent.get("/ability").expect(200).expect("Content-Type", /html/);
+    const $ = load(getResponse.text);
+    const abilityName = $('input[name="targetAbilityName"]').val();
     //initialize session
     await agent.get("/ability");
 
-    const response = await agent.post("/ability/name").send({ guessName: "Light Binding" }).expect(200);
+    const response = await agent.post("/ability/name").send({ guessName: abilityName }).expect(200);
 
     // Basic response validation
     expect(response.body).toMatchObject({
@@ -326,26 +286,6 @@ describe("Ability Controller Tests", () => {
 
 // --------------------- Emoji ---------------------
 describe("Emoji Controller Tests", () => {
-  beforeEach(() => {
-    jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
-      date: dailyChampions.getTodayParis(),
-      classicToday: "Lux",
-      quoteToday: "Lux",
-      abilityToday: {
-        champion: "Lux",
-        key: "Q",
-        name: "Light Binding",
-        allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
-        icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
-      },
-      splashToday: "Lux",
-      emojiToday: { champion: "Lux", emojis: ["💡", "🔦", "🌈", "🪄"] },
-    });
-  });
-  afterEach(() => {
-    jest.restoreAllMocks();
-  });
-
   test("GET /emoji initializes session", async () => {
     const response = await request(app).get("/emoji").expect(200).expect("Content-Type", /html/);
 
@@ -396,32 +336,6 @@ describe("Emoji Controller Tests", () => {
 
 // --------------------- Splash ---------------------
 describe("Splash Controller Tests", () => {
-  beforeEach(() => {
-    jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
-      date: dailyChampions.getTodayParis(),
-      classicToday: "Lux",
-      quoteToday: "Lux",
-      abilityToday: {
-        champion: "Lux",
-        key: "Q",
-        name: "Light Binding",
-        allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
-        icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
-      },
-      splashToday: {
-        champion: "Lux",
-        splashName: "Elementalist",
-        splashImage:
-          "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin07/images/lux_splash_uncentered_7.jpg",
-        allSplashes: ["Original", "Sorceress", "Spellthief", "Commando", "Elementalist"],
-      },
-      emojiToday: { champion: "Lux", emojis: ["💡", "🔦", "🌈", "🪄"] },
-    });
-  });
-  afterEach(() => {
-    jest.restoreAllMocks();
-  });
-
   test("GET /splash initializes session", async () => {
     const response = await request(app).get("/splash").expect(200).expect("Content-Type", /html/);
 
@@ -474,10 +388,13 @@ describe("Splash Controller Tests", () => {
   test("POST /splash/name handles correct guess", async () => {
     const agent = request.agent(app); // Preserves cookies
 
+    const getResponse = await agent.get("/splash").expect(200).expect("Content-Type", /html/);
+    const $ = load(getResponse.text);
+    const splashName = $('input[name="targetName"]').val();
     //initialize session
     await agent.get("/splash");
 
-    const response = await agent.post("/splash/name").send({ guessSplash: "Elementalist" }).expect(200);
+    const response = await agent.post("/splash/name").send({ guessSplash: splashName }).expect(200);
 
     // Basic response validation
     expect(response.body).toMatchObject({

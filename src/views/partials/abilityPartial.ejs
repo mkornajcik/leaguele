@@ -14,7 +14,8 @@
     guesses: guesses || [],
     abilityRotation: abilityRotation ?? null,
     abilityIcon: targetIcon ?? null,
-    secondsUntilReset: secondsUntilReset ?? null
+    secondsUntilReset: secondsUntilReset ?? null,
+    targetAbility: targetAbility ?? null
   };
 %>
 <%- include("navBar.ejs", { 
@@ -68,6 +69,9 @@
       <form id="input-form" onsubmit="return false;" method="POST" class="text-[#f5f5f7] relative form-container">
         <input type="hidden" name="targetName" value="<%= targetName %>">
         <input type="hidden" name="targetAbilityImage" value="<%= targetIcon %>">
+        <input type="hidden" name="targetAbilityName" value="<%= targetAbility %>">
+        <input type="hidden" name="targetAbilityKey" value="<%= targetKey %>">
+
 
         <div class="input-wrapper relative">
           <input required name="guessName" id="champion-input" placeholder="Type a champion name..." class="w-full p-4 bg-gradient-to-r from-[#1e1e2e] to-[#252540] border border-[#45475a] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#4b6bac] focus:border-transparent text-[#f5f5f7] transition-all duration-300 hover:border-[#4b6bac]/50 placeholder-[#6fa0cc] text-lg" autocomplete="off" />

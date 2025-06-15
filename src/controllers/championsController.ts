@@ -6,7 +6,7 @@ import {
   compareAbilities,
   compareSplashes,
   compareEmojis,
-} from "../services/championService";
+} from "../services/championService.js";
 import { getCompletionFlags } from "../services/sessionHelpers.js";
 import { catchAsync } from "../services/catchAsync.js";
 import { AppError } from "../types/appError.js";

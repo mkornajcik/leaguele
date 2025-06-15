@@ -5,8 +5,12 @@ import {
   getRandomAbility,
   getRandomSplash,
   getRandomEmojiChallenge,
-} from "./championService";
-import { AppError } from "../types/appError";
+  init,
+} from "./championService.js";
+import { AppError } from "../types/appError.js";
+
+// Call init to ensure all data are available
+await init();
 
 // Store todays champions and date
 type DailyChampions = {

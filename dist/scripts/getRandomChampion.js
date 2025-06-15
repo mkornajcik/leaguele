@@ -1,4 +1,4 @@
-import formattedChampionsJson from "../data/champions_formatted.json";
+import formattedChampionsJson from "../data/champions_formatted.json" with { type: "json" };
 export function getRandomChampion() {
     const championsArray = Object.values(formattedChampionsJson);
     if (championsArray.length === 0) {

@@ -12,9 +12,6 @@ import helmet from "helmet";
 // Start express app
 const app = express();
 
-/* const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename); */
-
 let viewsDir = path.join(process.cwd(), "dist", "views");
 if (!fs.existsSync(viewsDir)) {
   viewsDir = path.join(process.cwd(), "src", "views");

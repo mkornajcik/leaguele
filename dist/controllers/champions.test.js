@@ -1,6 +1,6 @@
 import request from "supertest";
-import app from "../app";
-import { shuffleArray, getRandomCoordinatesExcludingBorder, randomRotation } from "./championsController";
+import app from "../app.js";
+import { shuffleArray, getRandomCoordinatesExcludingBorder, randomRotation } from "./championsController.js";
 import * as dailyChampions from "../services/dailyChampions.js";
 // --------------------- Helpers ---------------------
 describe("shuffleArray", () => {
@@ -56,7 +56,18 @@ describe("Classic Controller Tests", () => {
     beforeEach(() => {
         jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
             date: dailyChampions.getTodayParis(),
-            classicToday: "Lux",
+            classicToday: {
+                name: "Lux",
+                title: "the Lady of Luminosity",
+                resource: "Mana",
+                position: "Middle Support",
+                attackType: "Ranged",
+                releaseDate: "2010",
+                icon: "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lux.png",
+                gender: "Female",
+                species: "Human Magicborn",
+                region: "Demacia",
+            },
             quoteToday: "Lux",
             abilityToday: { champion: "Lux", key: "Q", name: "Light Binding" },
             splashToday: "Lux",

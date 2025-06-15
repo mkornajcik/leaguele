@@ -1,23 +1,18 @@
-/** @type {import('@jest/types').Config.InitialOptions} */
 module.exports = {
-  preset: "ts-jest",
   testEnvironment: "node",
-  testMatch: ["**/**/*.test.ts"],
-  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
-
-  // extensionsToTreatAsEsm: [".ts", ".tsx"],
-
+  transform: {
+    "^.+\\.ts$": ["ts-jest", { useESM: true }],
+  },
+  extensionsToTreatAsEsm: [".ts"],
   moduleNameMapper: {
-    // Only strip `.js` for relative imports:
     "^(\\.{1,2}/.*)\\.js$": "$1",
   },
-
-  transform: {
-    "^.+\\.tsx?$": [
-      "ts-jest",
-      {
-        tsconfig: "tsconfig.json",
-      },
-    ],
+  transformIgnorePatterns: ["node_modules"],
+  testMatch: ["**/*.test.ts"],
+  globals: {
+    "ts-jest": {
+      useESM: true,
+      tsconfig: "tsconfig.json",
+    },
   },
 };

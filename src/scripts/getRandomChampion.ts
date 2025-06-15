@@ -1,4 +1,4 @@
-import formattedChampionsJson from "../data/champions_formatted.json";
+import formattedChampionsJson from "../data/champions_formatted.json" with { type: "json" };
 
 // Type for the formatted champion structure
 export interface FormattedChampion {

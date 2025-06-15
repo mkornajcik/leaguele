@@ -1,6 +1,6 @@
 import fs from "fs";
 import path from "path";
-import championsJson from "./champions.json";
+import championsJson from "./champions.json" with { type: "json" }
 
 // Fields to retain
 interface FormattedChampion {
