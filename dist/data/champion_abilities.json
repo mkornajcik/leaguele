@@ -1,1192 +1,1192 @@
 {
-    "Aatrox": {
-        "P": ["Deathbringer Stance", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/p"],
-        "Q": ["The Darkin Blade", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/q"],
-        "W": ["Infernal Chains", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/w"],
-        "E": ["Umbral Dash", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/e"],
-        "R": ["World Ender", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/r"]
-    },
-    "Ahri": {
-        "P": ["Essence Theft", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/p"],
-        "Q": ["Orb of Deception", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/q"],
-        "W": ["Fox-Fire", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/w"],
-        "E": ["Charm", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/e"],
-        "R": ["Spirit Rush", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/r"]
-    },
-    "Akali": {
-        "P": ["Assassin's Mark", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/p"],
-        "Q": ["Five Point Strike", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/q"],
-        "W": ["Twilight Shroud", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/w"],
-        "E": ["Shuriken Flip", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/e"],
-        "R": ["Perfect Execution", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/r"]
-    },
-    "Akshan": {
-        "P": ["Dirty Fighting", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/p"],
-        "Q": ["Avengerang", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/q"],
-        "W": ["Going Rogue", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/w"],
-        "E": ["Heroic Swing", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/e"],
-        "R": ["Comeuppance", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/r"]
-    },
-    "Alistar": {
-        "P": ["Triumphant Roar", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/p"],
-        "Q": ["Pulverize", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/q"],
-        "W": ["Headbutt", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/w"],
-        "E": ["Trample", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/e"],
-        "R": ["Unbreakable Will", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/r"]
-    },
-    "Ambessa": {
-        "P": ["Drakehound's Step", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/p"],
-        "Q": ["Cunning Sweep", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/q"],
-        "W": ["Repudiation", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/w"],
-        "E": ["Lacerate", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/e"],
-        "R": ["Public Execution", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/r"]
-    },
-    "Amumu": {
-        "P": ["Cursed Touch", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/p"],
-        "Q": ["Bandage Toss", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/q"],
-        "W": ["Despair", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/w"],
-        "E": ["Tantrum", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/e"],
-        "R": ["Curse of the Sad Mummy", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/r"]
-    },
-    "Anivia": {
-        "P": ["Rebirth", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/p"],
-        "Q": ["Flash Frost", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/q"],
-        "W": ["Crystallize", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/w"],
-        "E": ["Frostbite", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/e"],
-        "R": ["Glacial Storm", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/r"]
-    },
-    "Annie": {
-        "P": ["Pyromania", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/p"],
-        "Q": ["Disintegrate", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/q"],
-        "W": ["Incinerate", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/w"],
-        "E": ["Molten Shield", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/e"],
-        "R": ["Summon: Tibbers", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/r"]
-    },
-    "Aphelios": {
-        "P": ["The Hitman and the Seer", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/p"],
-        "Q": ["Weapons of the Faithful", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/q"],
-        "W": ["Phase", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/w"],
-        "E": ["Weapon Queue System", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/e"],
-        "R": ["Moonlight Vigil", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/r"]
-    },
-    "Ashe": {
-        "P": ["Frost Shot", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/p"],
-        "Q": ["Ranger's Focus", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/q"],
-        "W": ["Volley", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/w"],
-        "E": ["Hawkshot", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/e"],
-        "R": ["Enchanted Crystal Arrow", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/r"]
-    },
-    "Aurelion Sol": {
-        "P": ["Cosmic Creator", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/p"],
-        "Q": ["Breath of Light", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/q"],
-        "W": ["Astral Flight", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/w"],
-        "E": ["Singularity", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/e"],
-        "R": ["Falling Star", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/r"]
-    },
-    "Aurora": {
-        "P": ["Spirit Abjuration", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/p"],
-        "Q": ["Twofold Hex", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/q"],
-        "W": ["Across the Veil", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/w"],
-        "E": ["The Weirding", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/e"],
-        "R": ["Between Worlds", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/r"]
-    },
-    "Azir": {
-        "P": ["Shurima's Legacy", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/p"],
-        "Q": ["Conquering Sands", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/q"],
-        "W": ["Arise!", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/w"],
-        "E": ["Shifting Sands", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/e"],
-        "R": ["Emperor's Divide", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/r"]
-    },
-    "Bard": {
-        "P": ["Traveler's Call", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/p"],
-        "Q": ["Cosmic Binding", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/q"],
-        "W": ["Caretaker's Shrine", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/w"],
-        "E": ["Magical Journey", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/e"],
-        "R": ["Tempered Fate", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/r"]
-    },
-    "Bel'Veth": {
-        "P": ["Death in Lavender", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/p"],
-        "Q": ["Void Surge", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/q"],
-        "W": ["Above and Below", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/w"],
-        "E": ["Royal Maelstrom", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/e"],
-        "R": ["Endless Banquet", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/r"]
-    },
-    "Blitzcrank": {
-        "P": ["Mana Barrier", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/p"],
-        "Q": ["Rocket Grab", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/q"],
-        "W": ["Overdrive", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/w"],
-        "E": ["Power Fist", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/e"],
-        "R": ["Static Field", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/r"]
-    },
-    "Brand": {
-        "P": ["Blaze", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/p"],
-        "Q": ["Sear", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/q"],
-        "W": ["Pillar of Flame", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/w"],
-        "E": ["Conflagration", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/e"],
-        "R": ["Pyroclasm", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/r"]
-    },
-    "Braum": {
-        "P": ["Concussive Blows", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/p"],
-        "Q": ["Winter's Bite", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/q"],
-        "W": ["Stand Behind Me", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/w"],
-        "E": ["Unbreakable", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/e"],
-        "R": ["Glacial Fissure", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/r"]
-    },
-    "Briar": {
-        "P": ["Crimson Curse", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/p"],
-        "Q": ["Head Rush", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/q"],
-        "W": ["Blood Frenzy", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/w"],
-        "E": ["Chilling Scream", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/e"],
-        "R": ["Certain Death", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/r"]
-    },
-    "Caitlyn": {
-        "P": ["Headshot", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/p"],
-        "Q": ["Piltover Peacemaker", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/q"],
-        "W": ["Yordle Snap Trap", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/w"],
-        "E": ["90 Caliber Net", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/e"],
-        "R": ["Ace in the Hole", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/r"]
-    },
-    "Camille": {
-        "P": ["Adaptive Defenses", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/p"],
-        "Q": ["Precision Protocol", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/q"],
-        "W": ["Tactical Sweep", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/w"],
-        "E": ["Hookshot", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/e"],
-        "R": ["The Hextech Ultimatum", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/r"]
-    },
-    "Cassiopeia": {
-        "P": ["Serpentine Grace", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/p"],
-        "Q": ["Noxious Blast", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/q"],
-        "W": ["Miasma", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/w"],
-        "E": ["Twin Fang", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/e"],
-        "R": ["Petrifying Gaze", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/r"]
-    },
-    "Cho'Gath": {
-        "P": ["Carnivore", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/p"],
-        "Q": ["Rupture", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/q"],
-        "W": ["Feral Scream", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/w"],
-        "E": ["Vorpal Spikes", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/e"],
-        "R": ["Feast", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/r"]
-    },
-    "Corki": {
-        "P": ["Hextech Munitions", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/p"],
-        "Q": ["Phosphorus Bomb", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/q"],
-        "W": ["Valkyrie", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/w"],
-        "E": ["Gatling Gun", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/e"],
-        "R": ["Missile Barrage", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/r"]
-    },
-    "Darius": {
-        "P": ["Hemorrhage", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/p"],
-        "Q": ["Decimate", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/q"],
-        "W": ["Crippling Strike", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/w"],
-        "E": ["Apprehend", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/e"],
-        "R": ["Noxian Guillotine", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/r"]
-    },
-    "Diana": {
-        "P": ["Moonsilver Blade", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/p"],
-        "Q": ["Crescent Strike", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/q"],
-        "W": ["Pale Cascade", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/w"],
-        "E": ["Lunar Rush", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/e"],
-        "R": ["Moonfall", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/r"]
-    },
-    "Dr. Mundo": {
-        "P": ["Goes Where He Pleases", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/p"],
-        "Q": ["Infected Bonesaw", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/q"],
-        "W": ["Heart Zapper", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/w"],
-        "E": ["Blunt Force Trauma", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/e"],
-        "R": ["Maximum Dosage", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/r"]
-    },
-    "Draven": {
-        "P": ["League of Draven", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/p"],
-        "Q": ["Spinning Axe", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/q"],
-        "W": ["Blood Rush", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/w"],
-        "E": ["Stand Aside", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/e"],
-        "R": ["Whirling Death", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/r"]
-    },
-    "Ekko": {
-        "P": ["Z-Drive Resonance", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/p"],
-        "Q": ["Timewinder", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/q"],
-        "W": ["Parallel Convergence", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/w"],
-        "E": ["Phase Dive", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/e"],
-        "R": ["Chronobreak", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/r"]
-    },
-    "Elise": {
-        "P": ["Spider Queen", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/p"],
-        "Q": ["Neurotoxin", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/q"],
-        "W": ["Volatile Spiderling", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/w"],
-        "E": ["Cocoon", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/e"],
-        "R": ["Spider Form / Human Form", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/r"]
-    },
-    "Evelynn": {
-        "P": ["Demon Shade", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/p"],
-        "Q": ["Hate Spike", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/q"],
-        "W": ["Allure", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/w"],
-        "E": ["Whiplash", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/e"],
-        "R": ["Last Caress", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/r"]
-    },
-    "Ezreal": {
-        "P": ["Rising Spell Force", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/p"],
-        "Q": ["Mystic Shot", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/q"],
-        "W": ["Essence Flux", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/w"],
-        "E": ["Arcane Shift", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/e"],
-        "R": ["Trueshot Barrage", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/r"]
-    },
-    "Fiddlesticks": {
-        "P": ["A Harmless Scarecrow", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/p"],
-        "Q": ["Terrify", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/q"],
-        "W": ["Bountiful Harvest", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/w"],
-        "E": ["Reap", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/e"],
-        "R": ["Crowstorm", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/r"]
-    },
-    "Fiora": {
-        "P": ["Duelist's Dance", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/p"],
-        "Q": ["Lunge", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/q"],
-        "W": ["Riposte", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/w"],
-        "E": ["Bladework", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/e"],
-        "R": ["Grand Challenge", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/r"]
-    },
-    "Fizz": {
-        "P": ["Nimble Fighter", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/p"],
-        "Q": ["Urchin Strike", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/q"],
-        "W": ["Seastone Trident", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/w"],
-        "E": ["Playful", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/e"],
-        "R": ["Chum the Waters", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/r"]
-    },
-    "Galio": {
-        "P": ["Colossal Smash", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/p"],
-        "Q": ["Winds of War", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/q"],
-        "W": ["Shield of Durand", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/w"],
-        "E": ["Justice Punch", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/e"],
-        "R": ["Hero's Entrance", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/r"]
-    },
-    "Gangplank": {
-        "P": ["Trial by Fire", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/p"],
-        "Q": ["Parrrley", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/q"],
-        "W": ["Remove Scurvy", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/w"],
-        "E": ["Powder Keg", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/e"],
-        "R": ["Cannon Barrage", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/r"]
-    },
-    "Garen": {
-        "P": ["Perseverance", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/p"],
-        "Q": ["Decisive Strike", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/q"],
-        "W": ["Courage", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/w"],
-        "E": ["Judgment", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/e"],
-        "R": ["Demacian Justice", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/r"]
-    },
-    "Gnar": {
-        "P": ["Rage Gene", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/p"],
-        "Q": ["Boomerang Throw", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/q"],
-        "W": ["Hyper", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/w"],
-        "E": ["Hop", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/e"],
-        "R": ["GNAR!", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/r"]
-    },
-    "Gragas": {
-        "P": ["Happy Hour", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/p"],
-        "Q": ["Barrel Roll", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/q"],
-        "W": ["Drunken Rage", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/w"],
-        "E": ["Body Slam", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/e"],
-        "R": ["Explosive Cask", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/r"]
-    },
-    "Graves": {
-        "P": ["New Destiny", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/p"],
-        "Q": ["End of the Line", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/q"],
-        "W": ["Smoke Screen", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/w"],
-        "E": ["Quickdraw", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/e"],
-        "R": ["Collateral Damage", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/r"]
-    },
-    "Gwen": {
-        "P": ["A Thousand Cuts", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/p"],
-        "Q": ["Snip Snip!", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/q"],
-        "W": ["Hallowed Mist", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/w"],
-        "E": ["Skip 'n Slash", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/e"],
-        "R": ["Needlework", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/r"]
-    },
-    "Hecarim": {
-        "P": ["Warpath", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/p"],
-        "Q": ["Rampage", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/q"],
-        "W": ["Spirit of Dread", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/w"],
-        "E": ["Devastating Charge", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/e"],
-        "R": ["Onslaught of Shadows", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/r"]
-    },
-    "Heimerdinger": {
-        "P": ["Hextech Affinity", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/p"],
-        "Q": ["H-28G Evolution Turret", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/q"],
-        "W": ["Hextech Micro-Rockets", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/w"],
-        "E": ["CH-2 Electron Storm Grenade", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/e"],
-        "R": ["UPGRADE!!!", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/r"]
-    },
-    "Hwei": {
-        "P": ["Signature of the Visionary", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/p"],
-        "Q": ["Subject: Disaster", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/q"],
-        "W": ["Subject: Serenity", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/w"],
-        "E": ["Subject: Torment", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/e"],
-        "R": ["Spiraling Despair", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/r"]
-    },
-    "Illaoi": {
-        "P": ["Prophet of an Elder God", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/p"],
-        "Q": ["Tentacle Smash", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/q"],
-        "W": ["Harsh Lesson", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/w"],
-        "E": ["Test of Spirit", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/e"],
-        "R": ["Leap of Faith", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/r"]
-    },
-    "Irelia": {
-        "P": ["Ionian Fervor", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/p"],
-        "Q": ["Bladesurge", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/q"],
-        "W": ["Defiant Dance", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/w"],
-        "E": ["Flawless Duet", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/e"],
-        "R": ["Vanguard's Edge", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/r"]
-    },
-    "Ivern": {
-        "P": ["Friend of the Forest", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/p"],
-        "Q": ["Rootcaller", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/q"],
-        "W": ["Brushmaker", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/w"],
-        "E": ["Triggerseed", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/e"],
-        "R": ["Daisy!", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/r"]
-    },
-    "Janna": {
-        "P": ["Tailwind", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/p"],
-        "Q": ["Howling Gale", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/q"],
-        "W": ["Zephyr", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/w"],
-        "E": ["Eye of the Storm", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/e"],
-        "R": ["Monsoon", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/r"]
-    },
-    "Jarvan IV": {
-        "P": ["Martial Cadence", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/p"],
-        "Q": ["Dragon Strike", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/q"],
-        "W": ["Golden Aegis", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/w"],
-        "E": ["Demacian Standard", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/e"],
-        "R": ["Cataclysm", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/r"]
-    },
-    "Jax": {
-        "P": ["Relentless Assault", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/p"],
-        "Q": ["Leap Strike", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/q"],
-        "W": ["Empower", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/w"],
-        "E": ["Counter Strike", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/e"],
-        "R": ["Grandmaster-At-Arms", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/r"]
-    },
-    "Jayce": {
-        "P": ["Hextech Capacitor", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/p"],
-        "Q": ["To the Skies!", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/q"],
-        "W": ["Lightning Field", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/w"],
-        "E": ["Thundering Blow", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/e"],
-        "R": ["Transform Mercury Cannon", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/r"]
-    },
-    "Jhin": {
-        "P": ["Whisper", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/p"],
-        "Q": ["Dancing Grenade", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/q"],
-        "W": ["Deadly Flourish", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/w"],
-        "E": ["Captive Audience", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/e"],
-        "R": ["Curtain Call", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/r"]
-    },
-    "Jinx": {
-        "P": ["Get Excited!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/p"],
-        "Q": ["Switcheroo!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/q"],
-        "W": ["Zap!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/w"],
-        "E": ["Flame Chompers!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/e"],
-        "R": ["Super Mega Death Rocket!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/r"]
-    },
-    "K'Sante": {
-        "P": ["Dauntless Instinct", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/p"],
-        "Q": ["Ntofo Strikes", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/q"],
-        "W": ["Path Maker", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/w"],
-        "E": ["Footwork", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/e"],
-        "R": ["All Out", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/r"]
-    },
-    "Kai'Sa": {
-        "P": ["Second Skin", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/p"],
-        "Q": ["Icathian Rain", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/q"],
-        "W": ["Void Seeker", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/w"],
-        "E": ["Supercharge", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/e"],
-        "R": ["Killer Instinct", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/r"]
-    },
-    "Kalista": {
-        "P": ["Martial Poise", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/p"],
-        "Q": ["Pierce", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/q"],
-        "W": ["Sentinel", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/w"],
-        "E": ["Rend", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/e"],
-        "R": ["Fate's Call", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/r"]
-    },
-    "Karma": {
-        "P": ["Gathering Fire", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/p"],
-        "Q": ["Inner Flame", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/q"],
-        "W": ["Focused Resolve", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/w"],
-        "E": ["Inspire", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/e"],
-        "R": ["Mantra", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/r"]
-    },
-    "Karthus": {
-        "P": ["Death Defied", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/p"],
-        "Q": ["Lay Waste", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/q"],
-        "W": ["Wall of Pain", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/w"],
-        "E": ["Defile", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/e"],
-        "R": ["Requiem", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/r"]
-    },
-    "Kassadin": {
-        "P": ["Void Stone", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/p"],
-        "Q": ["Null Sphere", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/q"],
-        "W": ["Nether Blade", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/w"],
-        "E": ["Force Pulse", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/e"],
-        "R": ["Riftwalk", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/r"]
-    },
-    "Katarina": {
-        "P": ["Voracity", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/p"],
-        "Q": ["Bouncing Blade", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/q"],
-        "W": ["Preparation", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/w"],
-        "E": ["Shunpo", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/e"],
-        "R": ["Death Lotus", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/r"]
-    },
-    "Kayle": {
-        "P": ["Divine Ascent", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/p"],
-        "Q": ["Radiant Blast", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/q"],
-        "W": ["Celestial Blessing", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/w"],
-        "E": ["Starfire Spellblade", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/e"],
-        "R": ["Divine Judgment", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/r"]
-    },
-    "Kayn": {
-        "P": ["The Darkin Scythe", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/p"],
-        "Q": ["Reaping Slash", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/q"],
-        "W": ["Blade's Reach", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/w"],
-        "E": ["Shadow Step", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/e"],
-        "R": ["Umbral Trespass", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/r"]
-    },
-    "Kennen": {
-        "P": ["Mark of the Storm", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/p"],
-        "Q": ["Thundering Shuriken", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/q"],
-        "W": ["Electrical Surge", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/w"],
-        "E": ["Lightning Rush", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/e"],
-        "R": ["Slicing Maelstrom", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/r"]
-    },
-    "Kha'Zix": {
-        "P": ["Unseen Threat", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/p"],
-        "Q": ["Taste Their Fear", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/q"],
-        "W": ["Void Spike", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/w"],
-        "E": ["Leap", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/e"],
-        "R": ["Void Assault", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/r"]
-    },
-    "Kindred": {
-        "P": ["Mark of the Kindred", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/p"],
-        "Q": ["Dance of Arrows", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/q"],
-        "W": ["Wolf's Frenzy", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/w"],
-        "E": ["Mounting Dread", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/e"],
-        "R": ["Lamb's Respite", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/r"]
-    },
-    "Kled": {
-        "P": ["Skaarl the Cowardly Lizard", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/p"],
-        "Q": ["Bear Trap on a Rope", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/q"],
-        "W": ["Violent Tendencies", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/w"],
-        "E": ["Jousting", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/e"],
-        "R": ["Chaaaaaaaarge!!!", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/r"]
-    },
-    "Kog'Maw": {
-        "P": ["Icathian Surprise", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/p"],
-        "Q": ["Caustic Spittle", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/q"],
-        "W": ["Bio-Arcane Barrage", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/w"],
-        "E": ["Void Ooze", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/e"],
-        "R": ["Living Artillery", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/r"]
-    },
-    "Le Blanc": {
-        "P": ["Mirror Image", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/p"],
-        "Q": ["Sigil of Malice", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/q"],
-        "W": ["Distortion", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/w"],
-        "E": ["Ethereal Chains", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/e"],
-        "R": ["Mimic", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/r"]
-    },
-    "Lee Sin": {
-        "P": ["Flurry", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/p"],
-        "Q": ["Sonic Wave", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/q"],
-        "W": ["Safeguard", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/w"],
-        "E": ["Tempest", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/e"],
-        "R": ["Dragon's Rage", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/r"]
-    },
-    "Leona": {
-        "P": ["Sunlight", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/p"],
-        "Q": ["Shield of Daybreak", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/q"],
-        "W": ["Eclipse", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/w"],
-        "E": ["Zenith Blade", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/e"],
-        "R": ["Solar Flare", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/r"]
-    },
-    "Lillia": {
-        "P": ["Dream-Laden Bough", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/p"],
-        "Q": ["Blooming Blows", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/q"],
-        "W": ["Watch Out! Eep!", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/w"],
-        "E": ["Swirlseed", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/e"],
-        "R": ["Lilting Lullaby", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/r"]
-    },
-    "Lissandra": {
-        "P": ["Iceborn Subjugation", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/p"],
-        "Q": ["Ice Shard", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/q"],
-        "W": ["Ring of Frost", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/w"],
-        "E": ["Glacial Path", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/e"],
-        "R": ["Frozen Tomb", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/r"]
-    },
-    "Lucian": {
-        "P": ["Lightslinger", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/p"],
-        "Q": ["Piercing Light", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/q"],
-        "W": ["Ardent Blaze", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/w"],
-        "E": ["Relentless Pursuit", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/e"],
-        "R": ["The Culling", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/r"]
-    },
-    "Lulu": {
-        "P": ["Pix, Faerie Companion", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/p"],
-        "Q": ["Glitterlance", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/q"],
-        "W": ["Whimsy", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/w"],
-        "E": ["Help, Pix!", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/e"],
-        "R": ["Wild Growth", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/r"]
-    },
-    "Lux": {
-        "P": ["Illumination", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/p"],
-        "Q": ["Light Binding", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q"],
-        "W": ["Prismatic Barrier", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/w"],
-        "E": ["Lucent Singularity", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/e"],
-        "R": ["Final Spark", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/r"]
-    },
-    "Malphite": {
-        "P": ["Granite Shield", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/p"],
-        "Q": ["Seismic Shard", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/q"],
-        "W": ["Thunderclap", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/w"],
-        "E": ["Ground Slam", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/e"],
-        "R": ["Unstoppable Force", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/r"]
-    },
-    "Malzahar": {
-        "P": ["Void Shift", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/p"],
-        "Q": ["Call of the Void", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/q"],
-        "W": ["Void Swarm", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/w"],
-        "E": ["Malefic Visions", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/e"],
-        "R": ["Nether Grasp", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/r"]
-    },
-    "Maokai": {
-        "P": ["Sap Magic", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/p"],
-        "Q": ["Bramble Smash", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/q"],
-        "W": ["Twisted Advance", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/w"],
-        "E": ["Sapling Toss", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/e"],
-        "R": ["Nature's Grasp", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/r"]
-    },
-    "Master Yi": {
-        "P": ["Double Strike", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/p"],
-        "Q": ["Alpha Strike", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/q"],
-        "W": ["Meditate", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/w"],
-        "E": ["Wuju Style", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/e"],
-        "R": ["Highlander", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/r"]
-    },
-    "Mel": {
-        "P": ["Searing Brilliance", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/p"],
-        "Q": ["Radiant Volley", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/q"],
-        "W": ["Rebuttal", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/w"],
-        "E": ["Solar Snare", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/e"],
-        "R": ["Golden Eclipse", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/r"]
-    },
-    "Milio": {
-        "P": ["Fired Up!", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/p"],
-        "Q": ["Ultra Mega Fire Kick", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/q"],
-        "W": ["Cozy Campfire", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/w"],
-        "E": ["Warm Hugs", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/e"],
-        "R": ["Breath of Life", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/r"]
-    },
-    "Miss Fortune": {
-        "P": ["Love Tap", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/p"],
-        "Q": ["Double Up", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/q"],
-        "W": ["Strut", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/w"],
-        "E": ["Make It Rain", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/e"],
-        "R": ["Bullet Time", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/r"]
-    },
-    "Mordekaiser": {
-        "P": ["Darkness Rise", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/p"],
-        "Q": ["Obliterate", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/q"],
-        "W": ["Indestructible", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/w"],
-        "E": ["Death's Grasp", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/e"],
-        "R": ["Realm of Death", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/r"]
-    },
-    "Morgana": {
-        "P": ["Soul Siphon", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/p"],
-        "Q": ["Dark Binding", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/q"],
-        "W": ["Tormented Shadow", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/w"],
-        "E": ["Black Shield", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/e"],
-        "R": ["Soul Shackles", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/r"]
-    },
-    "Naafiri": {
-        "P": ["We Are More", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/p"],
-        "Q": ["Darkin Daggers", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/q"],
-        "W": ["The Call of the Pack", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/w"],
-        "E": ["Eviscerate", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/e"],
-        "R": ["Hounds' Pursuit", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/r"]
-    },
-    "Nami": {
-        "P": ["Surging Tides", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/p"],
-        "Q": ["Aqua Prison", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/q"],
-        "W": ["Ebb and Flow", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/w"],
-        "E": ["Tidecaller's Blessing", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/e"],
-        "R": ["Tidal Wave", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/r"]
-    },
-    "Nasus": {
-        "P": ["Soul Eater", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/p"],
-        "Q": ["Siphoning Strike", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/q"],
-        "W": ["Wither", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/w"],
-        "E": ["Spirit Fire", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/e"],
-        "R": ["Fury of the Sands", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/r"]
-    },
-    "Nautilus": {
-        "P": ["Staggering Blow", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/p"],
-        "Q": ["Dredge Line", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/q"],
-        "W": ["Titan's Wrath", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/w"],
-        "E": ["Riptide", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/e"],
-        "R": ["Depth Charge", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/r"]
-    },
-    "Neeko": {
-        "P": ["Inherent Glamour", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/p"],
-        "Q": ["Blooming Burst", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/q"],
-        "W": ["Shapesplitter", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/w"],
-        "E": ["Tangle-Barbs", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/e"],
-        "R": ["Pop Blossom", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/r"]
-    },
-    "Nidalee": {
-        "P": ["Prowl", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/p"],
-        "Q": ["Javelin Toss", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/q"],
-        "W": ["Bushwhack", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/w"],
-        "E": ["Primal Surge", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/e"],
-        "R": ["Aspect of the Cougar", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/r"]
-    },
-    "Nilah": {
-        "P": ["Joy Unending", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/p"],
-        "Q": ["Formless Blade", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/q"],
-        "W": ["Jubilant Veil", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/w"],
-        "E": ["Slipstream", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/e"],
-        "R": ["Apotheosis", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/r"]
-    },
-    "Nocturne": {
-        "P": ["Umbra Blades", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/p"],
-        "Q": ["Duskbringer", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/q"],
-        "W": ["Shroud of Darkness", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/w"],
-        "E": ["Unspeakable Horror", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/e"],
-        "R": ["Paranoia", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/r"]
-    },
-    "Nunu & Willump": {
-        "P": ["Call of the Freljord", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/p"],
-        "Q": ["Consume", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/q"],
-        "W": ["Biggest Snowball Ever!", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/w"],
-        "E": ["Snowball Barrage", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/e"],
-        "R": ["Absolute Zero", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/r"]
-    },
-    "Olaf": {
-        "P": ["Berserker Rage", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/p"],
-        "Q": ["Undertow", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/q"],
-        "W": ["Tough It Out", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/w"],
-        "E": ["Reckless Swing", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/e"],
-        "R": ["Ragnarok", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/r"]
-    },
-    "Orianna": {
-        "P": ["Clockwork Windup", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/p"],
-        "Q": ["Command: Attack", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/q"],
-        "W": ["Command: Dissonance", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/w"],
-        "E": ["Command: Protect", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/e"],
-        "R": ["Command: Shockwave", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/r"]
-    },
-    "Ornn": {
-        "P": ["Living Forge", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/p"],
-        "Q": ["Volcanic Rupture", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/q"],
-        "W": ["Bellows Breath", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/w"],
-        "E": ["Searing Charge", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/e"],
-        "R": ["Call of the Forge God", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/r"]
-    },
-    "Pantheon": {
-        "P": ["Mortal Will", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/p"],
-        "Q": ["Comet Spear", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/q"],
-        "W": ["Shield Vault", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/w"],
-        "E": ["Aegis Assault", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/e"],
-        "R": ["Grand Starfall", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/r"]
-    },
-    "Poppy": {
-        "P": ["Iron Ambassador", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/p"],
-        "Q": ["Hammer Shock", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/q"],
-        "W": ["Steadfast Presence", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/w"],
-        "E": ["Heroic Charge", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/e"],
-        "R": ["Keeper's Verdict", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/r"]
-    },
-    "Pyke": {
-        "P": ["Gift of the Drowned Ones", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/p"],
-        "Q": ["Bone Skewer", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/q"],
-        "W": ["Ghostwater Dive", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/w"],
-        "E": ["Phantom Undertow", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/e"],
-        "R": ["Death from Below", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/r"]
-    },
-    "Qiyana": {
-        "P": ["Royal Privilege", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/p"],
-        "Q": ["Edge of Ixtal", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/q"],
-        "W": ["Terrashape", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/w"],
-        "E": ["Audacity", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/e"],
-        "R": ["Supreme Display of Talent", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/r"]
-    },
-    "Quinn": {
-        "P": ["Harrier", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/p"],
-        "Q": ["Blinding Assault", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/q"],
-        "W": ["Heightened Senses", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/w"],
-        "E": ["Vault", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/e"],
-        "R": ["Behind Enemy Lines", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/r"]
-    },
-    "Rakan": {
-        "P": ["Fey Feathers", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/p"],
-        "Q": ["Gleaming Quill", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/q"],
-        "W": ["Grand Entrance", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/w"],
-        "E": ["Battle Dance", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/e"],
-        "R": ["The Quickness", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/r"]
-    },
-    "Rammus": {
-        "P": ["Spiked Shell", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/p"],
-        "Q": ["Powerball", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/q"],
-        "W": ["Defensive Ball Curl", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/w"],
-        "E": ["Frenzying Taunt", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/e"],
-        "R": ["Soaring Slam", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/r"]
-    },
-    "Rek'Sai": {
-        "P": ["Fury of the Xer'Sai", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/p"],
-        "Q": ["Queen's Wrath", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/q"],
-        "W": ["Burrow", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/w"],
-        "E": ["Furious Bite", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/e"],
-        "R": ["Void Rush", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/r"]
-    },
-    "Rell": {
-        "P": ["Break the Mold", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/p"],
-        "Q": ["Shattering Strike", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/q"],
-        "W": ["Ferromancy: Crash Down", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/w"],
-        "E": ["Full Tilt", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/e"],
-        "R": ["Magnet Storm", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/r"]
-    },
-    "Renata Glasc": {
-        "P": ["Leverage", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/p"],
-        "Q": ["Handshake", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/q"],
-        "W": ["Bailout", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/w"],
-        "E": ["Loyalty Program", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/e"],
-        "R": ["Hostile Takeover", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/r"]
-    },
-    "Renekton": {
-        "P": ["Reign of Anger", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/p"],
-        "Q": ["Cull the Meek", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/q"],
-        "W": ["Ruthless Predator", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/w"],
-        "E": ["Slice", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/e"],
-        "R": ["Dominus", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/r"]
-    },
-    "Rengar": {
-        "P": ["Unseen Predator", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/p"],
-        "Q": ["Savagery", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/q"],
-        "W": ["Battle Roar", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/w"],
-        "E": ["Bola Strike", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/e"],
-        "R": ["Thrill of the Hunt", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/r"]
-    },
-    "Riven": {
-        "P": ["Runic Blade", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/p"],
-        "Q": ["Broken Wings", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/q"],
-        "W": ["Ki Burst", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/w"],
-        "E": ["Valor", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/e"],
-        "R": ["Blade of the Exile", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/r"]
-    },
-    "Rumble": {
-        "P": ["Junkyard Titan", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/p"],
-        "Q": ["Flamespitter", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/q"],
-        "W": ["Scrap Shield", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/w"],
-        "E": ["Electro Harpoon", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/e"],
-        "R": ["The Equalizer", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/r"]
-    },
-    "Ryze": {
-        "P": ["Arcane Mastery", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/p"],
-        "Q": ["Overload", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/q"],
-        "W": ["Rune Prison", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/w"],
-        "E": ["Spell Flux", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/e"],
-        "R": ["Realm Warp", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/r"]
-    },
-    "Samira": {
-        "P": ["Daredevil Impulse", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/p"],
-        "Q": ["Flair", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/q"],
-        "W": ["Blade Whirl", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/w"],
-        "E": ["Wild Rush", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/e"],
-        "R": ["Inferno Trigger", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/r"]
-    },
-    "Sejuani": {
-        "P": ["Fury of the North", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/p"],
-        "Q": ["Arctic Assault", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/q"],
-        "W": ["Winter's Wrath", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/w"],
-        "E": ["Permafrost", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/e"],
-        "R": ["Glacial Prison", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/r"]
-    },
-    "Senna": {
-        "P": ["Absolution", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/p"],
-        "Q": ["Piercing Darkness", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/q"],
-        "W": ["Last Embrace", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/w"],
-        "E": ["Curse of the Black Mist", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/e"],
-        "R": ["Dawning Shadow", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/r"]
-    },
-    "Seraphine": {
-        "P": ["Stage Presence", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/p"],
-        "Q": ["High Note", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/q"],
-        "W": ["Surround Sound", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/w"],
-        "E": ["Beat Drop", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/e"],
-        "R": ["Encore", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/r"]
-    },
-    "Sett": {
-        "P": ["Pit Grit", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/p"],
-        "Q": ["Knuckle Down", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/q"],
-        "W": ["Haymaker", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/w"],
-        "E": ["Facebreaker", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/e"],
-        "R": ["The Show Stopper", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/r"]
-    },
-    "Shaco": {
-        "P": ["Backstab", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/p"],
-        "Q": ["Deceive", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/q"],
-        "W": ["Jack in the Box", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/w"],
-        "E": ["Two-Shiv Poison", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/e"],
-        "R": ["Hallucinate", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/r"]
-    },
-    "Shen": {
-        "P": ["Ki Barrier", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/p"],
-        "Q": ["Twilight Assault", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/q"],
-        "W": ["Spirit's Refuge", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/w"],
-        "E": ["Shadow Dash", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/e"],
-        "R": ["Stand United", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/r"]
-    },
-    "Shyvana": {
-        "P": ["Fury of the Dragonborn", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/p"],
-        "Q": ["Twin Bite", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/q"],
-        "W": ["Burnout", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/w"],
-        "E": ["Flame Breath", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/e"],
-        "R": ["Dragon's Descent", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/r"]
-    },
-    "Singed": {
-        "P": ["Noxious Slipstream", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/p"],
-        "Q": ["Poison Trail", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/q"],
-        "W": ["Mega Adhesive", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/w"],
-        "E": ["Fling", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/e"],
-        "R": ["Insanity Potion", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/r"]
-    },
-    "Sion": {
-        "P": ["Glory in Death", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/p"],
-        "Q": ["Decimating Smash", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/q"],
-        "W": ["Soul Furnace", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/w"],
-        "E": ["Roar of the Slayer", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/e"],
-        "R": ["Unstoppable Onslaught", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/r"]
-    },
-    "Sivir": {
-        "P": ["Fleet of Foot", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/p"],
-        "Q": ["Boomerang Blade", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/q"],
-        "W": ["Ricochet", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/w"],
-        "E": ["Spell Shield", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/e"],
-        "R": ["On the Hunt", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/r"]
-    },
-    "Skarner": {
-        "P": ["Threads of Vibration", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/p"],
-        "Q": ["Shattered Earth", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/q"],
-        "W": ["Seismic Bastion", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/w"],
-        "E": ["Ixtal's Impact", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/e"],
-        "R": ["Impale", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/r"]
-    },
-    "Smolder": {
-        "P": ["Dragon Practice", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/p"],
-        "Q": ["Super Scorcher Breath", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/q"],
-        "W": ["Achooo!", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/w"],
-        "E": ["Flap, Flap, Flap", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/e"],
-        "R": ["MMOOOMMMM!", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/r"]
-    },
-    "Sona": {
-        "P": ["Power Chord", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/p"],
-        "Q": ["Hymn of Valor", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/q"],
-        "W": ["Aria of Perseverance", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/w"],
-        "E": ["Song of Celerity", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/e"],
-        "R": ["Crescendo", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/r"]
-    },
-    "Soraka": {
-        "P": ["Salvation", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/p"],
-        "Q": ["Starcall", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/q"],
-        "W": ["Astral Infusion", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/w"],
-        "E": ["Equinox", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/e"],
-        "R": ["Wish", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/r"]
-    },
-    "Swain": {
-        "P": ["Ravenous Flock", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/p"],
-        "Q": ["Death's Hand", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/q"],
-        "W": ["Vision of Empire", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/w"],
-        "E": ["Nevermove", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/e"],
-        "R": ["Demonic Ascension", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/r"]
-    },
-    "Sylas": {
-        "P": ["Petricite Burst", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/p"],
-        "Q": ["Chain Lash", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/q"],
-        "W": ["Kingslayer", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/w"],
-        "E": ["Abscond", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/e"],
-        "R": ["Hijack", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/r"]
-    },
-    "Syndra": {
-        "P": ["Transcendent", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/p"],
-        "Q": ["Dark Sphere", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/q"],
-        "W": ["Force of Will", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/w"],
-        "E": ["Scatter the Weak", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/e"],
-        "R": ["Unleashed Power", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/r"]
-    },
-    "Tahm Kench": {
-        "P": ["An Acquired Taste", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/p"],
-        "Q": ["Tongue Lash", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/q"],
-        "W": ["Abyssal Dive", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/w"],
-        "E": ["Thick Skin", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/e"],
-        "R": ["Devour", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/r"]
-    },
-    "Taliyah": {
-        "P": ["Rock Surfing", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/p"],
-        "Q": ["Threaded Volley", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/q"],
-        "W": ["Seismic Shove", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/w"],
-        "E": ["Unraveled Earth", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/e"],
-        "R": ["Weaver's Wall", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/r"]
-    },
-    "Talon": {
-        "P": ["Blade's End", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/p"],
-        "Q": ["Noxian Diplomacy", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/q"],
-        "W": ["Rake", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/w"],
-        "E": ["Assassin's Path", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/e"],
-        "R": ["Shadow Assault", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/r"]
-    },
-    "Taric": {
-        "P": ["Bravado", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/p"],
-        "Q": ["Starlight's Touch", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/q"],
-        "W": ["Bastion", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/w"],
-        "E": ["Dazzle", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/e"],
-        "R": ["Cosmic Radiance", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/r"]
-    },
-    "Teemo": {
-        "P": ["Guerrilla Warfare", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/p"],
-        "Q": ["Blinding Dart", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/q"],
-        "W": ["Move Quick", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/w"],
-        "E": ["Toxic Shot", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/e"],
-        "R": ["Noxious Trap", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/r"]
-    },
-    "Thresh": {
-        "P": ["Damnation", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/p"],
-        "Q": ["Death Sentence", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/q"],
-        "W": ["Dark Passage", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/w"],
-        "E": ["Flay", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/e"],
-        "R": ["The Box", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/r"]
-    },
-    "Tristana": {
-        "P": ["Draw a Bead", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/p"],
-        "Q": ["Rapid Fire", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/q"],
-        "W": ["Rocket Jump", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/w"],
-        "E": ["Explosive Charge", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/e"],
-        "R": ["Buster Shot", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/r"]
-    },
-    "Trundle": {
-        "P": ["King's Tribute", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/p"],
-        "Q": ["Chomp", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/q"],
-        "W": ["Frozen Domain", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/w"],
-        "E": ["Pillar of Ice", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/e"],
-        "R": ["Subjugate", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/r"]
-    },
-    "Tryndamere": {
-        "P": ["Battle Fury", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/p"],
-        "Q": ["Bloodlust", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/q"],
-        "W": ["Mocking Shout", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/w"],
-        "E": ["Spinning Slash", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/e"],
-        "R": ["Undying Rage", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/r"]
-    },
-    "Twisted Fate": {
-        "P": ["Loaded Dice", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/p"],
-        "Q": ["Wild Cards", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/q"],
-        "W": ["Pick a Card", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/w"],
-        "E": ["Stacked Deck", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/e"],
-        "R": ["Destiny", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/r"]
-    },
-    "Twitch": {
-        "P": ["Deadly Venom", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/p"],
-        "Q": ["Ambush", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/q"],
-        "W": ["Venom Cask", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/w"],
-        "E": ["Contaminate", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/e"],
-        "R": ["Spray and Pray", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/r"]
-    },
-    "Udyr": {
-        "P": ["Bridge Between", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/p"],
-        "Q": ["Wilding Claw", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/q"],
-        "W": ["Iron Mantle", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/w"],
-        "E": ["Blazing Stampede", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/e"],
-        "R": ["Wingborne Storm", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/r"]
-    },
-    "Urgot": {
-        "P": ["Echoing Flames", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/p"],
-        "Q": ["Corrosive Charge", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/q"],
-        "W": ["Purge", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/w"],
-        "E": ["Disdain", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/e"],
-        "R": ["Fear Beyond Death", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/r"]
-    },
-    "Varus": {
-        "P": ["Living Vengeance", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/p"],
-        "Q": ["Piercing Arrow", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/q"],
-        "W": ["Blighted Quiver", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/w"],
-        "E": ["Hail of Arrows", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/e"],
-        "R": ["Chain of Corruption", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/r"]
-    },
-    "Vayne": {
-        "P": ["Night Hunter", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/p"],
-        "Q": ["Tumble", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/q"],
-        "W": ["Silver Bolts", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/w"],
-        "E": ["Condemn", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/e"],
-        "R": ["Final Hour", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/r"]
-    },
-    "Veigar": {
-        "P": ["Phenomenal Evil Power", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/p"],
-        "Q": ["Baleful Strike", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/q"],
-        "W": ["Dark Matter", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/w"],
-        "E": ["Event Horizon", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/e"],
-        "R": ["Primordial Burst", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/r"]
-    },
-    "Vel'Koz": {
-        "P": ["Organic Deconstruction", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/p"],
-        "Q": ["Plasma Fission", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/q"],
-        "W": ["Void Rift", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/w"],
-        "E": ["Tectonic Disruption", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/e"],
-        "R": ["Life Form Disintegration Ray", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/r"]
-    },
-    "Vex": {
-        "P": ["Doom 'n Gloom", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/p"],
-        "Q": ["Mistral Bolt", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/q"],
-        "W": ["Personal Space", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/w"],
-        "E": ["Looming Darkness", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/e"],
-        "R": ["Shadow Surge", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/r"]
-    },
-    "Vi": {
-        "P": ["Blast Shield", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/p"],
-        "Q": ["Vault Breaker", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/q"],
-        "W": ["Denting Blows", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/w"],
-        "E": ["Relentless Force", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/e"],
-        "R": ["Cease and Desist", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/r"]
-    },
-    "Viego": {
-        "P": ["Sovereign's Domination", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/p"],
-        "Q": ["Blade of the Ruined King", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/q"],
-        "W": ["Spectral Maw", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/w"],
-        "E": ["Harrowed Path", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/e"],
-        "R": ["Heartbreaker", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/r"]
-    },
-    "Viktor": {
-        "P": ["Glorious Evolution", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/p"],
-        "Q": ["Siphon Power", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/q"],
-        "W": ["Gravity Field", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/w"],
-        "E": ["Hextech Ray", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/e"],
-        "R": ["Arcane Storm", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/r"]
-    },
-    "Vladimir": {
-        "P": ["Crimson Pact", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/p"],
-        "Q": ["Transfusion", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/q"],
-        "W": ["Sanguine Pool", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/w"],
-        "E": ["Tides of Blood", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/e"],
-        "R": ["Hemoplague", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/r"]
-    },
-    "Volibear": {
-        "P": ["The Relentless Storm", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/p"],
-        "Q": ["Thundering Smash", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/q"],
-        "W": ["Frenzied Maul", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/w"],
-        "E": ["Sky Splitter", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/e"],
-        "R": ["Stormbringer", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/r"]
-    },
-    "Warwick": {
-        "P": ["Eternal Hunger", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/p"],
-        "Q": ["Jaws of the Beast", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/q"],
-        "W": ["Blood Hunt", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/w"],
-        "E": ["Primal Howl", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/e"],
-        "R": ["Infinite Duress", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/r"]
-    },
-    "Wukong": {
-        "P": ["Stone Skin", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/p"],
-        "Q": ["Crushing Blow", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/q"],
-        "W": ["Warrior Trickster", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/w"],
-        "E": ["Nimbus Strike", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/e"],
-        "R": ["Cyclone", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/r"]
-    },
-    "Xayah": {
-        "P": ["Clean Cuts", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/p"],
-        "Q": ["Double Daggers", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/q"],
-        "W": ["Deadly Plumage", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/w"],
-        "E": ["Bladecaller", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/e"],
-        "R": ["Featherstorm", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/r"]
-    },
-    "Xerath": {
-        "P": ["Mana Surge", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/p"],
-        "Q": ["Arcanopulse", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/q"],
-        "W": ["Eye of Destruction", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/w"],
-        "E": ["Shocking Orb", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/e"],
-        "R": ["Rite of the Arcane", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/r"]
-    },
-    "Xin Zhao": {
-        "P": ["Determination", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/p"],
-        "Q": ["Three Talon Strike", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/q"],
-        "W": ["Wind Becomes Lightning", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/w"],
-        "E": ["Audacious Charge", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/e"],
-        "R": ["Crescent Guard", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/r"]
-    },
-    "Yasuo": {
-        "P": ["Way of the Wanderer", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/p"],
-        "Q": ["Steel Tempest", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/q"],
-        "W": ["Wind Wall", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/w"],
-        "E": ["Sweeping Blade", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/e"],
-        "R": ["Last Breath", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/r"]
-    },
-    "Yone": {
-        "P": ["Way of the Hunter", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/p"],
-        "Q": ["Mortal Steel", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/q"],
-        "W": ["Spirit Cleave", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/w"],
-        "E": ["Soul Unbound", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/e"],
-        "R": ["Fate Sealed", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/r"]
-    },
-    "Yorick": {
-        "P": ["Shepherd of Souls", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/p"],
-        "Q": ["Last Rites", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/q"],
-        "W": ["Dark Procession", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/w"],
-        "E": ["Mourning Mist", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/e"],
-        "R": ["Eulogy of the Isles", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/r"]
-    },
-    "Yuumi": {
-        "P": ["Feline Friendship", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/p"],
-        "Q": ["Prowling Projectile", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/q"],
-        "W": ["You and Me!", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/w"],
-        "E": ["Zoomies", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/e"],
-        "R": ["Final Chapter", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/r"]
-    },
-    "Zac": {
-        "P": ["Cell Division", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/p"],
-        "Q": ["Stretching Strikes", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/q"],
-        "W": ["Unstable Matter", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/w"],
-        "E": ["Elastic Slingshot", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/e"],
-        "R": ["Let's Bounce!", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/r"]
-    },
-    "Zed": {
-        "P": ["Contempt for the Weak", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/p"],
-        "Q": ["Razor Shuriken", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/q"],
-        "W": ["Living Shadow", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/w"],
-        "E": ["Shadow Slash", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/e"],
-        "R": ["Death Mark", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/r"]
-    },
-    "Zeri": {
-        "P": ["Living Battery", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/p"],
-        "Q": ["Burst Fire", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/q"],
-        "W": ["Ultrashock Laser", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/w"],
-        "E": ["Spark Surge", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/e"],
-        "R": ["Lightning Crash", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/r"]
-    },
-    "Ziggs": {
-        "P": ["Short Fuse", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/p"],
-        "Q": ["Bouncing Bomb", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/q"],
-        "W": ["Satchel Charge", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/w"],
-        "E": ["Hexplosive Minefield", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/e"],
-        "R": ["Mega Inferno Bomb", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/r"]
-    },
-    "Zilean": {
-        "P": ["Time in a Bottle", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/p"],
-        "Q": ["Time Bomb", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/q"],
-        "W": ["Rewind", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/w"],
-        "E": ["Time Warp", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/e"],
-        "R": ["Chronoshift", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/r"]
-    },
-    "Zoe": {
-        "P": ["More Sparkles!", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/p"],
-        "Q": ["Paddle Star", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/q"],
-        "W": ["Spell Thief", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/w"],
-        "E": ["Sleepy Trouble Bubble", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/e"],
-        "R": ["Portal Jump", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/r"]
-    },
-    "Zyra": {
-        "P": ["Garden of Thorns", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/p"],
-        "Q": ["Deadly Spines", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/q"],
-        "W": ["Rampant Growth", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/w"],
-        "E": ["Grasping Roots", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/e"],
-        "R": ["Stranglethorns", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/r"]
-    }
+  "Aatrox": {
+    "P": ["Deathbringer Stance", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/p"],
+    "Q": ["The Darkin Blade", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/q"],
+    "W": ["Infernal Chains", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/w"],
+    "E": ["Umbral Dash", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/e"],
+    "R": ["World Ender", "https://cdn.communitydragon.org/latest/champion/Aatrox/ability-icon/r"]
+  },
+  "Ahri": {
+    "P": ["Essence Theft", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/p"],
+    "Q": ["Orb of Deception", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/q"],
+    "W": ["Fox-Fire", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/w"],
+    "E": ["Charm", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/e"],
+    "R": ["Spirit Rush", "https://cdn.communitydragon.org/latest/champion/Ahri/ability-icon/r"]
+  },
+  "Akali": {
+    "P": ["Assassin's Mark", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/p"],
+    "Q": ["Five Point Strike", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/q"],
+    "W": ["Twilight Shroud", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/w"],
+    "E": ["Shuriken Flip", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/e"],
+    "R": ["Perfect Execution", "https://cdn.communitydragon.org/latest/champion/Akali/ability-icon/r"]
+  },
+  "Akshan": {
+    "P": ["Dirty Fighting", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/p"],
+    "Q": ["Avengerang", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/q"],
+    "W": ["Going Rogue", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/w"],
+    "E": ["Heroic Swing", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/e"],
+    "R": ["Comeuppance", "https://cdn.communitydragon.org/latest/champion/Akshan/ability-icon/r"]
+  },
+  "Alistar": {
+    "P": ["Triumphant Roar", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/p"],
+    "Q": ["Pulverize", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/q"],
+    "W": ["Headbutt", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/w"],
+    "E": ["Trample", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/e"],
+    "R": ["Unbreakable Will", "https://cdn.communitydragon.org/latest/champion/Alistar/ability-icon/r"]
+  },
+  "Ambessa": {
+    "P": ["Drakehound's Step", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/p"],
+    "Q": ["Cunning Sweep", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/q"],
+    "W": ["Repudiation", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/w"],
+    "E": ["Lacerate", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/e"],
+    "R": ["Public Execution", "https://cdn.communitydragon.org/latest/champion/Ambessa/ability-icon/r"]
+  },
+  "Amumu": {
+    "P": ["Cursed Touch", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/p"],
+    "Q": ["Bandage Toss", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/q"],
+    "W": ["Despair", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/w"],
+    "E": ["Tantrum", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/e"],
+    "R": ["Curse of the Sad Mummy", "https://cdn.communitydragon.org/latest/champion/Amumu/ability-icon/r"]
+  },
+  "Anivia": {
+    "P": ["Rebirth", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/p"],
+    "Q": ["Flash Frost", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/q"],
+    "W": ["Crystallize", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/w"],
+    "E": ["Frostbite", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/e"],
+    "R": ["Glacial Storm", "https://cdn.communitydragon.org/latest/champion/Anivia/ability-icon/r"]
+  },
+  "Annie": {
+    "P": ["Pyromania", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/p"],
+    "Q": ["Disintegrate", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/q"],
+    "W": ["Incinerate", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/w"],
+    "E": ["Molten Shield", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/e"],
+    "R": ["Summon: Tibbers", "https://cdn.communitydragon.org/latest/champion/Annie/ability-icon/r"]
+  },
+  "Aphelios": {
+    "P": ["The Hitman and the Seer", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/p"],
+    "Q": ["Weapons of the Faithful", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/q"],
+    "W": ["Phase", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/w"],
+    "E": ["Weapon Queue System", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/e"],
+    "R": ["Moonlight Vigil", "https://cdn.communitydragon.org/latest/champion/Aphelios/ability-icon/r"]
+  },
+  "Ashe": {
+    "P": ["Frost Shot", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/p"],
+    "Q": ["Ranger's Focus", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/q"],
+    "W": ["Volley", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/w"],
+    "E": ["Hawkshot", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/e"],
+    "R": ["Enchanted Crystal Arrow", "https://cdn.communitydragon.org/latest/champion/Ashe/ability-icon/r"]
+  },
+  "Aurelion Sol": {
+    "P": ["Cosmic Creator", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/p"],
+    "Q": ["Breath of Light", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/q"],
+    "W": ["Astral Flight", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/w"],
+    "E": ["Singularity", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/e"],
+    "R": ["Falling Star", "https://cdn.communitydragon.org/latest/champion/AurelionSol/ability-icon/r"]
+  },
+  "Aurora": {
+    "P": ["Spirit Abjuration", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/p"],
+    "Q": ["Twofold Hex", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/q"],
+    "W": ["Across the Veil", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/w"],
+    "E": ["The Weirding", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/e"],
+    "R": ["Between Worlds", "https://cdn.communitydragon.org/latest/champion/Aurora/ability-icon/r"]
+  },
+  "Azir": {
+    "P": ["Shurima's Legacy", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/p"],
+    "Q": ["Conquering Sands", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/q"],
+    "W": ["Arise!", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/w"],
+    "E": ["Shifting Sands", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/e"],
+    "R": ["Emperor's Divide", "https://cdn.communitydragon.org/latest/champion/Azir/ability-icon/r"]
+  },
+  "Bard": {
+    "P": ["Traveler's Call", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/p"],
+    "Q": ["Cosmic Binding", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/q"],
+    "W": ["Caretaker's Shrine", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/w"],
+    "E": ["Magical Journey", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/e"],
+    "R": ["Tempered Fate", "https://cdn.communitydragon.org/latest/champion/Bard/ability-icon/r"]
+  },
+  "Bel'Veth": {
+    "P": ["Death in Lavender", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/p"],
+    "Q": ["Void Surge", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/q"],
+    "W": ["Above and Below", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/w"],
+    "E": ["Royal Maelstrom", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/e"],
+    "R": ["Endless Banquet", "https://cdn.communitydragon.org/latest/champion/Belveth/ability-icon/r"]
+  },
+  "Blitzcrank": {
+    "P": ["Mana Barrier", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/p"],
+    "Q": ["Rocket Grab", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/q"],
+    "W": ["Overdrive", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/w"],
+    "E": ["Power Fist", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/e"],
+    "R": ["Static Field", "https://cdn.communitydragon.org/latest/champion/Blitzcrank/ability-icon/r"]
+  },
+  "Brand": {
+    "P": ["Blaze", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/p"],
+    "Q": ["Sear", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/q"],
+    "W": ["Pillar of Flame", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/w"],
+    "E": ["Conflagration", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/e"],
+    "R": ["Pyroclasm", "https://cdn.communitydragon.org/latest/champion/Brand/ability-icon/r"]
+  },
+  "Braum": {
+    "P": ["Concussive Blows", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/p"],
+    "Q": ["Winter's Bite", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/q"],
+    "W": ["Stand Behind Me", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/w"],
+    "E": ["Unbreakable", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/e"],
+    "R": ["Glacial Fissure", "https://cdn.communitydragon.org/latest/champion/Braum/ability-icon/r"]
+  },
+  "Briar": {
+    "P": ["Crimson Curse", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/p"],
+    "Q": ["Head Rush", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/q"],
+    "W": ["Blood Frenzy", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/w"],
+    "E": ["Chilling Scream", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/e"],
+    "R": ["Certain Death", "https://cdn.communitydragon.org/latest/champion/Briar/ability-icon/r"]
+  },
+  "Caitlyn": {
+    "P": ["Headshot", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/p"],
+    "Q": ["Piltover Peacemaker", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/q"],
+    "W": ["Yordle Snap Trap", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/w"],
+    "E": ["90 Caliber Net", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/e"],
+    "R": ["Ace in the Hole", "https://cdn.communitydragon.org/latest/champion/Caitlyn/ability-icon/r"]
+  },
+  "Camille": {
+    "P": ["Adaptive Defenses", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/p"],
+    "Q": ["Precision Protocol", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/q"],
+    "W": ["Tactical Sweep", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/w"],
+    "E": ["Hookshot", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/e"],
+    "R": ["The Hextech Ultimatum", "https://cdn.communitydragon.org/latest/champion/Camille/ability-icon/r"]
+  },
+  "Cassiopeia": {
+    "P": ["Serpentine Grace", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/p"],
+    "Q": ["Noxious Blast", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/q"],
+    "W": ["Miasma", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/w"],
+    "E": ["Twin Fang", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/e"],
+    "R": ["Petrifying Gaze", "https://cdn.communitydragon.org/latest/champion/Cassiopeia/ability-icon/r"]
+  },
+  "Cho'Gath": {
+    "P": ["Carnivore", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/p"],
+    "Q": ["Rupture", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/q"],
+    "W": ["Feral Scream", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/w"],
+    "E": ["Vorpal Spikes", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/e"],
+    "R": ["Feast", "https://cdn.communitydragon.org/latest/champion/Chogath/ability-icon/r"]
+  },
+  "Corki": {
+    "P": ["Hextech Munitions", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/p"],
+    "Q": ["Phosphorus Bomb", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/q"],
+    "W": ["Valkyrie", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/w"],
+    "E": ["Gatling Gun", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/e"],
+    "R": ["Missile Barrage", "https://cdn.communitydragon.org/latest/champion/Corki/ability-icon/r"]
+  },
+  "Darius": {
+    "P": ["Hemorrhage", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/p"],
+    "Q": ["Decimate", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/q"],
+    "W": ["Crippling Strike", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/w"],
+    "E": ["Apprehend", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/e"],
+    "R": ["Noxian Guillotine", "https://cdn.communitydragon.org/latest/champion/Darius/ability-icon/r"]
+  },
+  "Diana": {
+    "P": ["Moonsilver Blade", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/p"],
+    "Q": ["Crescent Strike", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/q"],
+    "W": ["Pale Cascade", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/w"],
+    "E": ["Lunar Rush", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/e"],
+    "R": ["Moonfall", "https://cdn.communitydragon.org/latest/champion/Diana/ability-icon/r"]
+  },
+  "Dr. Mundo": {
+    "P": ["Goes Where He Pleases", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/p"],
+    "Q": ["Infected Bonesaw", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/q"],
+    "W": ["Heart Zapper", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/w"],
+    "E": ["Blunt Force Trauma", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/e"],
+    "R": ["Maximum Dosage", "https://cdn.communitydragon.org/latest/champion/DrMundo/ability-icon/r"]
+  },
+  "Draven": {
+    "P": ["League of Draven", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/p"],
+    "Q": ["Spinning Axe", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/q"],
+    "W": ["Blood Rush", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/w"],
+    "E": ["Stand Aside", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/e"],
+    "R": ["Whirling Death", "https://cdn.communitydragon.org/latest/champion/Draven/ability-icon/r"]
+  },
+  "Ekko": {
+    "P": ["Z-Drive Resonance", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/p"],
+    "Q": ["Timewinder", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/q"],
+    "W": ["Parallel Convergence", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/w"],
+    "E": ["Phase Dive", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/e"],
+    "R": ["Chronobreak", "https://cdn.communitydragon.org/latest/champion/Ekko/ability-icon/r"]
+  },
+  "Elise": {
+    "P": ["Spider Queen", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/p"],
+    "Q": ["Neurotoxin", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/q"],
+    "W": ["Volatile Spiderling", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/w"],
+    "E": ["Cocoon", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/e"],
+    "R": ["Spider Form / Human Form", "https://cdn.communitydragon.org/latest/champion/Elise/ability-icon/r"]
+  },
+  "Evelynn": {
+    "P": ["Demon Shade", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/p"],
+    "Q": ["Hate Spike", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/q"],
+    "W": ["Allure", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/w"],
+    "E": ["Whiplash", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/e"],
+    "R": ["Last Caress", "https://cdn.communitydragon.org/latest/champion/Evelynn/ability-icon/r"]
+  },
+  "Ezreal": {
+    "P": ["Rising Spell Force", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/p"],
+    "Q": ["Mystic Shot", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/q"],
+    "W": ["Essence Flux", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/w"],
+    "E": ["Arcane Shift", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/e"],
+    "R": ["Trueshot Barrage", "https://cdn.communitydragon.org/latest/champion/Ezreal/ability-icon/r"]
+  },
+  "Fiddlesticks": {
+    "P": ["A Harmless Scarecrow", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/p"],
+    "Q": ["Terrify", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/q"],
+    "W": ["Bountiful Harvest", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/w"],
+    "E": ["Reap", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/e"],
+    "R": ["Crowstorm", "https://cdn.communitydragon.org/latest/champion/Fiddlesticks/ability-icon/r"]
+  },
+  "Fiora": {
+    "P": ["Duelist's Dance", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/p"],
+    "Q": ["Lunge", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/q"],
+    "W": ["Riposte", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/w"],
+    "E": ["Bladework", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/e"],
+    "R": ["Grand Challenge", "https://cdn.communitydragon.org/latest/champion/Fiora/ability-icon/r"]
+  },
+  "Fizz": {
+    "P": ["Nimble Fighter", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/p"],
+    "Q": ["Urchin Strike", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/q"],
+    "W": ["Seastone Trident", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/w"],
+    "E": ["Playful", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/e"],
+    "R": ["Chum the Waters", "https://cdn.communitydragon.org/latest/champion/Fizz/ability-icon/r"]
+  },
+  "Galio": {
+    "P": ["Colossal Smash", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/p"],
+    "Q": ["Winds of War", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/q"],
+    "W": ["Shield of Durand", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/w"],
+    "E": ["Justice Punch", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/e"],
+    "R": ["Hero's Entrance", "https://cdn.communitydragon.org/latest/champion/Galio/ability-icon/r"]
+  },
+  "Gangplank": {
+    "P": ["Trial by Fire", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/p"],
+    "Q": ["Parrrley", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/q"],
+    "W": ["Remove Scurvy", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/w"],
+    "E": ["Powder Keg", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/e"],
+    "R": ["Cannon Barrage", "https://cdn.communitydragon.org/latest/champion/Gangplank/ability-icon/r"]
+  },
+  "Garen": {
+    "P": ["Perseverance", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/p"],
+    "Q": ["Decisive Strike", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/q"],
+    "W": ["Courage", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/w"],
+    "E": ["Judgment", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/e"],
+    "R": ["Demacian Justice", "https://cdn.communitydragon.org/latest/champion/Garen/ability-icon/r"]
+  },
+  "Gnar": {
+    "P": ["Rage Gene", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/p"],
+    "Q": ["Boomerang Throw", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/q"],
+    "W": ["Hyper", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/w"],
+    "E": ["Hop", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/e"],
+    "R": ["GNAR!", "https://cdn.communitydragon.org/latest/champion/Gnar/ability-icon/r"]
+  },
+  "Gragas": {
+    "P": ["Happy Hour", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/p"],
+    "Q": ["Barrel Roll", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/q"],
+    "W": ["Drunken Rage", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/w"],
+    "E": ["Body Slam", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/e"],
+    "R": ["Explosive Cask", "https://cdn.communitydragon.org/latest/champion/Gragas/ability-icon/r"]
+  },
+  "Graves": {
+    "P": ["New Destiny", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/p"],
+    "Q": ["End of the Line", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/q"],
+    "W": ["Smoke Screen", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/w"],
+    "E": ["Quickdraw", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/e"],
+    "R": ["Collateral Damage", "https://cdn.communitydragon.org/latest/champion/Graves/ability-icon/r"]
+  },
+  "Gwen": {
+    "P": ["A Thousand Cuts", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/p"],
+    "Q": ["Snip Snip!", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/q"],
+    "W": ["Hallowed Mist", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/w"],
+    "E": ["Skip 'n Slash", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/e"],
+    "R": ["Needlework", "https://cdn.communitydragon.org/latest/champion/Gwen/ability-icon/r"]
+  },
+  "Hecarim": {
+    "P": ["Warpath", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/p"],
+    "Q": ["Rampage", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/q"],
+    "W": ["Spirit of Dread", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/w"],
+    "E": ["Devastating Charge", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/e"],
+    "R": ["Onslaught of Shadows", "https://cdn.communitydragon.org/latest/champion/Hecarim/ability-icon/r"]
+  },
+  "Heimerdinger": {
+    "P": ["Hextech Affinity", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/p"],
+    "Q": ["H-28G Evolution Turret", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/q"],
+    "W": ["Hextech Micro-Rockets", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/w"],
+    "E": ["CH-2 Electron Storm Grenade", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/e"],
+    "R": ["UPGRADE!!!", "https://cdn.communitydragon.org/latest/champion/Heimerdinger/ability-icon/r"]
+  },
+  "Hwei": {
+    "P": ["Signature of the Visionary", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/p"],
+    "Q": ["Subject: Disaster", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/q"],
+    "W": ["Subject: Serenity", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/w"],
+    "E": ["Subject: Torment", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/e"],
+    "R": ["Spiraling Despair", "https://cdn.communitydragon.org/latest/champion/Hwei/ability-icon/r"]
+  },
+  "Illaoi": {
+    "P": ["Prophet of an Elder God", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/p"],
+    "Q": ["Tentacle Smash", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/q"],
+    "W": ["Harsh Lesson", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/w"],
+    "E": ["Test of Spirit", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/e"],
+    "R": ["Leap of Faith", "https://cdn.communitydragon.org/latest/champion/Illaoi/ability-icon/r"]
+  },
+  "Irelia": {
+    "P": ["Ionian Fervor", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/p"],
+    "Q": ["Bladesurge", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/q"],
+    "W": ["Defiant Dance", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/w"],
+    "E": ["Flawless Duet", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/e"],
+    "R": ["Vanguard's Edge", "https://cdn.communitydragon.org/latest/champion/Irelia/ability-icon/r"]
+  },
+  "Ivern": {
+    "P": ["Friend of the Forest", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/p"],
+    "Q": ["Rootcaller", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/q"],
+    "W": ["Brushmaker", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/w"],
+    "E": ["Triggerseed", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/e"],
+    "R": ["Daisy!", "https://cdn.communitydragon.org/latest/champion/Ivern/ability-icon/r"]
+  },
+  "Janna": {
+    "P": ["Tailwind", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/p"],
+    "Q": ["Howling Gale", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/q"],
+    "W": ["Zephyr", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/w"],
+    "E": ["Eye of the Storm", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/e"],
+    "R": ["Monsoon", "https://cdn.communitydragon.org/latest/champion/Janna/ability-icon/r"]
+  },
+  "Jarvan IV": {
+    "P": ["Martial Cadence", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/p"],
+    "Q": ["Dragon Strike", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/q"],
+    "W": ["Golden Aegis", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/w"],
+    "E": ["Demacian Standard", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/e"],
+    "R": ["Cataclysm", "https://cdn.communitydragon.org/latest/champion/JarvanIV/ability-icon/r"]
+  },
+  "Jax": {
+    "P": ["Relentless Assault", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/p"],
+    "Q": ["Leap Strike", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/q"],
+    "W": ["Empower", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/w"],
+    "E": ["Counter Strike", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/e"],
+    "R": ["Grandmaster-At-Arms", "https://cdn.communitydragon.org/latest/champion/Jax/ability-icon/r"]
+  },
+  "Jayce": {
+    "P": ["Hextech Capacitor", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/p"],
+    "Q": ["To the Skies!", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/q"],
+    "W": ["Lightning Field", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/w"],
+    "E": ["Thundering Blow", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/e"],
+    "R": ["Transform Mercury Cannon", "https://cdn.communitydragon.org/latest/champion/Jayce/ability-icon/r"]
+  },
+  "Jhin": {
+    "P": ["Whisper", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/p"],
+    "Q": ["Dancing Grenade", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/q"],
+    "W": ["Deadly Flourish", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/w"],
+    "E": ["Captive Audience", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/e"],
+    "R": ["Curtain Call", "https://cdn.communitydragon.org/latest/champion/Jhin/ability-icon/r"]
+  },
+  "Jinx": {
+    "P": ["Get Excited!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/p"],
+    "Q": ["Switcheroo!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/q"],
+    "W": ["Zap!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/w"],
+    "E": ["Flame Chompers!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/e"],
+    "R": ["Super Mega Death Rocket!", "https://cdn.communitydragon.org/latest/champion/Jinx/ability-icon/r"]
+  },
+  "K'Sante": {
+    "P": ["Dauntless Instinct", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/p"],
+    "Q": ["Ntofo Strikes", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/q"],
+    "W": ["Path Maker", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/w"],
+    "E": ["Footwork", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/e"],
+    "R": ["All Out", "https://cdn.communitydragon.org/latest/champion/KSante/ability-icon/r"]
+  },
+  "Kai'Sa": {
+    "P": ["Second Skin", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/p"],
+    "Q": ["Icathian Rain", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/q"],
+    "W": ["Void Seeker", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/w"],
+    "E": ["Supercharge", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/e"],
+    "R": ["Killer Instinct", "https://cdn.communitydragon.org/latest/champion/Kaisa/ability-icon/r"]
+  },
+  "Kalista": {
+    "P": ["Martial Poise", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/p"],
+    "Q": ["Pierce", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/q"],
+    "W": ["Sentinel", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/w"],
+    "E": ["Rend", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/e"],
+    "R": ["Fate's Call", "https://cdn.communitydragon.org/latest/champion/Kalista/ability-icon/r"]
+  },
+  "Karma": {
+    "P": ["Gathering Fire", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/p"],
+    "Q": ["Inner Flame", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/q"],
+    "W": ["Focused Resolve", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/w"],
+    "E": ["Inspire", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/e"],
+    "R": ["Mantra", "https://cdn.communitydragon.org/latest/champion/Karma/ability-icon/r"]
+  },
+  "Karthus": {
+    "P": ["Death Defied", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/p"],
+    "Q": ["Lay Waste", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/q"],
+    "W": ["Wall of Pain", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/w"],
+    "E": ["Defile", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/e"],
+    "R": ["Requiem", "https://cdn.communitydragon.org/latest/champion/Karthus/ability-icon/r"]
+  },
+  "Kassadin": {
+    "P": ["Void Stone", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/p"],
+    "Q": ["Null Sphere", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/q"],
+    "W": ["Nether Blade", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/w"],
+    "E": ["Force Pulse", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/e"],
+    "R": ["Riftwalk", "https://cdn.communitydragon.org/latest/champion/Kassadin/ability-icon/r"]
+  },
+  "Katarina": {
+    "P": ["Voracity", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/p"],
+    "Q": ["Bouncing Blade", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/q"],
+    "W": ["Preparation", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/w"],
+    "E": ["Shunpo", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/e"],
+    "R": ["Death Lotus", "https://cdn.communitydragon.org/latest/champion/Katarina/ability-icon/r"]
+  },
+  "Kayle": {
+    "P": ["Divine Ascent", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/p"],
+    "Q": ["Radiant Blast", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/q"],
+    "W": ["Celestial Blessing", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/w"],
+    "E": ["Starfire Spellblade", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/e"],
+    "R": ["Divine Judgment", "https://cdn.communitydragon.org/latest/champion/Kayle/ability-icon/r"]
+  },
+  "Kayn": {
+    "P": ["The Darkin Scythe", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/p"],
+    "Q": ["Reaping Slash", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/q"],
+    "W": ["Blade's Reach", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/w"],
+    "E": ["Shadow Step", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/e"],
+    "R": ["Umbral Trespass", "https://cdn.communitydragon.org/latest/champion/Kayn/ability-icon/r"]
+  },
+  "Kennen": {
+    "P": ["Mark of the Storm", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/p"],
+    "Q": ["Thundering Shuriken", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/q"],
+    "W": ["Electrical Surge", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/w"],
+    "E": ["Lightning Rush", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/e"],
+    "R": ["Slicing Maelstrom", "https://cdn.communitydragon.org/latest/champion/Kennen/ability-icon/r"]
+  },
+  "Kha'Zix": {
+    "P": ["Unseen Threat", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/p"],
+    "Q": ["Taste Their Fear", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/q"],
+    "W": ["Void Spike", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/w"],
+    "E": ["Leap", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/e"],
+    "R": ["Void Assault", "https://cdn.communitydragon.org/latest/champion/Khazix/ability-icon/r"]
+  },
+  "Kindred": {
+    "P": ["Mark of the Kindred", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/p"],
+    "Q": ["Dance of Arrows", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/q"],
+    "W": ["Wolf's Frenzy", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/w"],
+    "E": ["Mounting Dread", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/e"],
+    "R": ["Lamb's Respite", "https://cdn.communitydragon.org/latest/champion/Kindred/ability-icon/r"]
+  },
+  "Kled": {
+    "P": ["Skaarl the Cowardly Lizard", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/p"],
+    "Q": ["Bear Trap on a Rope", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/q"],
+    "W": ["Violent Tendencies", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/w"],
+    "E": ["Jousting", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/e"],
+    "R": ["Chaaaaaaaarge!!!", "https://cdn.communitydragon.org/latest/champion/Kled/ability-icon/r"]
+  },
+  "Kog'Maw": {
+    "P": ["Icathian Surprise", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/p"],
+    "Q": ["Caustic Spittle", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/q"],
+    "W": ["Bio-Arcane Barrage", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/w"],
+    "E": ["Void Ooze", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/e"],
+    "R": ["Living Artillery", "https://cdn.communitydragon.org/latest/champion/KogMaw/ability-icon/r"]
+  },
+  "Le Blanc": {
+    "P": ["Mirror Image", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/p"],
+    "Q": ["Sigil of Malice", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/q"],
+    "W": ["Distortion", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/w"],
+    "E": ["Ethereal Chains", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/e"],
+    "R": ["Mimic", "https://cdn.communitydragon.org/latest/champion/Leblanc/ability-icon/r"]
+  },
+  "Lee Sin": {
+    "P": ["Flurry", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/p"],
+    "Q": ["Sonic Wave", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/q"],
+    "W": ["Safeguard", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/w"],
+    "E": ["Tempest", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/e"],
+    "R": ["Dragon's Rage", "https://cdn.communitydragon.org/latest/champion/LeeSin/ability-icon/r"]
+  },
+  "Leona": {
+    "P": ["Sunlight", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/p"],
+    "Q": ["Shield of Daybreak", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/q"],
+    "W": ["Eclipse", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/w"],
+    "E": ["Zenith Blade", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/e"],
+    "R": ["Solar Flare", "https://cdn.communitydragon.org/latest/champion/Leona/ability-icon/r"]
+  },
+  "Lillia": {
+    "P": ["Dream-Laden Bough", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/p"],
+    "Q": ["Blooming Blows", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/q"],
+    "W": ["Watch Out! Eep!", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/w"],
+    "E": ["Swirlseed", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/e"],
+    "R": ["Lilting Lullaby", "https://cdn.communitydragon.org/latest/champion/Lillia/ability-icon/r"]
+  },
+  "Lissandra": {
+    "P": ["Iceborn Subjugation", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/p"],
+    "Q": ["Ice Shard", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/q"],
+    "W": ["Ring of Frost", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/w"],
+    "E": ["Glacial Path", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/e"],
+    "R": ["Frozen Tomb", "https://cdn.communitydragon.org/latest/champion/Lissandra/ability-icon/r"]
+  },
+  "Lucian": {
+    "P": ["Lightslinger", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/p"],
+    "Q": ["Piercing Light", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/q"],
+    "W": ["Ardent Blaze", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/w"],
+    "E": ["Relentless Pursuit", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/e"],
+    "R": ["The Culling", "https://cdn.communitydragon.org/latest/champion/Lucian/ability-icon/r"]
+  },
+  "Lulu": {
+    "P": ["Pix, Faerie Companion", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/p"],
+    "Q": ["Glitterlance", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/q"],
+    "W": ["Whimsy", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/w"],
+    "E": ["Help, Pix!", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/e"],
+    "R": ["Wild Growth", "https://cdn.communitydragon.org/latest/champion/Lulu/ability-icon/r"]
+  },
+  "Lux": {
+    "P": ["Illumination", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/p"],
+    "Q": ["Light Binding", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q"],
+    "W": ["Prismatic Barrier", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/w"],
+    "E": ["Lucent Singularity", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/e"],
+    "R": ["Final Spark", "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/r"]
+  },
+  "Malphite": {
+    "P": ["Granite Shield", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/p"],
+    "Q": ["Seismic Shard", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/q"],
+    "W": ["Thunderclap", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/w"],
+    "E": ["Ground Slam", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/e"],
+    "R": ["Unstoppable Force", "https://cdn.communitydragon.org/latest/champion/Malphite/ability-icon/r"]
+  },
+  "Malzahar": {
+    "P": ["Void Shift", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/p"],
+    "Q": ["Call of the Void", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/q"],
+    "W": ["Void Swarm", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/w"],
+    "E": ["Malefic Visions", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/e"],
+    "R": ["Nether Grasp", "https://cdn.communitydragon.org/latest/champion/Malzahar/ability-icon/r"]
+  },
+  "Maokai": {
+    "P": ["Sap Magic", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/p"],
+    "Q": ["Bramble Smash", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/q"],
+    "W": ["Twisted Advance", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/w"],
+    "E": ["Sapling Toss", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/e"],
+    "R": ["Nature's Grasp", "https://cdn.communitydragon.org/latest/champion/Maokai/ability-icon/r"]
+  },
+  "Master Yi": {
+    "P": ["Double Strike", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/p"],
+    "Q": ["Alpha Strike", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/q"],
+    "W": ["Meditate", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/w"],
+    "E": ["Wuju Style", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/e"],
+    "R": ["Highlander", "https://cdn.communitydragon.org/latest/champion/MasterYi/ability-icon/r"]
+  },
+  "Mel": {
+    "P": ["Searing Brilliance", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/p"],
+    "Q": ["Radiant Volley", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/q"],
+    "W": ["Rebuttal", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/w"],
+    "E": ["Solar Snare", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/e"],
+    "R": ["Golden Eclipse", "https://cdn.communitydragon.org/latest/champion/Mel/ability-icon/r"]
+  },
+  "Milio": {
+    "P": ["Fired Up!", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/p"],
+    "Q": ["Ultra Mega Fire Kick", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/q"],
+    "W": ["Cozy Campfire", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/w"],
+    "E": ["Warm Hugs", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/e"],
+    "R": ["Breath of Life", "https://cdn.communitydragon.org/latest/champion/Milio/ability-icon/r"]
+  },
+  "Miss Fortune": {
+    "P": ["Love Tap", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/p"],
+    "Q": ["Double Up", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/q"],
+    "W": ["Strut", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/w"],
+    "E": ["Make It Rain", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/e"],
+    "R": ["Bullet Time", "https://cdn.communitydragon.org/latest/champion/MissFortune/ability-icon/r"]
+  },
+  "Mordekaiser": {
+    "P": ["Darkness Rise", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/p"],
+    "Q": ["Obliterate", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/q"],
+    "W": ["Indestructible", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/w"],
+    "E": ["Death's Grasp", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/e"],
+    "R": ["Realm of Death", "https://cdn.communitydragon.org/latest/champion/Mordekaiser/ability-icon/r"]
+  },
+  "Morgana": {
+    "P": ["Soul Siphon", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/p"],
+    "Q": ["Dark Binding", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/q"],
+    "W": ["Tormented Shadow", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/w"],
+    "E": ["Black Shield", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/e"],
+    "R": ["Soul Shackles", "https://cdn.communitydragon.org/latest/champion/Morgana/ability-icon/r"]
+  },
+  "Naafiri": {
+    "P": ["We Are More", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/p"],
+    "Q": ["Darkin Daggers", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/q"],
+    "W": ["The Call of the Pack", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/w"],
+    "E": ["Eviscerate", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/e"],
+    "R": ["Hounds' Pursuit", "https://cdn.communitydragon.org/latest/champion/Naafiri/ability-icon/r"]
+  },
+  "Nami": {
+    "P": ["Surging Tides", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/p"],
+    "Q": ["Aqua Prison", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/q"],
+    "W": ["Ebb and Flow", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/w"],
+    "E": ["Tidecaller's Blessing", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/e"],
+    "R": ["Tidal Wave", "https://cdn.communitydragon.org/latest/champion/Nami/ability-icon/r"]
+  },
+  "Nasus": {
+    "P": ["Soul Eater", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/p"],
+    "Q": ["Siphoning Strike", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/q"],
+    "W": ["Wither", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/w"],
+    "E": ["Spirit Fire", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/e"],
+    "R": ["Fury of the Sands", "https://cdn.communitydragon.org/latest/champion/Nasus/ability-icon/r"]
+  },
+  "Nautilus": {
+    "P": ["Staggering Blow", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/p"],
+    "Q": ["Dredge Line", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/q"],
+    "W": ["Titan's Wrath", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/w"],
+    "E": ["Riptide", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/e"],
+    "R": ["Depth Charge", "https://cdn.communitydragon.org/latest/champion/Nautilus/ability-icon/r"]
+  },
+  "Neeko": {
+    "P": ["Inherent Glamour", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/p"],
+    "Q": ["Blooming Burst", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/q"],
+    "W": ["Shapesplitter", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/w"],
+    "E": ["Tangle-Barbs", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/e"],
+    "R": ["Pop Blossom", "https://cdn.communitydragon.org/latest/champion/Neeko/ability-icon/r"]
+  },
+  "Nidalee": {
+    "P": ["Prowl", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/p"],
+    "Q": ["Javelin Toss", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/q"],
+    "W": ["Bushwhack", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/w"],
+    "E": ["Primal Surge", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/e"],
+    "R": ["Aspect of the Cougar", "https://cdn.communitydragon.org/latest/champion/Nidalee/ability-icon/r"]
+  },
+  "Nilah": {
+    "P": ["Joy Unending", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/p"],
+    "Q": ["Formless Blade", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/q"],
+    "W": ["Jubilant Veil", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/w"],
+    "E": ["Slipstream", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/e"],
+    "R": ["Apotheosis", "https://cdn.communitydragon.org/latest/champion/Nilah/ability-icon/r"]
+  },
+  "Nocturne": {
+    "P": ["Umbra Blades", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/p"],
+    "Q": ["Duskbringer", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/q"],
+    "W": ["Shroud of Darkness", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/w"],
+    "E": ["Unspeakable Horror", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/e"],
+    "R": ["Paranoia", "https://cdn.communitydragon.org/latest/champion/Nocturne/ability-icon/r"]
+  },
+  "Nunu & Willump": {
+    "P": ["Call of the Freljord", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/p"],
+    "Q": ["Consume", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/q"],
+    "W": ["Biggest Snowball Ever!", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/w"],
+    "E": ["Snowball Barrage", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/e"],
+    "R": ["Absolute Zero", "https://cdn.communitydragon.org/latest/champion/Nunu/ability-icon/r"]
+  },
+  "Olaf": {
+    "P": ["Berserker Rage", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/p"],
+    "Q": ["Undertow", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/q"],
+    "W": ["Tough It Out", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/w"],
+    "E": ["Reckless Swing", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/e"],
+    "R": ["Ragnarok", "https://cdn.communitydragon.org/latest/champion/Olaf/ability-icon/r"]
+  },
+  "Orianna": {
+    "P": ["Clockwork Windup", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/p"],
+    "Q": ["Command: Attack", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/q"],
+    "W": ["Command: Dissonance", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/w"],
+    "E": ["Command: Protect", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/e"],
+    "R": ["Command: Shockwave", "https://cdn.communitydragon.org/latest/champion/Orianna/ability-icon/r"]
+  },
+  "Ornn": {
+    "P": ["Living Forge", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/p"],
+    "Q": ["Volcanic Rupture", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/q"],
+    "W": ["Bellows Breath", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/w"],
+    "E": ["Searing Charge", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/e"],
+    "R": ["Call of the Forge God", "https://cdn.communitydragon.org/latest/champion/Ornn/ability-icon/r"]
+  },
+  "Pantheon": {
+    "P": ["Mortal Will", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/p"],
+    "Q": ["Comet Spear", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/q"],
+    "W": ["Shield Vault", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/w"],
+    "E": ["Aegis Assault", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/e"],
+    "R": ["Grand Starfall", "https://cdn.communitydragon.org/latest/champion/Pantheon/ability-icon/r"]
+  },
+  "Poppy": {
+    "P": ["Iron Ambassador", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/p"],
+    "Q": ["Hammer Shock", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/q"],
+    "W": ["Steadfast Presence", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/w"],
+    "E": ["Heroic Charge", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/e"],
+    "R": ["Keeper's Verdict", "https://cdn.communitydragon.org/latest/champion/Poppy/ability-icon/r"]
+  },
+  "Pyke": {
+    "P": ["Gift of the Drowned Ones", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/p"],
+    "Q": ["Bone Skewer", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/q"],
+    "W": ["Ghostwater Dive", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/w"],
+    "E": ["Phantom Undertow", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/e"],
+    "R": ["Death from Below", "https://cdn.communitydragon.org/latest/champion/Pyke/ability-icon/r"]
+  },
+  "Qiyana": {
+    "P": ["Royal Privilege", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/p"],
+    "Q": ["Edge of Ixtal", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/q"],
+    "W": ["Terrashape", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/w"],
+    "E": ["Audacity", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/e"],
+    "R": ["Supreme Display of Talent", "https://cdn.communitydragon.org/latest/champion/Qiyana/ability-icon/r"]
+  },
+  "Quinn": {
+    "P": ["Harrier", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/p"],
+    "Q": ["Blinding Assault", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/q"],
+    "W": ["Heightened Senses", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/w"],
+    "E": ["Vault", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/e"],
+    "R": ["Behind Enemy Lines", "https://cdn.communitydragon.org/latest/champion/Quinn/ability-icon/r"]
+  },
+  "Rakan": {
+    "P": ["Fey Feathers", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/p"],
+    "Q": ["Gleaming Quill", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/q"],
+    "W": ["Grand Entrance", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/w"],
+    "E": ["Battle Dance", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/e"],
+    "R": ["The Quickness", "https://cdn.communitydragon.org/latest/champion/Rakan/ability-icon/r"]
+  },
+  "Rammus": {
+    "P": ["Spiked Shell", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/p"],
+    "Q": ["Powerball", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/q"],
+    "W": ["Defensive Ball Curl", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/w"],
+    "E": ["Frenzying Taunt", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/e"],
+    "R": ["Soaring Slam", "https://cdn.communitydragon.org/latest/champion/Rammus/ability-icon/r"]
+  },
+  "Rek'Sai": {
+    "P": ["Fury of the Xer'Sai", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/p"],
+    "Q": ["Queen's Wrath", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/q"],
+    "W": ["Burrow", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/w"],
+    "E": ["Furious Bite", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/e"],
+    "R": ["Void Rush", "https://cdn.communitydragon.org/latest/champion/RekSai/ability-icon/r"]
+  },
+  "Rell": {
+    "P": ["Break the Mold", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/p"],
+    "Q": ["Shattering Strike", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/q"],
+    "W": ["Ferromancy: Crash Down", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/w"],
+    "E": ["Full Tilt", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/e"],
+    "R": ["Magnet Storm", "https://cdn.communitydragon.org/latest/champion/Rell/ability-icon/r"]
+  },
+  "Renata Glasc": {
+    "P": ["Leverage", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/p"],
+    "Q": ["Handshake", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/q"],
+    "W": ["Bailout", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/w"],
+    "E": ["Loyalty Program", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/e"],
+    "R": ["Hostile Takeover", "https://cdn.communitydragon.org/latest/champion/Renata/ability-icon/r"]
+  },
+  "Renekton": {
+    "P": ["Reign of Anger", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/p"],
+    "Q": ["Cull the Meek", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/q"],
+    "W": ["Ruthless Predator", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/w"],
+    "E": ["Slice", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/e"],
+    "R": ["Dominus", "https://cdn.communitydragon.org/latest/champion/Renekton/ability-icon/r"]
+  },
+  "Rengar": {
+    "P": ["Unseen Predator", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/p"],
+    "Q": ["Savagery", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/q"],
+    "W": ["Battle Roar", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/w"],
+    "E": ["Bola Strike", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/e"],
+    "R": ["Thrill of the Hunt", "https://cdn.communitydragon.org/latest/champion/Rengar/ability-icon/r"]
+  },
+  "Riven": {
+    "P": ["Runic Blade", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/p"],
+    "Q": ["Broken Wings", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/q"],
+    "W": ["Ki Burst", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/w"],
+    "E": ["Valor", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/e"],
+    "R": ["Blade of the Exile", "https://cdn.communitydragon.org/latest/champion/Riven/ability-icon/r"]
+  },
+  "Rumble": {
+    "P": ["Junkyard Titan", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/p"],
+    "Q": ["Flamespitter", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/q"],
+    "W": ["Scrap Shield", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/w"],
+    "E": ["Electro Harpoon", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/e"],
+    "R": ["The Equalizer", "https://cdn.communitydragon.org/latest/champion/Rumble/ability-icon/r"]
+  },
+  "Ryze": {
+    "P": ["Arcane Mastery", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/p"],
+    "Q": ["Overload", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/q"],
+    "W": ["Rune Prison", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/w"],
+    "E": ["Spell Flux", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/e"],
+    "R": ["Realm Warp", "https://cdn.communitydragon.org/latest/champion/Ryze/ability-icon/r"]
+  },
+  "Samira": {
+    "P": ["Daredevil Impulse", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/p"],
+    "Q": ["Flair", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/q"],
+    "W": ["Blade Whirl", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/w"],
+    "E": ["Wild Rush", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/e"],
+    "R": ["Inferno Trigger", "https://cdn.communitydragon.org/latest/champion/Samira/ability-icon/r"]
+  },
+  "Sejuani": {
+    "P": ["Fury of the North", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/p"],
+    "Q": ["Arctic Assault", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/q"],
+    "W": ["Winter's Wrath", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/w"],
+    "E": ["Permafrost", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/e"],
+    "R": ["Glacial Prison", "https://cdn.communitydragon.org/latest/champion/Sejuani/ability-icon/r"]
+  },
+  "Senna": {
+    "P": ["Absolution", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/p"],
+    "Q": ["Piercing Darkness", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/q"],
+    "W": ["Last Embrace", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/w"],
+    "E": ["Curse of the Black Mist", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/e"],
+    "R": ["Dawning Shadow", "https://cdn.communitydragon.org/latest/champion/Senna/ability-icon/r"]
+  },
+  "Seraphine": {
+    "P": ["Stage Presence", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/p"],
+    "Q": ["High Note", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/q"],
+    "W": ["Surround Sound", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/w"],
+    "E": ["Beat Drop", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/e"],
+    "R": ["Encore", "https://cdn.communitydragon.org/latest/champion/Seraphine/ability-icon/r"]
+  },
+  "Sett": {
+    "P": ["Pit Grit", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/p"],
+    "Q": ["Knuckle Down", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/q"],
+    "W": ["Haymaker", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/w"],
+    "E": ["Facebreaker", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/e"],
+    "R": ["The Show Stopper", "https://cdn.communitydragon.org/latest/champion/Sett/ability-icon/r"]
+  },
+  "Shaco": {
+    "P": ["Backstab", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/p"],
+    "Q": ["Deceive", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/q"],
+    "W": ["Jack in the Box", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/w"],
+    "E": ["Two-Shiv Poison", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/e"],
+    "R": ["Hallucinate", "https://cdn.communitydragon.org/latest/champion/Shaco/ability-icon/r"]
+  },
+  "Shen": {
+    "P": ["Ki Barrier", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/p"],
+    "Q": ["Twilight Assault", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/q"],
+    "W": ["Spirit's Refuge", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/w"],
+    "E": ["Shadow Dash", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/e"],
+    "R": ["Stand United", "https://cdn.communitydragon.org/latest/champion/Shen/ability-icon/r"]
+  },
+  "Shyvana": {
+    "P": ["Fury of the Dragonborn", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/p"],
+    "Q": ["Twin Bite", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/q"],
+    "W": ["Burnout", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/w"],
+    "E": ["Flame Breath", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/e"],
+    "R": ["Dragon's Descent", "https://cdn.communitydragon.org/latest/champion/Shyvana/ability-icon/r"]
+  },
+  "Singed": {
+    "P": ["Noxious Slipstream", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/p"],
+    "Q": ["Poison Trail", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/q"],
+    "W": ["Mega Adhesive", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/w"],
+    "E": ["Fling", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/e"],
+    "R": ["Insanity Potion", "https://cdn.communitydragon.org/latest/champion/Singed/ability-icon/r"]
+  },
+  "Sion": {
+    "P": ["Glory in Death", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/p"],
+    "Q": ["Decimating Smash", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/q"],
+    "W": ["Soul Furnace", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/w"],
+    "E": ["Roar of the Slayer", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/e"],
+    "R": ["Unstoppable Onslaught", "https://cdn.communitydragon.org/latest/champion/Sion/ability-icon/r"]
+  },
+  "Sivir": {
+    "P": ["Fleet of Foot", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/p"],
+    "Q": ["Boomerang Blade", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/q"],
+    "W": ["Ricochet", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/w"],
+    "E": ["Spell Shield", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/e"],
+    "R": ["On the Hunt", "https://cdn.communitydragon.org/latest/champion/Sivir/ability-icon/r"]
+  },
+  "Skarner": {
+    "P": ["Threads of Vibration", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/p"],
+    "Q": ["Shattered Earth", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/q"],
+    "W": ["Seismic Bastion", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/w"],
+    "E": ["Ixtal's Impact", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/e"],
+    "R": ["Impale", "https://cdn.communitydragon.org/latest/champion/Skarner/ability-icon/r"]
+  },
+  "Smolder": {
+    "P": ["Dragon Practice", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/p"],
+    "Q": ["Super Scorcher Breath", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/q"],
+    "W": ["Achooo!", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/w"],
+    "E": ["Flap, Flap, Flap", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/e"],
+    "R": ["MMOOOMMMM!", "https://cdn.communitydragon.org/latest/champion/Smolder/ability-icon/r"]
+  },
+  "Sona": {
+    "P": ["Power Chord", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/p"],
+    "Q": ["Hymn of Valor", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/q"],
+    "W": ["Aria of Perseverance", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/w"],
+    "E": ["Song of Celerity", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/e"],
+    "R": ["Crescendo", "https://cdn.communitydragon.org/latest/champion/Sona/ability-icon/r"]
+  },
+  "Soraka": {
+    "P": ["Salvation", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/p"],
+    "Q": ["Starcall", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/q"],
+    "W": ["Astral Infusion", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/w"],
+    "E": ["Equinox", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/e"],
+    "R": ["Wish", "https://cdn.communitydragon.org/latest/champion/Soraka/ability-icon/r"]
+  },
+  "Swain": {
+    "P": ["Ravenous Flock", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/p"],
+    "Q": ["Death's Hand", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/q"],
+    "W": ["Vision of Empire", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/w"],
+    "E": ["Nevermove", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/e"],
+    "R": ["Demonic Ascension", "https://cdn.communitydragon.org/latest/champion/Swain/ability-icon/r"]
+  },
+  "Sylas": {
+    "P": ["Petricite Burst", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/p"],
+    "Q": ["Chain Lash", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/q"],
+    "W": ["Kingslayer", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/w"],
+    "E": ["Abscond", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/e"],
+    "R": ["Hijack", "https://cdn.communitydragon.org/latest/champion/Sylas/ability-icon/r"]
+  },
+  "Syndra": {
+    "P": ["Transcendent", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/p"],
+    "Q": ["Dark Sphere", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/q"],
+    "W": ["Force of Will", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/w"],
+    "E": ["Scatter the Weak", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/e"],
+    "R": ["Unleashed Power", "https://cdn.communitydragon.org/latest/champion/Syndra/ability-icon/r"]
+  },
+  "Tahm Kench": {
+    "P": ["An Acquired Taste", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/p"],
+    "Q": ["Tongue Lash", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/q"],
+    "W": ["Abyssal Dive", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/w"],
+    "E": ["Thick Skin", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/e"],
+    "R": ["Devour", "https://cdn.communitydragon.org/latest/champion/TahmKench/ability-icon/r"]
+  },
+  "Taliyah": {
+    "P": ["Rock Surfing", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/p"],
+    "Q": ["Threaded Volley", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/q"],
+    "W": ["Seismic Shove", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/w"],
+    "E": ["Unraveled Earth", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/e"],
+    "R": ["Weaver's Wall", "https://cdn.communitydragon.org/latest/champion/Taliyah/ability-icon/r"]
+  },
+  "Talon": {
+    "P": ["Blade's End", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/p"],
+    "Q": ["Noxian Diplomacy", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/q"],
+    "W": ["Rake", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/w"],
+    "E": ["Assassin's Path", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/e"],
+    "R": ["Shadow Assault", "https://cdn.communitydragon.org/latest/champion/Talon/ability-icon/r"]
+  },
+  "Taric": {
+    "P": ["Bravado", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/p"],
+    "Q": ["Starlight's Touch", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/q"],
+    "W": ["Bastion", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/w"],
+    "E": ["Dazzle", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/e"],
+    "R": ["Cosmic Radiance", "https://cdn.communitydragon.org/latest/champion/Taric/ability-icon/r"]
+  },
+  "Teemo": {
+    "P": ["Guerrilla Warfare", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/p"],
+    "Q": ["Blinding Dart", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/q"],
+    "W": ["Move Quick", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/w"],
+    "E": ["Toxic Shot", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/e"],
+    "R": ["Noxious Trap", "https://cdn.communitydragon.org/latest/champion/Teemo/ability-icon/r"]
+  },
+  "Thresh": {
+    "P": ["Damnation", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/p"],
+    "Q": ["Death Sentence", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/q"],
+    "W": ["Dark Passage", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/w"],
+    "E": ["Flay", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/e"],
+    "R": ["The Box", "https://cdn.communitydragon.org/latest/champion/Thresh/ability-icon/r"]
+  },
+  "Tristana": {
+    "P": ["Draw a Bead", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/p"],
+    "Q": ["Rapid Fire", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/q"],
+    "W": ["Rocket Jump", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/w"],
+    "E": ["Explosive Charge", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/e"],
+    "R": ["Buster Shot", "https://cdn.communitydragon.org/latest/champion/Tristana/ability-icon/r"]
+  },
+  "Trundle": {
+    "P": ["King's Tribute", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/p"],
+    "Q": ["Chomp", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/q"],
+    "W": ["Frozen Domain", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/w"],
+    "E": ["Pillar of Ice", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/e"],
+    "R": ["Subjugate", "https://cdn.communitydragon.org/latest/champion/Trundle/ability-icon/r"]
+  },
+  "Tryndamere": {
+    "P": ["Battle Fury", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/p"],
+    "Q": ["Bloodlust", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/q"],
+    "W": ["Mocking Shout", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/w"],
+    "E": ["Spinning Slash", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/e"],
+    "R": ["Undying Rage", "https://cdn.communitydragon.org/latest/champion/Tryndamere/ability-icon/r"]
+  },
+  "Twisted Fate": {
+    "P": ["Loaded Dice", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/p"],
+    "Q": ["Wild Cards", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/q"],
+    "W": ["Pick a Card", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/w"],
+    "E": ["Stacked Deck", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/e"],
+    "R": ["Destiny", "https://cdn.communitydragon.org/latest/champion/TwistedFate/ability-icon/r"]
+  },
+  "Twitch": {
+    "P": ["Deadly Venom", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/p"],
+    "Q": ["Ambush", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/q"],
+    "W": ["Venom Cask", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/w"],
+    "E": ["Contaminate", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/e"],
+    "R": ["Spray and Pray", "https://cdn.communitydragon.org/latest/champion/Twitch/ability-icon/r"]
+  },
+  "Udyr": {
+    "P": ["Bridge Between", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/p"],
+    "Q": ["Wilding Claw", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/q"],
+    "W": ["Iron Mantle", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/w"],
+    "E": ["Blazing Stampede", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/e"],
+    "R": ["Wingborne Storm", "https://cdn.communitydragon.org/latest/champion/Udyr/ability-icon/r"]
+  },
+  "Urgot": {
+    "P": ["Echoing Flames", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/p"],
+    "Q": ["Corrosive Charge", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/q"],
+    "W": ["Purge", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/w"],
+    "E": ["Disdain", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/e"],
+    "R": ["Fear Beyond Death", "https://cdn.communitydragon.org/latest/champion/Urgot/ability-icon/r"]
+  },
+  "Varus": {
+    "P": ["Living Vengeance", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/p"],
+    "Q": ["Piercing Arrow", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/q"],
+    "W": ["Blighted Quiver", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/w"],
+    "E": ["Hail of Arrows", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/e"],
+    "R": ["Chain of Corruption", "https://cdn.communitydragon.org/latest/champion/Varus/ability-icon/r"]
+  },
+  "Vayne": {
+    "P": ["Night Hunter", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/p"],
+    "Q": ["Tumble", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/q"],
+    "W": ["Silver Bolts", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/w"],
+    "E": ["Condemn", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/e"],
+    "R": ["Final Hour", "https://cdn.communitydragon.org/latest/champion/Vayne/ability-icon/r"]
+  },
+  "Veigar": {
+    "P": ["Phenomenal Evil Power", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/p"],
+    "Q": ["Baleful Strike", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/q"],
+    "W": ["Dark Matter", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/w"],
+    "E": ["Event Horizon", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/e"],
+    "R": ["Primordial Burst", "https://cdn.communitydragon.org/latest/champion/Veigar/ability-icon/r"]
+  },
+  "Vel'Koz": {
+    "P": ["Organic Deconstruction", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/p"],
+    "Q": ["Plasma Fission", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/q"],
+    "W": ["Void Rift", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/w"],
+    "E": ["Tectonic Disruption", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/e"],
+    "R": ["Life Form Disintegration Ray", "https://cdn.communitydragon.org/latest/champion/Velkoz/ability-icon/r"]
+  },
+  "Vex": {
+    "P": ["Doom 'n Gloom", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/p"],
+    "Q": ["Mistral Bolt", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/q"],
+    "W": ["Personal Space", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/w"],
+    "E": ["Looming Darkness", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/e"],
+    "R": ["Shadow Surge", "https://cdn.communitydragon.org/latest/champion/Vex/ability-icon/r"]
+  },
+  "Vi": {
+    "P": ["Blast Shield", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/p"],
+    "Q": ["Vault Breaker", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/q"],
+    "W": ["Denting Blows", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/w"],
+    "E": ["Relentless Force", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/e"],
+    "R": ["Cease and Desist", "https://cdn.communitydragon.org/latest/champion/Vi/ability-icon/r"]
+  },
+  "Viego": {
+    "P": ["Sovereign's Domination", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/p"],
+    "Q": ["Blade of the Ruined King", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/q"],
+    "W": ["Spectral Maw", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/w"],
+    "E": ["Harrowed Path", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/e"],
+    "R": ["Heartbreaker", "https://cdn.communitydragon.org/latest/champion/Viego/ability-icon/r"]
+  },
+  "Viktor": {
+    "P": ["Glorious Evolution", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/p"],
+    "Q": ["Siphon Power", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/q"],
+    "W": ["Gravity Field", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/w"],
+    "E": ["Hextech Ray", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/e"],
+    "R": ["Arcane Storm", "https://cdn.communitydragon.org/latest/champion/Viktor/ability-icon/r"]
+  },
+  "Vladimir": {
+    "P": ["Crimson Pact", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/p"],
+    "Q": ["Transfusion", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/q"],
+    "W": ["Sanguine Pool", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/w"],
+    "E": ["Tides of Blood", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/e"],
+    "R": ["Hemoplague", "https://cdn.communitydragon.org/latest/champion/Vladimir/ability-icon/r"]
+  },
+  "Volibear": {
+    "P": ["The Relentless Storm", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/p"],
+    "Q": ["Thundering Smash", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/q"],
+    "W": ["Frenzied Maul", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/w"],
+    "E": ["Sky Splitter", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/e"],
+    "R": ["Stormbringer", "https://cdn.communitydragon.org/latest/champion/Volibear/ability-icon/r"]
+  },
+  "Warwick": {
+    "P": ["Eternal Hunger", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/p"],
+    "Q": ["Jaws of the Beast", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/q"],
+    "W": ["Blood Hunt", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/w"],
+    "E": ["Primal Howl", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/e"],
+    "R": ["Infinite Duress", "https://cdn.communitydragon.org/latest/champion/Warwick/ability-icon/r"]
+  },
+  "Wukong": {
+    "P": ["Stone Skin", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/p"],
+    "Q": ["Crushing Blow", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/q"],
+    "W": ["Warrior Trickster", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/w"],
+    "E": ["Nimbus Strike", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/e"],
+    "R": ["Cyclone", "https://cdn.communitydragon.org/latest/champion/MonkeyKing/ability-icon/r"]
+  },
+  "Xayah": {
+    "P": ["Clean Cuts", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/p"],
+    "Q": ["Double Daggers", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/q"],
+    "W": ["Deadly Plumage", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/w"],
+    "E": ["Bladecaller", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/e"],
+    "R": ["Featherstorm", "https://cdn.communitydragon.org/latest/champion/Xayah/ability-icon/r"]
+  },
+  "Xerath": {
+    "P": ["Mana Surge", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/p"],
+    "Q": ["Arcanopulse", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/q"],
+    "W": ["Eye of Destruction", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/w"],
+    "E": ["Shocking Orb", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/e"],
+    "R": ["Rite of the Arcane", "https://cdn.communitydragon.org/latest/champion/Xerath/ability-icon/r"]
+  },
+  "Xin Zhao": {
+    "P": ["Determination", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/p"],
+    "Q": ["Three Talon Strike", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/q"],
+    "W": ["Wind Becomes Lightning", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/w"],
+    "E": ["Audacious Charge", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/e"],
+    "R": ["Crescent Guard", "https://cdn.communitydragon.org/latest/champion/XinZhao/ability-icon/r"]
+  },
+  "Yasuo": {
+    "P": ["Way of the Wanderer", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/p"],
+    "Q": ["Steel Tempest", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/q"],
+    "W": ["Wind Wall", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/w"],
+    "E": ["Sweeping Blade", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/e"],
+    "R": ["Last Breath", "https://cdn.communitydragon.org/latest/champion/Yasuo/ability-icon/r"]
+  },
+  "Yone": {
+    "P": ["Way of the Hunter", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/p"],
+    "Q": ["Mortal Steel", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/q"],
+    "W": ["Spirit Cleave", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/w"],
+    "E": ["Soul Unbound", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/e"],
+    "R": ["Fate Sealed", "https://cdn.communitydragon.org/latest/champion/Yone/ability-icon/r"]
+  },
+  "Yorick": {
+    "P": ["Shepherd of Souls", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/p"],
+    "Q": ["Last Rites", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/q"],
+    "W": ["Dark Procession", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/w"],
+    "E": ["Mourning Mist", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/e"],
+    "R": ["Eulogy of the Isles", "https://cdn.communitydragon.org/latest/champion/Yorick/ability-icon/r"]
+  },
+  "Yuumi": {
+    "P": ["Feline Friendship", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/p"],
+    "Q": ["Prowling Projectile", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/q"],
+    "W": ["You and Me!", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/w"],
+    "E": ["Zoomies", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/e"],
+    "R": ["Final Chapter", "https://cdn.communitydragon.org/latest/champion/Yuumi/ability-icon/r"]
+  },
+  "Zac": {
+    "P": ["Cell Division", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/p"],
+    "Q": ["Stretching Strikes", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/q"],
+    "W": ["Unstable Matter", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/w"],
+    "E": ["Elastic Slingshot", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/e"],
+    "R": ["Let's Bounce!", "https://cdn.communitydragon.org/latest/champion/Zac/ability-icon/r"]
+  },
+  "Zed": {
+    "P": ["Contempt for the Weak", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/p"],
+    "Q": ["Razor Shuriken", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/q"],
+    "W": ["Living Shadow", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/w"],
+    "E": ["Shadow Slash", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/e"],
+    "R": ["Death Mark", "https://cdn.communitydragon.org/latest/champion/Zed/ability-icon/r"]
+  },
+  "Zeri": {
+    "P": ["Living Battery", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/p"],
+    "Q": ["Burst Fire", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/q"],
+    "W": ["Ultrashock Laser", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/w"],
+    "E": ["Spark Surge", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/e"],
+    "R": ["Lightning Crash", "https://cdn.communitydragon.org/latest/champion/Zeri/ability-icon/r"]
+  },
+  "Ziggs": {
+    "P": ["Short Fuse", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/p"],
+    "Q": ["Bouncing Bomb", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/q"],
+    "W": ["Satchel Charge", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/w"],
+    "E": ["Hexplosive Minefield", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/e"],
+    "R": ["Mega Inferno Bomb", "https://cdn.communitydragon.org/latest/champion/Ziggs/ability-icon/r"]
+  },
+  "Zilean": {
+    "P": ["Time in a Bottle", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/p"],
+    "Q": ["Time Bomb", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/q"],
+    "W": ["Rewind", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/w"],
+    "E": ["Time Warp", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/e"],
+    "R": ["Chronoshift", "https://cdn.communitydragon.org/latest/champion/Zilean/ability-icon/r"]
+  },
+  "Zoe": {
+    "P": ["More Sparkles!", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/p"],
+    "Q": ["Paddle Star", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/q"],
+    "W": ["Spell Thief", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/w"],
+    "E": ["Sleepy Trouble Bubble", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/e"],
+    "R": ["Portal Jump", "https://cdn.communitydragon.org/latest/champion/Zoe/ability-icon/r"]
+  },
+  "Zyra": {
+    "P": ["Garden of Thorns", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/p"],
+    "Q": ["Deadly Spines", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/q"],
+    "W": ["Rampant Growth", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/w"],
+    "E": ["Grasping Roots", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/e"],
+    "R": ["Stranglethorns", "https://cdn.communitydragon.org/latest/champion/Zyra/ability-icon/r"]
+  }
 }

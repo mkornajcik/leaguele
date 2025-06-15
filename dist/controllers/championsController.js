@@ -1,8 +1,10 @@
-import { getAllChampions, compareChampions, getRandomChampion, getRandomQuote, compareQuotes, getRandomAbility, compareAbilities, getRandomSplash, compareSplashes, getRandomEmojiChallenge, compareEmojis, } from "../services/championService";
+import { getAllChampions, compareChampions, compareQuotes, compareAbilities, compareSplashes, compareEmojis, } from "../services/championService";
 import { getCompletionFlags } from "../services/sessionHelpers.js";
 import { catchAsync } from "../services/catchAsync.js";
 import { AppError } from "../types/appError.js";
 import { validationResult } from "express-validator";
+import { getDailyChampions, getSecondsUntilMidnight } from "../services/dailyChampions.js";
+const secondsUntilReset = getSecondsUntilMidnight();
 // ----- Helper functions -----
 // Helper to shuffle arrays
 export function shuffleArray(arr) {
@@ -81,8 +83,9 @@ export const getClassic = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
-    if (!req.session.comparisons) {
-        req.session.classicTarget = getRandomChampion().name;
+    const { classicToday } = getDailyChampions();
+    if (req.session.classicTarget !== classicToday.name) {
+        req.session.classicTarget = classicToday.name;
         req.session.comparisons = [];
     }
     const flags = getCompletionFlags(req.session);
@@ -92,6 +95,7 @@ export const getClassic = catchAsync(async (req, res, next) => {
         comparisons: req.session.comparisons,
         guessCount: req.session.comparisons?.length,
         flags,
+        secondsUntilReset,
     });
 });
 export const postClassic = catchAsync(async (req, res, next) => {
@@ -132,8 +136,9 @@ export const getQuote = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
-    if (!req.session.quoteTarget || !req.session.quoteText) {
-        const { champion, quote } = getRandomQuote();
+    const { quoteToday } = getDailyChampions();
+    if (req.session.quoteTarget !== quoteToday.champion) {
+        const { champion, quote } = quoteToday;
         req.session.quoteTarget = champion;
         req.session.quoteText = quote;
         req.session.quoteGuesses = [];
@@ -146,6 +151,7 @@ export const getQuote = catchAsync(async (req, res, next) => {
         guessCount: req.session.quoteGuesses?.length,
         champions: getAllChampions(),
         flags,
+        secondsUntilReset,
     });
 });
 export const postQuote = catchAsync(async (req, res, next) => {
@@ -182,8 +188,9 @@ export const getAbility = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
-    if (!req.session.abilityTarget) {
-        const { champion, key, name, icon, allAbilities } = getRandomAbility();
+    const { abilityToday } = getDailyChampions();
+    if (req.session.abilityTarget !== abilityToday.champion) {
+        const { champion, key, name, icon, allAbilities } = abilityToday;
         req.session.abilityTarget = champion;
         req.session.abilityKey = key;
         req.session.abilityName = name;
@@ -212,6 +219,7 @@ export const getAbility = catchAsync(async (req, res, next) => {
         guessCount: req.session.abilityGuesses?.length,
         champions: getAllChampions(),
         flags,
+        secondsUntilReset,
     });
 });
 export const postAbility = catchAsync(async (req, res, next) => {
@@ -272,8 +280,9 @@ export const getEmoji = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
-    if (!req.session.emojiTarget) {
-        const { champion, emojis } = getRandomEmojiChallenge();
+    const { emojiToday } = getDailyChampions();
+    if (req.session.emojiTarget !== emojiToday.champion) {
+        const { champion, emojis } = emojiToday;
         req.session.emojiTarget = champion;
         req.session.emojiList = emojis;
         req.session.emojiGuesses = [];
@@ -288,6 +297,7 @@ export const getEmoji = catchAsync(async (req, res, next) => {
         champions: getAllChampions(),
         guessCount: req.session.emojiGuesses?.length,
         flags,
+        secondsUntilReset,
     });
 });
 export const postEmoji = catchAsync(async (req, res, next) => {
@@ -325,8 +335,9 @@ export const getSplash = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
-    if (!req.session.splashTarget) {
-        const { champion, splashImage, splashName, allSplashes } = getRandomSplash();
+    const { splashToday } = getDailyChampions();
+    if (req.session.splashTarget !== splashToday.champion) {
+        const { champion, splashImage, splashName, allSplashes } = splashToday;
         req.session.splashTarget = champion;
         req.session.splashImage = splashImage;
         req.session.splashName = splashName;
@@ -355,6 +366,7 @@ export const getSplash = catchAsync(async (req, res, next) => {
         flags,
         originX,
         originY,
+        secondsUntilReset,
     });
 });
 export const postSplash = catchAsync(async (req, res, next) => {

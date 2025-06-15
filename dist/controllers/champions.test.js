@@ -1,7 +1,7 @@
 import request from "supertest";
 import app from "../app";
 import { shuffleArray, getRandomCoordinatesExcludingBorder, randomRotation } from "./championsController";
-import * as champService from "../services/championService";
+import * as dailyChampions from "../services/dailyChampions.js";
 // --------------------- Helpers ---------------------
 describe("shuffleArray", () => {
     test("returns array with same elements but different order", () => {
@@ -54,17 +54,13 @@ jest.mock("../services/sessionHelpers", () => ({
 // --------------------- Classic ---------------------
 describe("Classic Controller Tests", () => {
     beforeEach(() => {
-        jest.spyOn(champService, "getRandomChampion").mockReturnValue({
-            name: "Lux",
-            title: "the Lady of Luminosity",
-            resource: "Mana",
-            position: "Middle Support",
-            attackType: "Ranged",
-            releaseDate: "2010",
-            icon: "http://ddragon.leagueoflegends.com/cdn/15.10.1/img/champion/Lux.png",
-            gender: "Female",
-            species: "Human Magicborn",
-            region: "Demacia",
+        jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
+            date: dailyChampions.getTodayParis(),
+            classicToday: "Lux",
+            quoteToday: "Lux",
+            abilityToday: { champion: "Lux", key: "Q", name: "Light Binding" },
+            splashToday: "Lux",
+            emojiToday: "Lux",
         });
     });
     afterEach(() => {
@@ -106,9 +102,13 @@ describe("Classic Controller Tests", () => {
 // --------------------- Quote ---------------------
 describe("Quote Controller Tests", () => {
     beforeEach(() => {
-        jest.spyOn(champService, "getRandomQuote").mockReturnValue({
-            champion: "Lux",
-            quote: "Double rainbow... what does it mean?",
+        jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
+            date: dailyChampions.getTodayParis(),
+            classicToday: "Lux",
+            quoteToday: "Lux",
+            abilityToday: { champion: "Lux", key: "Q", name: "Light Binding" },
+            splashToday: "Lux",
+            emojiToday: "Lux",
         });
     });
     afterEach(() => {
@@ -153,12 +153,19 @@ describe("Quote Controller Tests", () => {
 // --------------------- Ability ---------------------
 describe("Ability Controller Tests", () => {
     beforeEach(() => {
-        jest.spyOn(champService, "getRandomAbility").mockReturnValue({
-            champion: "Lux",
-            key: "Q",
-            name: "Light Binding",
-            icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
-            allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
+        jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
+            date: dailyChampions.getTodayParis(),
+            classicToday: "Lux",
+            quoteToday: "Lux",
+            abilityToday: {
+                champion: "Lux",
+                key: "Q",
+                name: "Light Binding",
+                allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
+                icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
+            },
+            splashToday: "Lux",
+            emojiToday: "Lux",
         });
     });
     afterEach(() => {
@@ -253,9 +260,19 @@ describe("Ability Controller Tests", () => {
 // --------------------- Emoji ---------------------
 describe("Emoji Controller Tests", () => {
     beforeEach(() => {
-        jest.spyOn(champService, "getRandomEmojiChallenge").mockReturnValue({
-            champion: "Lux",
-            emojis: ["💡", "🔦", "🌈", "🪄"],
+        jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
+            date: dailyChampions.getTodayParis(),
+            classicToday: "Lux",
+            quoteToday: "Lux",
+            abilityToday: {
+                champion: "Lux",
+                key: "Q",
+                name: "Light Binding",
+                allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
+                icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
+            },
+            splashToday: "Lux",
+            emojiToday: { champion: "Lux", emojis: ["💡", "🔦", "🌈", "🪄"] },
         });
     });
     afterEach(() => {
@@ -300,11 +317,24 @@ describe("Emoji Controller Tests", () => {
 // --------------------- Splash ---------------------
 describe("Splash Controller Tests", () => {
     beforeEach(() => {
-        jest.spyOn(champService, "getRandomSplash").mockReturnValue({
-            champion: "Lux",
-            splashName: "Elementalist",
-            splashImage: "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin07/images/lux_splash_uncentered_7.jpg",
-            allSplashes: ["Original", "Sorceress", "Spellthief", "Commando", "Elementalist"],
+        jest.spyOn(dailyChampions, "getDailyChampions").mockReturnValue({
+            date: dailyChampions.getTodayParis(),
+            classicToday: "Lux",
+            quoteToday: "Lux",
+            abilityToday: {
+                champion: "Lux",
+                key: "Q",
+                name: "Light Binding",
+                allAbilities: ["Illumination", "Light Binding", "Prismatic Barrier", "Lucent Singularity", "Final Spark"],
+                icon: "https://cdn.communitydragon.org/latest/champion/Lux/ability-icon/q",
+            },
+            splashToday: {
+                champion: "Lux",
+                splashName: "Elementalist",
+                splashImage: "https://raw.communitydragon.org/pbe/plugins/rcp-be-lol-game-data/global/default/assets/characters/lux/skins/skin07/images/lux_splash_uncentered_7.jpg",
+                allSplashes: ["Original", "Sorceress", "Spellthief", "Commando", "Elementalist"],
+            },
+            emojiToday: { champion: "Lux", emojis: ["💡", "🔦", "🌈", "🪄"] },
         });
     });
     afterEach(() => {

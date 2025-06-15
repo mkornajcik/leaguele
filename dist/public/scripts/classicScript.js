@@ -71,6 +71,7 @@ export function setupClassic({
         body: JSON.stringify(payload),
         headers: { "Content-Type": "application/json" },
       });
+
       const data = await res.json();
       if (data.comparison) {
         prependComparisonRow(data.comparison);

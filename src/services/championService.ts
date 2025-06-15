@@ -28,6 +28,10 @@ interface CompareFieldResult {
   partial?: boolean;
 }
 
+export interface RandomChampionResult {
+  name: string;
+}
+
 export interface CompareDateResult extends CompareFieldResult {
   hint: "before" | "after" | "exact";
 }
@@ -47,7 +51,7 @@ export function getAllChampions() {
   return championsWithIcons;
 }
 
-export function getRandomChampion() {
+export function getRandomChampion(): RandomChampionResult {
   const all = Object.values(championsJson);
   return all[Math.floor(Math.random() * all.length)];
 }
@@ -115,7 +119,7 @@ export interface CompareAbilityResult {
   correct: boolean;
 }
 
-interface RandomAbilityResult {
+export interface RandomAbilityResult {
   champion: string;
   key: string; // P, Q, W, E, R
   name: string;
