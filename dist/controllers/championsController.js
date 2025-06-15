@@ -4,7 +4,6 @@ import { catchAsync } from "../services/catchAsync.js";
 import { AppError } from "../types/appError.js";
 import { validationResult } from "express-validator";
 import { getDailyChampions, getSecondsUntilMidnight } from "../services/dailyChampions.js";
-const secondsUntilReset = getSecondsUntilMidnight();
 // ----- Helper functions -----
 // Helper to shuffle arrays
 export function shuffleArray(arr) {
@@ -77,12 +76,14 @@ export const getPrivacy = catchAsync(async (req, res, next) => {
 });
 export const getPage = catchAsync(async (req, res, next) => {
     const flags = getCompletionFlags(req.session);
-    res.status(200).render("index", { flags });
+    let secondsUntilReset = getSecondsUntilMidnight();
+    res.status(200).render("index", { flags, secondsUntilReset });
 });
 export const getClassic = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
+    let secondsUntilReset = getSecondsUntilMidnight();
     const { classicToday } = getDailyChampions();
     if (req.session.classicTarget !== classicToday.name) {
         req.session.classicTarget = classicToday.name;
@@ -136,6 +137,7 @@ export const getQuote = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
+    let secondsUntilReset = getSecondsUntilMidnight();
     const { quoteToday } = getDailyChampions();
     if (req.session.quoteTarget !== quoteToday.champion) {
         const { champion, quote } = quoteToday;
@@ -188,6 +190,7 @@ export const getAbility = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
+    let secondsUntilReset = getSecondsUntilMidnight();
     const { abilityToday } = getDailyChampions();
     if (req.session.abilityTarget !== abilityToday.champion) {
         const { champion, key, name, icon, allAbilities } = abilityToday;
@@ -280,6 +283,7 @@ export const getEmoji = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
+    let secondsUntilReset = getSecondsUntilMidnight();
     const { emojiToday } = getDailyChampions();
     if (req.session.emojiTarget !== emojiToday.champion) {
         const { champion, emojis } = emojiToday;
@@ -335,6 +339,7 @@ export const getSplash = catchAsync(async (req, res, next) => {
     if (!req.session) {
         return next(new AppError("Session not configured", 500));
     }
+    let secondsUntilReset = getSecondsUntilMidnight();
     const { splashToday } = getDailyChampions();
     if (req.session.splashTarget !== splashToday.champion) {
         const { champion, splashImage, splashName, allSplashes } = splashToday;

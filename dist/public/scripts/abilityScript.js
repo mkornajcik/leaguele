@@ -19,7 +19,6 @@ const allAbilities = abilityData.allAbilities || [];
 const abilityNameGuesses = abilityData.abilityNameGuesses || [];
 const abilityRotation = abilityData.abilityRotation;
 const abilityIcon = abilityData.abilityIcon;
-const secondsUntilReset = abilityData.secondsUntilReset;
 
 champions.forEach((c) => {
   const img = new Image();
@@ -598,25 +597,12 @@ async function submitMainForm() {
   }
 }
 
-function updateTimer() {
-  let seconds = secondsUntilReset;
-  const hours = Math.floor(seconds / 3600);
-  const minutes = Math.floor((seconds % 3600) / 60);
-  const secs = seconds % 60;
-  document.getElementById("timer").textContent = `Next champion in ${hours}h ${minutes}m ${secs}s`;
-  if (seconds > 0) {
-    seconds--;
-    setTimeout(updateTimer, 1000);
-  }
-}
-
 // --- Attach easy mode toggle ---
 if (toggle) {
   toggle.addEventListener("change", easyMode);
 }
 
 window.addEventListener("DOMContentLoaded", () => {
-  updateTimer();
   const mainGuesses = abilityData.guesses || [];
   if (mainGuesses.length && mainGuesses[mainGuesses.length - 1].correct) {
     showBonus1();
