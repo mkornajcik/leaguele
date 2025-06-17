@@ -107,7 +107,6 @@ app.use((req: Request, res: Response, next: NextFunction) => {
   return next(new AppError("Not found", 404));
 });
 
-//TODO: Error handling in prod
 app.use(globalErrorHandler);
 
 export default app;
