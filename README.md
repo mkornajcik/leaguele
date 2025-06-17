@@ -12,12 +12,10 @@ Leaguele is a Wordle-like guessing game for League of Legends champions, based o
 - [Demo / Screenshots](#demo--screenshots)
 - [Tech Stack](#tech-stack)
 - [Prerequisites](#prerequisites)
-- [Environment Variables](#environment-variables)
 - [Running in Development](#running-in-development)
 - [Building & Production](#building--production)
 - [Testing](#testing)
 - [CI/CD (GitLab)](#cicd-gitlab)
-- [Modes Overview](#modes-overview)
 - [Assets & Attribution](#assets--attribution)
 - [Security & Rate Limiting](#security--rate-limiting)
 - [Disclaimer & Legal](#disclaimer--legal)
@@ -34,6 +32,7 @@ Leaguele is a Wordle-like guessing game for League of Legends champions, based o
   - **Ability**: Guess the champion based on an ability image.
   - **Emoji**: Decode an emoji sequence representing the champion.
   - **Splash**: Guess from a zoomed-in portion of the official splash art.
+
 - Built with TypeScript, Express, EJS templates, Tailwind CSS.
 - Session management with `express-session` and Redis (via `connect-redis` and `redis`).
 - Daily champion assignment at midnight (Europe/Paris timezone) for each mode.
@@ -145,23 +144,6 @@ The project includes `.gitlab-ci.yml` with stages:
 2. **build_typescript**: Install dependencies and compile TypeScript.
 3. **build_assets**: Install dependencies and build Tailwind CSS assets.
 4. **test**: Install dependencies and run Jest tests.
-
----
-
-## Modes Overview
-
-1. **Classic**  
-   The player makes guesses and receives feedback comparing champion attributes (roles, gender, resource etc.). Deduce the champion fitting all criteria.
-2. **Quote**  
-   A random champion quote or voice line is shown; the player matches it to the champion.
-3. **Ability**  
-   An ability description or hint is presented; guess which champion it belongs to.
-4. **Emoji**  
-   A sequence of emojis encodes hints about the champion or abilities; decode and guess the champion.
-5. **Splash**  
-   A zoomed-in/cropped portion of the official splash art is shown; guess the champion from the partial image.
-
-Assets (images, emojis) are fetched at runtime from Riot’s CDN or Community Dragon CDN, avoiding redistribution of assets in the repo.
 
 ---
 
