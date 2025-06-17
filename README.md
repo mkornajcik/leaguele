@@ -176,7 +176,7 @@ Leaguele is a fan-made project that uses assets and data owned by Riot Games. Th
 
 ## License
 
-This project is open source under the MIT License. See [LICENSE](LICENSE) file for details.
+This project is open source under the MIT License.
 
 ---
 
