@@ -48,9 +48,6 @@ Leaguele is a Wordle-like guessing game for League of Legends champions, based o
 
 ## Demo / Screenshots
 
-
-
-```markdown
 ![main](https://github.com/user-attachments/assets/d3c27b3b-2bfc-49db-8844-188dd60e0cb8)
 ![classic](https://github.com/user-attachments/assets/2c6d7a4e-ce53-4ee3-928b-1df5b1f8f554)
 ![quote](https://github.com/user-attachments/assets/d7967691-fa4b-4989-8550-4d6aa3cb3ad6)
@@ -58,7 +55,6 @@ Leaguele is a Wordle-like guessing game for League of Legends champions, based o
 ![ability2](https://github.com/user-attachments/assets/0000f43b-b407-4b7c-9cce-98c537dd1338)
 ![emoji](https://github.com/user-attachments/assets/284a4a09-4ef5-445d-a660-0e8acd86bc98)
 ![splash](https://github.com/user-attachments/assets/23b009b4-9567-4192-b2bd-b255ea28d8ed)
-```
 
 ---
 
