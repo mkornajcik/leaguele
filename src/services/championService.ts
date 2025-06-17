@@ -229,13 +229,13 @@ function getRandomChampionWithAbility(): string {
 export function getRandomAbility(): RandomAbilityResult {
   const champs = ensureChampions();
   const abilities = ensureAbilities();
-  const championKey = getRandomChampionWithAbility();
-  const champAbilities = abilities[championKey];
+  const champion = getRandomChampionWithAbility();
+  const champAbilities = abilities[champion];
   const keys = Object.keys(champAbilities);
   const randomKey = keys[Math.floor(Math.random() * keys.length)];
   const [name, icon] = champAbilities[randomKey];
   const allAbilities = keys.map((k) => champAbilities[k][0]);
-  return { champion: championKey, key: randomKey, name, icon, allAbilities };
+  return { champion, key: randomKey, name, icon, allAbilities };
 }
 
 export function compareAbilities(guessKey: string, targetKey: string): CompareAbilityResult {

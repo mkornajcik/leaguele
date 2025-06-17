@@ -58,7 +58,7 @@ export function randomRotation() {
 
 // Compare ability keys helper
 export function compareKeys(req: Request, guessKey: string) {
-  const correctKey = req.session.abilityKey!;
+  const correctKey = req.session.abilityKey;
 
   req.session.keyGuesses = req.session.keyGuesses || [];
 
@@ -112,6 +112,31 @@ export const getPrivacy = catchAsync(async (req: Request, res: Response, next: N
 });
 
 export const getPage = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
+  const { classicToday, quoteToday, abilityToday, emojiToday, splashToday } = getDailyChampions();
+
+  if (
+    req.session.classicTarget !== classicToday.name &&
+    req.session.quoteTarget !== quoteToday.champion &&
+    req.session.abilityTarget !== abilityToday.champion &&
+    req.session.emojiTarget !== emojiToday.champion &&
+    req.session.splashTarget !== splashToday.champion
+  ) {
+    req.session.isClassicComplete = false;
+    req.session.classicGuesses = [];
+
+    req.session.isQuoteComplete = false;
+    req.session.quoteGuesses = [];
+
+    req.session.isAbilityComplete = false;
+    req.session.abilityGuesses = [];
+
+    req.session.isEmojiComplete = false;
+    req.session.emojiGuesses = [];
+
+    req.session.isSplashComplete = false;
+    req.session.splashGuesses = [];
+  }
+
   const flags = getCompletionFlags(req.session);
 
   let secondsUntilReset = getSecondsUntilMidnight();
@@ -131,6 +156,8 @@ export const getClassic = catchAsync(async (req: Request, res: Response, next: N
   if (req.session.classicTarget !== classicToday.name) {
     req.session.classicTarget = classicToday.name;
     req.session.comparisons = [];
+    req.session.classicGuesses = [];
+    req.session.isClassicComplete = false;
   }
 
   const flags = getCompletionFlags(req.session);
@@ -202,6 +229,7 @@ export const getQuote = catchAsync(async (req: Request, res: Response, next: Nex
     req.session.quoteTarget = champion;
     req.session.quoteText = quote;
     req.session.quoteGuesses = [];
+    req.session.isQuoteComplete = false;
   }
 
   const flags = getCompletionFlags(req.session);
@@ -267,15 +295,19 @@ export const getAbility = catchAsync(async (req: Request, res: Response, next: N
   if (req.session.abilityTarget !== abilityToday.champion) {
     const { champion, key, name, icon, allAbilities } = abilityToday;
     req.session.abilityTarget = champion;
-    req.session.abilityKey = key;
     req.session.abilityName = name;
     req.session.abilityIcon = icon;
+    req.session.abilityKey = key;
     req.session.allAbilities = allAbilities;
     req.session.abilityGuesses = [];
+    req.session.abilityNameGuesses = [];
+    req.session.abilityShuffledNames = [];
     req.session.keyGuesses = [];
+    req.session.abilityRotation = 0;
+    req.session.isAbilityComplete = false;
   }
 
-  if (!req.session.abilityShuffledNames) {
+  if (!req.session.abilityShuffledNames || req.session.abilityShuffledNames.length === 0) {
     req.session.abilityShuffledNames = shuffleArray(req.session.allAbilities!);
   }
 
@@ -386,6 +418,7 @@ export const getEmoji = catchAsync(async (req: Request, res: Response, next: Nex
     req.session.emojiList = emojis;
     req.session.emojiGuesses = [];
     req.session.displayedEmojis = 1;
+    req.session.isEmojiComplete = false;
   }
 
   const flags = getCompletionFlags(req.session);
@@ -459,6 +492,9 @@ export const getSplash = catchAsync(async (req: Request, res: Response, next: Ne
     req.session.allSplashes = allSplashes;
     req.session.splashGuesses = [];
     req.session.splashNameGuesses = [];
+    req.session.originX = undefined;
+    req.session.originY = undefined;
+    req.session.isSplashComplete = false;
   }
 
   if (req.session.originX === undefined || req.session.originY === undefined) {

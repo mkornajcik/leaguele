@@ -9,8 +9,7 @@
     "strict": true,
     "skipLibCheck": true,
     "resolveJsonModule": true,
-    "noEmit": true,
     "isolatedModules": true
   },
-  "exclude": ["node_modules", "./*.ts", "./__test__"]
+  "exclude": ["node_modules", "./__test__"]
 }

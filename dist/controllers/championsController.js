@@ -75,6 +75,23 @@ export const getPrivacy = catchAsync(async (req, res, next) => {
     res.status(200).render("privacy", { flags });
 });
 export const getPage = catchAsync(async (req, res, next) => {
+    const { classicToday, quoteToday, abilityToday, emojiToday, splashToday } = getDailyChampions();
+    if (req.session.classicTarget !== classicToday.name &&
+        req.session.quoteTarget !== quoteToday.champion &&
+        req.session.abilityTarget !== abilityToday.champion &&
+        req.session.emojiTarget !== emojiToday.champion &&
+        req.session.splashTarget !== splashToday.champion) {
+        req.session.isClassicComplete = false;
+        req.session.classicGuesses = [];
+        req.session.isQuoteComplete = false;
+        req.session.quoteGuesses = [];
+        req.session.isAbilityComplete = false;
+        req.session.abilityGuesses = [];
+        req.session.isEmojiComplete = false;
+        req.session.emojiGuesses = [];
+        req.session.isSplashComplete = false;
+        req.session.splashGuesses = [];
+    }
     const flags = getCompletionFlags(req.session);
     let secondsUntilReset = getSecondsUntilMidnight();
     res.status(200).render("index", { flags, secondsUntilReset });
@@ -88,6 +105,8 @@ export const getClassic = catchAsync(async (req, res, next) => {
     if (req.session.classicTarget !== classicToday.name) {
         req.session.classicTarget = classicToday.name;
         req.session.comparisons = [];
+        req.session.classicGuesses = [];
+        req.session.isClassicComplete = false;
     }
     const flags = getCompletionFlags(req.session);
     res.status(200).render("classic", {
@@ -144,6 +163,7 @@ export const getQuote = catchAsync(async (req, res, next) => {
         req.session.quoteTarget = champion;
         req.session.quoteText = quote;
         req.session.quoteGuesses = [];
+        req.session.isQuoteComplete = false;
     }
     const flags = getCompletionFlags(req.session);
     res.status(200).render("quote", {
@@ -195,14 +215,18 @@ export const getAbility = catchAsync(async (req, res, next) => {
     if (req.session.abilityTarget !== abilityToday.champion) {
         const { champion, key, name, icon, allAbilities } = abilityToday;
         req.session.abilityTarget = champion;
-        req.session.abilityKey = key;
         req.session.abilityName = name;
         req.session.abilityIcon = icon;
+        req.session.abilityKey = key;
         req.session.allAbilities = allAbilities;
         req.session.abilityGuesses = [];
+        req.session.abilityNameGuesses = [];
+        req.session.abilityShuffledNames = [];
         req.session.keyGuesses = [];
+        req.session.abilityRotation = 0;
+        req.session.isAbilityComplete = false;
     }
-    if (!req.session.abilityShuffledNames) {
+    if (!req.session.abilityShuffledNames || req.session.abilityShuffledNames.length === 0) {
         req.session.abilityShuffledNames = shuffleArray(req.session.allAbilities);
     }
     if (!req.session.abilityRotation || req.session.abilityRotation == 0) {
@@ -291,6 +315,7 @@ export const getEmoji = catchAsync(async (req, res, next) => {
         req.session.emojiList = emojis;
         req.session.emojiGuesses = [];
         req.session.displayedEmojis = 1;
+        req.session.isEmojiComplete = false;
     }
     const flags = getCompletionFlags(req.session);
     res.status(200).render("emoji", {
@@ -349,6 +374,9 @@ export const getSplash = catchAsync(async (req, res, next) => {
         req.session.allSplashes = allSplashes;
         req.session.splashGuesses = [];
         req.session.splashNameGuesses = [];
+        req.session.originX = undefined;
+        req.session.originY = undefined;
+        req.session.isSplashComplete = false;
     }
     if (req.session.originX === undefined || req.session.originY === undefined) {
         const { x, y } = getRandomCoordinatesExcludingBorder(1215, 717, 0.05);

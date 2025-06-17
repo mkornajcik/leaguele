@@ -23,6 +23,7 @@
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.7",
     "cheerio": "^1.1.0",
+    "connect-redis": "^9.0.0",
     "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "ejs": "^3.1.10",
@@ -31,6 +32,7 @@
     "express-session": "^1.18.1",
     "express-validator": "^7.2.1",
     "helmet": "^8.1.0",
+    "ioredis": "^5.6.1",
     "luxon": "^3.6.1",
     "node-fetch": "^3.3.2",
     "postcss": "^8.5.3",
@@ -50,6 +52,7 @@
     "@types/express-session": "^1.18.2",
     "@types/jest": "^29.5.14",
     "@types/luxon": "^3.6.2",
+    "@types/node": "^24.0.3",
     "@types/shelljs": "^0.8.16",
     "@types/supertest": "^6.0.3",
     "babel-jest": "^30.0.0",

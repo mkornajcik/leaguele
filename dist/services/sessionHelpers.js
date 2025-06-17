@@ -7,7 +7,8 @@ export function getCompletionFlags(reqSession) {
     const isAbilityComplete = abilityGuesses.some((entry) => entry.correct === true);
     const splashGuesses = Array.isArray(reqSession.splashGuesses) ? reqSession.splashGuesses : [];
     const isSplashComplete = splashGuesses.some((entry) => entry.correct === true);
-    const isEmojiComplete = typeof reqSession.isEmojiComplete === "boolean" ? reqSession.isEmojiComplete : false;
+    const emojiGuesses = Array.isArray(reqSession.emojiGuesses) ? reqSession.emojiGuesses : [];
+    const isEmojiComplete = emojiGuesses.some((entry) => entry.correct === true);
     return {
         isClassicComplete,
         isQuoteComplete,

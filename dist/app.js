@@ -8,6 +8,8 @@ import { AppError } from "./types/appError.js";
 import { globalErrorHandler } from "./controllers/errorController.js";
 import rateLimit from "express-rate-limit";
 import helmet from "helmet";
+import { RedisStore } from "connect-redis";
+import { createClient } from "redis";
 // Start express app
 const app = express();
 let viewsDir = path.join(process.cwd(), "dist", "views");
@@ -33,8 +35,20 @@ if (process.env.NODE_ENV === "development") {
     secure = false;
 }
 else if (process.env.NODE_ENV === "production") {
+    app.set("trust proxy", 1);
     secure = true;
 }
+// Redis setup
+if (!process.env.REDIS_URL) {
+    console.error("REDIS_URL not defined");
+    process.exit(1);
+}
+const redisUrl = process.env.REDIS_URL;
+const redisClient = createClient({ url: redisUrl });
+redisClient.on("error", (err) => {
+    console.error("Redis client error:", err);
+});
+redisClient.connect().catch(console.error);
 app.use(helmet({
     crossOriginEmbedderPolicy: false,
 }));
@@ -70,13 +84,15 @@ const limiter = rateLimit({
 app.use(limiter);
 // Session middleware
 app.use(session({
+    store: new RedisStore({ client: redisClient }),
     secret: process.env.SESSION_SECRET,
-    resave: false, // dont save session if unmodified
-    saveUninitialized: false, // dont create session until something stored
+    resave: false,
+    saveUninitialized: false,
     cookie: {
-        secure: secure,
-        maxAge: 1000 * 60 * 60 * 24, // 1 day
+        //secure: secure,
         httpOnly: true,
+        maxAge: 1000 * 60 * 60 * 24,
+        sameSite: "lax",
     },
 }));
 // Routes
@@ -85,6 +101,5 @@ app.use("/", indexRoutes);
 app.use((req, res, next) => {
     return next(new AppError("Not found", 404));
 });
-//TODO: Error handling in prod
 app.use(globalErrorHandler);
 export default app;
