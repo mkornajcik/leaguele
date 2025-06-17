@@ -108,7 +108,9 @@ export function compareSplashNames(req: Request, guessName: string) {
 export const getPrivacy = catchAsync(async (req: Request, res: Response, next: NextFunction) => {
   const flags = getCompletionFlags(req.session);
 
-  res.status(200).render("privacy", { flags });
+  let secondsUntilReset = getSecondsUntilMidnight();
+
+  res.status(200).render("privacy", { flags, secondsUntilReset });
 });
 
 export const getPage = catchAsync(async (req: Request, res: Response, next: NextFunction) => {

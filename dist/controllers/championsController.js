@@ -72,7 +72,8 @@ export function compareSplashNames(req, guessName) {
 // ----- Controller functions -----
 export const getPrivacy = catchAsync(async (req, res, next) => {
     const flags = getCompletionFlags(req.session);
-    res.status(200).render("privacy", { flags });
+    let secondsUntilReset = getSecondsUntilMidnight();
+    res.status(200).render("privacy", { flags, secondsUntilReset });
 });
 export const getPage = catchAsync(async (req, res, next) => {
     const { classicToday, quoteToday, abilityToday, emojiToday, splashToday } = getDailyChampions();
