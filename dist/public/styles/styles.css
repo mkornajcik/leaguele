@@ -2325,6 +2325,12 @@ body {
     width: 3rem;
     height: 3rem;
   }
+  .comparison-grid {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .comparison-header {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
 }
 @media (max-width: 480px) {
   .emoji-revealed {
